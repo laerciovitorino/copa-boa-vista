@@ -9,7 +9,6 @@ export default class Tournament extends React.Component {
   render() {
     return (
       <div>
-        Main Component
         <Header />
         <Table />
         <Games />
