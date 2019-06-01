@@ -4,6 +4,7 @@ export default class Table extends React.Component {
   render() {
     return (
       <div>
+        <h2>Tabela</h2>
         <table>
           <tr>
             <th>Time</th>

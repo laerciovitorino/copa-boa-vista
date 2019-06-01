@@ -21704,6 +21704,11 @@ var Table = function (_React$Component) {
         'div',
         null,
         _react2.default.createElement(
+          'h2',
+          null,
+          'Tabela'
+        ),
+        _react2.default.createElement(
           'table',
           null,
           _react2.default.createElement(
@@ -22351,6 +22356,11 @@ var Games = function (_React$Component) {
         'div',
         null,
         _react2.default.createElement(
+          'h2',
+          null,
+          'Jogos'
+        ),
+        _react2.default.createElement(
           'table',
           null,
           _react2.default.createElement(
@@ -22482,7 +22492,40 @@ var TopScorer = function (_React$Component) {
       return _react2.default.createElement(
         'div',
         null,
-        'Top Scorer'
+        _react2.default.createElement(
+          'h2',
+          null,
+          'Artilheiros'
+        ),
+        _react2.default.createElement(
+          'ul',
+          null,
+          _react2.default.createElement(
+            'li',
+            null,
+            'Jogador 1'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Jogador 2'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Jogador 3'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Jogador 4'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Jogador 5'
+          )
+        )
       );
     }
   }]);
