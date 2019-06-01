@@ -4,7 +4,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <div>
-        <h1>XIII Copa Boa Vista de Futebol</h1>
+        <h1>XXIII Copa Boa Vista de Futebol</h1>
         <ul>
           <li><a href="#">Times</a></li>
           <li><a href="#">Jogadores</a></li>

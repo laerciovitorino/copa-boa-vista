@@ -21578,7 +21578,7 @@ var Header = function (_React$Component) {
         _react2.default.createElement(
           "h1",
           null,
-          "XIII Copa Boa Vista de Futebol"
+          "XXIII Copa Boa Vista de Futebol"
         ),
         _react2.default.createElement(
           "ul",
@@ -22350,7 +22350,89 @@ var Games = function (_React$Component) {
       return _react2.default.createElement(
         'div',
         null,
-        'Games Component'
+        _react2.default.createElement(
+          'table',
+          null,
+          _react2.default.createElement(
+            'tr',
+            null,
+            _react2.default.createElement(
+              'th',
+              null,
+              'Rodada X'
+            )
+          ),
+          _react2.default.createElement(
+            'tr',
+            null,
+            _react2.default.createElement(
+              'th',
+              null,
+              'DIA DATA LOCAL HOR\xC1RIO'
+            ),
+            _react2.default.createElement(
+              'th',
+              null,
+              'Time 1 X Time 2'
+            )
+          ),
+          _react2.default.createElement(
+            'tr',
+            null,
+            _react2.default.createElement(
+              'th',
+              null,
+              'DIA DATA LOCAL HOR\xC1RIO'
+            ),
+            _react2.default.createElement(
+              'th',
+              null,
+              'Time 3 X Time 4'
+            )
+          ),
+          _react2.default.createElement(
+            'tr',
+            null,
+            _react2.default.createElement(
+              'th',
+              null,
+              'DIA DATA LOCAL HOR\xC1RIO'
+            ),
+            _react2.default.createElement(
+              'th',
+              null,
+              'Time 5 X Time 6'
+            )
+          ),
+          _react2.default.createElement(
+            'tr',
+            null,
+            _react2.default.createElement(
+              'th',
+              null,
+              'DIA DATA LOCAL HOR\xC1RIO'
+            ),
+            _react2.default.createElement(
+              'th',
+              null,
+              'Time 7 X Time 8'
+            )
+          ),
+          _react2.default.createElement(
+            'tr',
+            null,
+            _react2.default.createElement(
+              'th',
+              null,
+              'DIA DATA LOCAL HOR\xC1RIO'
+            ),
+            _react2.default.createElement(
+              'th',
+              null,
+              'Time 9 X Time 10'
+            )
+          )
+        )
       );
     }
   }]);
