@@ -21589,7 +21589,7 @@ var Header = function (_React$Component) {
             _react2.default.createElement(
               "a",
               { href: "#" },
-              "Times"
+              _react2.default.createElement(Times, null)
             )
           ),
           _react2.default.createElement(
@@ -21598,7 +21598,7 @@ var Header = function (_React$Component) {
             _react2.default.createElement(
               "a",
               { href: "#" },
-              "Jogadores"
+              _react2.default.createElement(Jogadores, null)
             )
           ),
           _react2.default.createElement(
@@ -21607,7 +21607,7 @@ var Header = function (_React$Component) {
             _react2.default.createElement(
               "a",
               { href: "#" },
-              "Hist\xF3rico"
+              _react2.default.createElement(Historico, null)
             )
           ),
           _react2.default.createElement(
@@ -21616,7 +21616,7 @@ var Header = function (_React$Component) {
             _react2.default.createElement(
               "a",
               { href: "#" },
-              "Regulamento"
+              _react2.default.createElement(Regulamento, null)
             )
           )
         )
@@ -21635,7 +21635,7 @@ var Times = function Times(props) {
   return _react2.default.createElement(
     "div",
     null,
-    "Lista de Times"
+    "Times (component)"
   );
 };
 
@@ -21643,7 +21643,7 @@ var Jogadores = function Jogadores(props) {
   return _react2.default.createElement(
     "div",
     null,
-    "Lista de Jogadores"
+    "Jogadores (component)"
   );
 };
 
@@ -21651,7 +21651,7 @@ var Historico = function Historico(props) {
   return _react2.default.createElement(
     "div",
     null,
-    "Hist\xF3rico da Competi\xE7\xE3o"
+    "Hist\xF3rico (component)"
   );
 };
 
@@ -21659,7 +21659,7 @@ var Regulamento = function Regulamento(props) {
   return _react2.default.createElement(
     "div",
     null,
-    "Regulamento da Competi\xE7\xE3o"
+    "Regulamento (component)"
   );
 };
 
@@ -21679,6 +21679,12 @@ var _createClass = function () { function defineProperties(target, props) { for 
 var _react = __webpack_require__(5);
 
 var _react2 = _interopRequireDefault(_react);
+
+var _constants = __webpack_require__(40);
+
+var Constants = _interopRequireWildcard(_constants);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -21771,52 +21777,52 @@ var Table = function (_React$Component) {
             _react2.default.createElement(
               'td',
               null,
-              'Time 1'
+              Constants.ALVORADA
             ),
             _react2.default.createElement(
               'td',
               null,
-              'P1'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'J1'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'V1'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'E1'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'D1'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GP1'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GC1'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'SG1'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              '%1'
+              '0%'
             )
           ),
           _react2.default.createElement(
@@ -21825,52 +21831,52 @@ var Table = function (_React$Component) {
             _react2.default.createElement(
               'td',
               null,
-              'Time 2'
+              Constants.ATLETICO
             ),
             _react2.default.createElement(
               'td',
               null,
-              'P2'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'J2'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'V2'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'E2'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'D2'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GP2'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GC2'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'SG2'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              '%2'
+              '0%'
             )
           ),
           _react2.default.createElement(
@@ -21879,52 +21885,52 @@ var Table = function (_React$Component) {
             _react2.default.createElement(
               'td',
               null,
-              'Time 3'
+              Constants.CAMAROES
             ),
             _react2.default.createElement(
               'td',
               null,
-              'P3'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'J3'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'V3'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'E3'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'D3'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GP3'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GC3'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'SG3'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              '%3'
+              '0%'
             )
           ),
           _react2.default.createElement(
@@ -21933,52 +21939,52 @@ var Table = function (_React$Component) {
             _react2.default.createElement(
               'td',
               null,
-              'Time 4'
+              Constants.CARIRI
             ),
             _react2.default.createElement(
               'td',
               null,
-              'P4'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'J4'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'V4'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'E4'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'D4'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GP4'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GC4'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'SG4'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              '%4'
+              '0%'
             )
           ),
           _react2.default.createElement(
@@ -21987,52 +21993,52 @@ var Table = function (_React$Component) {
             _react2.default.createElement(
               'td',
               null,
-              'Time 5'
+              Constants.GONZAGAO
             ),
             _react2.default.createElement(
               'td',
               null,
-              'P5'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'J5'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'V5'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'E5'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'D5'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GP5'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GC5'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'SG5'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              '%5'
+              '0%'
             )
           ),
           _react2.default.createElement(
@@ -22041,52 +22047,52 @@ var Table = function (_React$Component) {
             _react2.default.createElement(
               'td',
               null,
-              'Time 6'
+              Constants.INTERNACIONAL
             ),
             _react2.default.createElement(
               'td',
               null,
-              'P6'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'J6'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'V6'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'E6'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'D6'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GP6'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GC6'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'SG6'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              '%6'
+              '0%'
             )
           ),
           _react2.default.createElement(
@@ -22095,52 +22101,52 @@ var Table = function (_React$Component) {
             _react2.default.createElement(
               'td',
               null,
-              'Time 7'
+              Constants.MACEDAO
             ),
             _react2.default.createElement(
               'td',
               null,
-              'P7'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'J7'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'V7'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'E7'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'D7'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GP7'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GC7'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'SG7'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              '%7'
+              '0%'
             )
           ),
           _react2.default.createElement(
@@ -22149,52 +22155,52 @@ var Table = function (_React$Component) {
             _react2.default.createElement(
               'td',
               null,
-              'Time 8'
+              Constants.PALMEIRAS
             ),
             _react2.default.createElement(
               'td',
               null,
-              'P8'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'J8'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'V8'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'E8'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'D8'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GP8'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GC8'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'SG8'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              '%8'
+              '0%'
             )
           ),
           _react2.default.createElement(
@@ -22203,52 +22209,52 @@ var Table = function (_React$Component) {
             _react2.default.createElement(
               'td',
               null,
-              'Time 9'
+              Constants.SAMPAIAO
             ),
             _react2.default.createElement(
               'td',
               null,
-              'P9'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'J9'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'V9'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'E9'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'D9'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GP9'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GC9'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'SG9'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              '%9'
+              '0%'
             )
           ),
           _react2.default.createElement(
@@ -22257,52 +22263,160 @@ var Table = function (_React$Component) {
             _react2.default.createElement(
               'td',
               null,
-              'Time 10'
+              Constants.SAO_PAULO
             ),
             _react2.default.createElement(
               'td',
               null,
-              'P10'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'J10'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'V10'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'E10'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'D10'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GP10'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'GC10'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              'SG10'
+              '0'
             ),
             _react2.default.createElement(
               'td',
               null,
-              '%10'
+              '0%'
+            )
+          ),
+          _react2.default.createElement(
+            'tr',
+            null,
+            _react2.default.createElement(
+              'td',
+              null,
+              Constants.SPORT
+            ),
+            _react2.default.createElement(
+              'td',
+              null,
+              '0'
+            ),
+            _react2.default.createElement(
+              'td',
+              null,
+              '0'
+            ),
+            _react2.default.createElement(
+              'td',
+              null,
+              '0'
+            ),
+            _react2.default.createElement(
+              'td',
+              null,
+              '0'
+            ),
+            _react2.default.createElement(
+              'td',
+              null,
+              '0'
+            ),
+            _react2.default.createElement(
+              'td',
+              null,
+              '0'
+            ),
+            _react2.default.createElement(
+              'td',
+              null,
+              '0'
+            ),
+            _react2.default.createElement(
+              'td',
+              null,
+              '0'
+            ),
+            _react2.default.createElement(
+              'td',
+              null,
+              '0%'
+            )
+          ),
+          _react2.default.createElement(
+            'tr',
+            null,
+            _react2.default.createElement(
+              'td',
+              null,
+              Constants.VILA_UNIAO
+            ),
+            _react2.default.createElement(
+              'td',
+              null,
+              '0'
+            ),
+            _react2.default.createElement(
+              'td',
+              null,
+              '0'
+            ),
+            _react2.default.createElement(
+              'td',
+              null,
+              '0'
+            ),
+            _react2.default.createElement(
+              'td',
+              null,
+              '0'
+            ),
+            _react2.default.createElement(
+              'td',
+              null,
+              '0'
+            ),
+            _react2.default.createElement(
+              'td',
+              null,
+              '0'
+            ),
+            _react2.default.createElement(
+              'td',
+              null,
+              '0'
+            ),
+            _react2.default.createElement(
+              'td',
+              null,
+              '0'
+            ),
+            _react2.default.createElement(
+              'td',
+              null,
+              '0%'
             )
           )
         )
@@ -22603,6 +22717,57 @@ var Tournament = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Tournament;
+
+/***/ }),
+/* 40 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+// File with all constant values used though the whole project
+
+// TEAMS
+var ALVORADA = exports.ALVORADA = 'Alvorada';
+var ATLETICO = exports.ATLETICO = 'Atlético';
+var CAMAROES = exports.CAMAROES = 'Camarões';
+var CARIRI = exports.CARIRI = 'Cariri';
+var GONZAGAO = exports.GONZAGAO = 'Gonzagão';
+var INTERNACIONAL = exports.INTERNACIONAL = 'Internacional';
+var MACEDAO = exports.MACEDAO = 'Macedão';
+var PALMEIRAS = exports.PALMEIRAS = 'Palmeiras';
+var SAMPAIAO = exports.SAMPAIAO = 'Sampaião';
+var SAO_PAULO = exports.SAO_PAULO = 'São Paulo';
+var SPORT = exports.SPORT = 'Sport';
+var VILA_UNIAO = exports.VILA_UNIAO = 'Vila União';
+
+// PLAYERS
+// TEAM ALVORADA
+
+// TEAM ATLETICO
+
+// TEAM CAMAROES
+
+// TEAM CARIRI
+
+// TEAM GONZAGAO
+
+// TEAM INTERNACIONAL
+
+// TEAM MACEDAO
+
+// TEAM PALMEIRAS
+
+// TEAM SAMPAIAO
+
+// TEAM SAO PAULO
+
+// TEAM SPORT
+
+// TEAM VILA UNIAO
 
 /***/ })
 /******/ ]);

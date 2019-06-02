@@ -6,10 +6,10 @@ export default class Header extends React.Component {
       <div>
         <h1>XXIII Copa Boa Vista de Futebol</h1>
         <ul>
-          <li><a href="#">Times</a></li>
-          <li><a href="#">Jogadores</a></li>
-          <li><a href="#">Histórico</a></li>
-          <li><a href="#">Regulamento</a></li>
+          <li><a href="#"><Times /></a></li>
+          <li><a href="#"><Jogadores /></a></li>
+          <li><a href="#"><Historico /></a></li>
+          <li><a href="#"><Regulamento /></a></li>
         </ul>
       </div>
     );
@@ -20,7 +20,7 @@ export default class Header extends React.Component {
 const Times = (props) => {
   return (
     <div>
-      Lista de Times
+      Times (component)
     </div>
   );
 };
@@ -28,7 +28,7 @@ const Times = (props) => {
 const Jogadores = (props) => {
   return (
     <div>
-      Lista de Jogadores
+      Jogadores (component)
     </div>
   );
 };
@@ -36,7 +36,7 @@ const Jogadores = (props) => {
 const Historico = (props) => {
   return (
     <div>
-      Histórico da Competição
+      Histórico (component)
     </div>
   );
 };
@@ -44,7 +44,7 @@ const Historico = (props) => {
 const Regulamento = (props) => {
   return (
     <div>
-      Regulamento da Competição
+      Regulamento (component)
     </div>
   );
 };
