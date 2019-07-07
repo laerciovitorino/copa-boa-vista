@@ -6,12 +6,12 @@ export default class Table extends React.Component {
   render() {
     return (
       <div>
-        <h2>Tabela</h2>
+        <h2 className="table__title">Tabela</h2>
         <div>
-          <button type="button" className="btn btn-outline-secondary active">Titular</button>
+          <button type="button" className="btn btn-outline-secondary active button-holder">Titular</button>
           <button type="button" className="btn btn-outline-secondary">Aspirante</button>
         </div>
-        <table className="table">
+        <table className="table table-striped table-responsive-md">
           <thead className="thead-dark">
             <tr>
               <th>Time</th>
