@@ -1,6 +1,8 @@
 .header {
 	background: lightgrey;
-	margin-bottom: 4rem;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
 }
 
 .header__title {
