@@ -7,15 +7,15 @@ export default class Header extends React.Component {
   render() {
     return (
       <div>
-        <ul className="nav nav-tabs">
-          <h1>XXIII Copa Boa Vista de Futebol</h1>
-          <li className="nav-item dropdown">
-            <a className="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><FontAwesomeIcon icon={faBars} /></a>
-            <div className="dropdown-menu">
-              <a className="dropdown-item" href="#"><Times /></a>
-              <a className="dropdown-item" href="#"><Jogadores /></a>
-              <a className="dropdown-item" href="#"><Historico /></a>
-              <a className="dropdown-item" href="#"><Regulamento /></a>
+        <ul className="nav nav-tabs header">
+          <h1 className="header__title">XXIII Copa Boa Vista de Futebol</h1>
+          <li className="nav-item dropdown header__menu">
+            <a className="nav-link text-secondary" data-toggle="dropdown" href="#" role="button"><FontAwesomeIcon icon={faBars} /></a>
+            <div className="dropdown-menu dropdown-menu-right">
+              <a className="dropdown-item header__menu__item" href="#"><Times /></a>
+              <a className="dropdown-item header__menu__item" href="#"><Jogadores /></a>
+              <a className="dropdown-item header__menu__item" href="#"><Historico /></a>
+              <a className="dropdown-item header__menu__item" href="#"><Regulamento /></a>
             </div>
           </li>
         </ul>

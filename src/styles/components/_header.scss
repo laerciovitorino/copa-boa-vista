@@ -1,0 +1,26 @@
+.header {
+	background: lightgrey;
+	margin-bottom: 4rem;
+}
+
+.header__title {
+	color: darkblue;
+	font-size: 4rem;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: .5rem;
+}
+
+.header__menu {
+	font-size: 2.5rem;
+	padding: .5rem 3rem 0 0;
+}
+
+.header__menu__item {
+	font-size: 2rem;
+}
+
+.header__menu__item:hover {
+	color: grey;
+	background: lightblue;
+}
