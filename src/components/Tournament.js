@@ -10,9 +10,17 @@ export default class Tournament extends React.Component {
     return (
       <div>
         <Header />
-        <Table />
-        <Games />
-        <TopScorer />
+        <div className="container">
+          <div className="row">
+            <div className="col-md-8">
+              <Table />
+            </div>
+            <div className="col-md-4">
+              <Games />
+            </div>
+          </div>
+          <TopScorer />
+        </div>
       </div>
     );
   }

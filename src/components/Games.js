@@ -1,35 +1,66 @@
 import React from 'react';
 
+import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export default class Games extends React.Component {
   render() {
     return (
       <div>
         <h2>Jogos</h2>
-        <table>
-          <tr>
-            <th>Rodada X</th>
-          </tr>
-          <tr>
-            <th>DIA DATA LOCAL HORÁRIO</th>
-            <th>Time 1 X Time 2</th>
-          </tr>
-          <tr>
-            <th>DIA DATA LOCAL HORÁRIO</th>
-            <th>Time 3 X Time 4</th>
-          </tr>
-          <tr>
-            <th>DIA DATA LOCAL HORÁRIO</th>
-            <th>Time 5 X Time 6</th>
-          </tr>
-          <tr>
-            <th>DIA DATA LOCAL HORÁRIO</th>
-            <th>Time 7 X Time 8</th>
-          </tr>
-          <tr>
-            <th>DIA DATA LOCAL HORÁRIO</th>
-            <th>Time 9 X Time 10</th>
-          </tr>
-        </table>
+        <nav aria-label="Page navigation example">
+          <ul className="pagination justify-content-center">
+            <li className="page-item">
+              <a href="#"><FontAwesomeIcon icon={faChevronLeft} /></a>
+            </li>
+            <li>X Rodada</li>
+            <li className="page-item">
+              <a href="#"><FontAwesomeIcon icon={faChevronRight} /></a>
+            </li>
+          </ul>
+        </nav>
+        <ul className="list-group list-group-flush">
+          <li className="list-group-item">
+            <div>
+              <span>DIA DATA LOCAL HORÁRIO</span>
+            </div>
+            <div>
+              <span>Time 1 X Time 2</span>
+            </div>
+          </li>
+          <li className="list-group-item">
+            <div>
+              <span>DIA DATA LOCAL HORÁRIO</span>
+            </div>
+            <div>
+              <span>Time 1 X Time 2</span>
+            </div>
+          </li>
+          <li className="list-group-item">
+            <div>
+              <span>DIA DATA LOCAL HORÁRIO</span>
+            </div>
+            <div>
+              <span>Time 1 X Time 2</span>
+            </div>
+          </li>
+          <li className="list-group-item">
+            <div>
+              <span>DIA DATA LOCAL HORÁRIO</span>
+            </div>
+            <div>
+              <span>Time 1 X Time 2</span>
+            </div>
+          </li>
+          <li className="list-group-item">
+            <div>
+              <span>DIA DATA LOCAL HORÁRIO</span>
+            </div>
+            <div>
+              <span>Time 1 X Time 2</span>
+            </div>
+          </li>
+        </ul>
       </div>
     );
   }
