@@ -28,7 +28,7 @@ export default class Header extends React.Component {
 const Times = (props) => {
   return (
     <div>
-      Times (component)
+      Times
     </div>
   );
 };
@@ -36,7 +36,7 @@ const Times = (props) => {
 const Jogadores = (props) => {
   return (
     <div>
-      Jogadores (component)
+      Jogadores
     </div>
   );
 };
@@ -44,7 +44,7 @@ const Jogadores = (props) => {
 const Historico = (props) => {
   return (
     <div>
-      Histórico (component)
+      Histórico
     </div>
   );
 };
@@ -52,7 +52,7 @@ const Historico = (props) => {
 const Regulamento = (props) => {
   return (
     <div>
-      Regulamento (component)
+      Regulamento
     </div>
   );
 };

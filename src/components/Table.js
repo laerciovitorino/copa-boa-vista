@@ -7,6 +7,10 @@ export default class Table extends React.Component {
     return (
       <div>
         <h2>Tabela</h2>
+        <div>
+          <button type="button" class="btn btn-outline-secondary active">Titular</button>
+          <button type="button" class="btn btn-outline-secondary">Aspirante</button>
+        </div>
         <table className="table">
           <thead className="thead-dark">
             <tr>
