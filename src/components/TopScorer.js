@@ -4,8 +4,12 @@ export default class TopScorer extends React.Component {
   render() {
     return (
       <div>
-        <h2>Artilheiros</h2>
-        <ul className="list-group list-group-flush">
+        <h2 className="scorers__title">Artilheiros</h2>
+        <ul className="list-group list-group-flush scorers">
+          <li className="scorers__subtitle d-flex justify-content-between">
+            <span className="scorers__subtitle__player">Jogador</span>
+            <span className="scorers__subtitle__goals">Gols</span>
+          </li>
           <li className="list-group-item">
             <span># </span>
             <span>foto </span>
@@ -13,10 +17,13 @@ export default class TopScorer extends React.Component {
             <span>Nome </span>
             <span>#</span>
           </li>
-          <li className="list-group-item">Dapibus ac facilisis in</li>
-          <li className="list-group-item">Morbi leo risus</li>
-          <li className="list-group-item">Porta ac consectetur ac</li>
-          <li className="list-group-item">Vestibulum at eros</li>
+          <li className="list-group-item">
+            <span># </span>
+            <span>foto </span>
+            <span>símbolo </span>
+            <span>Nome </span>
+            <span>#</span>
+          </li>
         </ul>
       </div>
     );

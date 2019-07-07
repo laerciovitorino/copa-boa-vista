@@ -1,0 +1,22 @@
+.scorers {
+  overflow: auto;
+  max-height: 40rem;
+}
+
+.scorers__title {
+  font-size: 3rem;
+}
+
+.scorers__subtitle {
+  color: grey;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.scorers__subtitle__player {
+  padding-left: 3rem;
+}
+
+.scorers__subtitle__goals {
+  padding-right: 3rem;
+}
