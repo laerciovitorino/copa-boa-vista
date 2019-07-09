@@ -1,13 +1,12 @@
 .header {
-	background: lightgrey;
-	border-bottom: 2px solid darkgrey;
+	background: #60cc22;
 	position: fixed;
 	width: 100%;
 	z-index: 100;
 }
 
 .header__title {
-	color: darkblue;
+	color: white;
 	font-size: 4rem;
 	margin: 0 auto;
 	text-align: center;
@@ -19,11 +18,16 @@
 	padding: .5rem 3rem 0 0;
 }
 
+a.nav-link {
+	cursor: default;
+}
+
 .header__menu__item {
 	font-size: 2rem;
 }
 
-.header__menu__item:hover {
-	color: grey;
-	background: lightblue;
+.dropdown:hover .dropdown-menu {
+	display: block;
+	top: 5.3rem;
+	right: 2.9rem;
 }

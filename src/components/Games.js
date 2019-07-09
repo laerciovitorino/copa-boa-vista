@@ -1,9 +1,34 @@
 import React from 'react';
 
+import * as Rounds from '../resources/data/Rounds.json';
+
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default class Games extends React.Component {
+  state = {
+    rounds: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+    selectedRound: 1
+  }
+
+  handleRoundRight = () => {
+    this.setState((prevState) => {
+      const roundRight = prevState.selectedRound < this.state.rounds.length ? prevState.selectedRound + 1 : this.state.rounds.length;
+      return {
+        selectedRound: this.state.rounds[roundRight-1]
+      }
+    });
+  }
+
+  handleRoundLeft = () => {
+    this.setState((prevState) => {
+      const roundLeft = prevState.selectedRound > 1 ? prevState.selectedRound - 1 : 1;
+      return {
+        selectedRound: this.state.rounds[roundLeft-1]
+      }
+    });
+  }
+
   render() {
     return (
       <div>
@@ -11,64 +36,40 @@ export default class Games extends React.Component {
         <nav aria-label="Page navigation example" className="games">
           <ul className="pagination d-flex justify-content-between">
             <li className="page-item">
-              <a className="page-left" href="#"><FontAwesomeIcon icon={faChevronLeft} /></a>
+              <a className="page-left" href="#">
+                {
+                  this.state.selectedRound === 1 ?
+                  <FontAwesomeIcon icon={faChevronLeft} style={{color: "grey"}} onClick={this.handleRoundLeft} /> :
+                  <FontAwesomeIcon icon={faChevronLeft} onClick={this.handleRoundLeft} />
+                }
+              </a>
             </li>
-            <li>1&#170; Rodada</li>
+            <li>{this.state.selectedRound}&#170; Rodada</li>
             <li className="page-item">
-              <a className="page-right" href="#"><FontAwesomeIcon icon={faChevronRight} /></a>
+              <a className="page-right" href="#">
+                {
+                  this.state.selectedRound === this.state.rounds.length ?
+                  <FontAwesomeIcon icon={faChevronRight} style={{color: "grey"}} onClick={this.handleRoundRight}/> :
+                  <FontAwesomeIcon icon={faChevronRight} onClick={this.handleRoundRight}/>
+                }
+              </a>
             </li>
           </ul>
         </nav>
-        <ul className="list-group list-group-flush">
-          <li className="list-group-item">
-            <div className="list-group-item__location d-flex justify-content-center">
-              <span><strong>DOM 07/07/2019</strong> ARENA MÔNICA <strong>16:00</strong></span>
-            </div>
-            <div>
-              <span className="match d-flex justify-content-center">ALV {0} X {0} ATL</span>
-            </div>
-          </li>
-          <li className="list-group-item">
-            <div className="list-group-item__location d-flex justify-content-center">
-              <span><strong>DOM 07/07/2019</strong> ARENA MÔNICA <strong>16:00</strong></span>
-            </div>
-            <div>
-              <span className="match d-flex justify-content-center">CAM {0} X {0} CAR</span>
-            </div>
-          </li>
-          <li className="list-group-item">
-            <div className="list-group-item__location d-flex justify-content-center">
-              <span><strong>DOM 07/07/2019</strong> ARENA MÔNICA <strong>16:00</strong></span>
-            </div>
-            <div>
-              <span className="match d-flex justify-content-center">GON {0} X {0} INT</span>
-            </div>
-          </li>
-          <li className="list-group-item">
-            <div className="list-group-item__location d-flex justify-content-center">
-              <span><strong>DOM 07/07/2019</strong> ARENA MÔNICA <strong>16:00</strong></span>
-            </div>
-            <div>
-              <span className="match d-flex justify-content-center">MAC {0} X {0} PAL</span>
-            </div>
-          </li>
-          <li className="list-group-item">
-            <div className="list-group-item__location d-flex justify-content-center">
-              <span><strong>DOM 07/07/2019</strong> ARENA MÔNICA <strong>16:00</strong></span>
-            </div>
-            <div>
-              <span className="match d-flex justify-content-center">SAM {0} X {0} SÃO</span>
-            </div>
-          </li>
-          <li className="list-group-item">
-            <div className="list-group-item__location d-flex justify-content-center">
-              <span><strong>DOM 07/07/2019</strong> ARENA MÔNICA <strong>16:00</strong></span>
-            </div>
-            <div>
-              <span className="match d-flex justify-content-center">SPO {0} X {0} VIL</span>
-            </div>
-          </li>
-        </ul>
+        {Object.values(Rounds)[this.state.selectedRound-1].map((round) => (
+          <ul className="list-group list-group-flush" key={Math.random()}>
+            <li className="list-group-item">
+              <div className="list-group-item__location d-flex justify-content-center">
+                <span><strong>{round["date"]}</strong> {round["location"]} <strong>{round["time"]}</strong></span>
+              </div>
+              <div className="match d-flex justify-content-between">
+                <span>{round["team_1_short"]}<img src={require('../resources/images/logos/' + round["team_1"] + '.jpg')} className="logo-left" /></span>
+                <span>{} X {}</span>
+                <span><img src={require('../resources/images/logos/' + round["team_2"] + '.jpg')} className="logo-right" />{round["team_2_short"]}</span>
+              </div>
+            </li>
+          </ul>
+        ))}
       </div>
     );
   }

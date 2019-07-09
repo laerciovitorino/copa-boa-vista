@@ -3,6 +3,22 @@ import React from 'react';
 import * as Constants from '../resources/constants';
 
 export default class Table extends React.Component {
+  state = {
+    teams: [
+      Constants.ALVORADA,
+      Constants.ATLETICO,
+      Constants.CAMAROES,
+      Constants.CARIRI,
+      Constants.GONZAGAO,
+      Constants.INTERNACIONAL,
+      Constants.MACEDAO,
+      Constants.PALMEIRAS,
+      Constants.SAMPAIAO,
+      Constants.SAO_PAULO,
+      Constants.SPORT
+    ]
+  }
+
   render() {
     return (
       <div>
@@ -27,150 +43,20 @@ export default class Table extends React.Component {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>{Constants.ALVORADA}</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0%</td>
-            </tr>
-            <tr>
-              <td>{Constants.ATLETICO}</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0%</td>
-            </tr>
-            <tr>
-              <td>{Constants.CAMAROES}</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0%</td>
-            </tr>
-            <tr>
-              <td>{Constants.CARIRI}</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0%</td>
-            </tr>
-            <tr>
-              <td>{Constants.GONZAGAO}</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0%</td>
-            </tr>
-            <tr>
-              <td>{Constants.INTERNACIONAL}</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0%</td>
-            </tr>
-            <tr>
-              <td>{Constants.MACEDAO}</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0%</td>
-            </tr>
-            <tr>
-              <td>{Constants.PALMEIRAS}</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0%</td>
-            </tr>
-            <tr>
-              <td>{Constants.SAMPAIAO}</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0%</td>
-            </tr>
-            <tr>
-              <td>{Constants.SAO_PAULO}</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0%</td>
-            </tr>
-            <tr>
-              <td>{Constants.SPORT}</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0%</td>
-            </tr>
-            <tr>
-              <td>{Constants.VILA_UNIAO}</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0%</td>
-            </tr>
+            {this.state.teams.map((team) => (
+              <tr key={team}>
+                <td><span className="position">{1}</span>{team}</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0%</td>
+              </tr>
+            ))}
           </tbody>
         </table>
       </div>
