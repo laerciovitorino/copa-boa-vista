@@ -10,7 +10,7 @@ export default class Header extends React.Component {
         <ul className="nav nav-tabs header">
           <h1 className="header__title">XXIII Copa Boa Vista de Futebol</h1>
           <li className="nav-item dropdown header__menu">
-            <a className="nav-link" data-toggle="dropdown" target="_blank"><FontAwesomeIcon icon={faBars} style={{color:"white"}} /></a>
+            <a target="_blank"><FontAwesomeIcon icon={faBars} style={{color:"white"}} /></a>
             <div className="dropdown-menu dropdown-menu-right">
               <a className="dropdown-item header__menu__item" href="#"><Times /></a>
               <a className="dropdown-item header__menu__item" href="#"><Jogadores /></a>

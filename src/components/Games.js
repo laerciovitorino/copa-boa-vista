@@ -14,7 +14,8 @@ export default class Games extends React.Component {
     selectedRound: 1
   }
 
-  handleRoundRight = () => {
+  handleRoundRight = (e) => {
+    e.preventDefault();
     this.setState((prevState) => {
       const roundRight = prevState.selectedRound < this.state.rounds.length ? prevState.selectedRound + 1 : this.state.rounds.length;
       return {
@@ -23,7 +24,8 @@ export default class Games extends React.Component {
     });
   }
 
-  handleRoundLeft = () => {
+  handleRoundLeft = (e) => {
+    e.preventDefault();
     this.setState((prevState) => {
       const roundLeft = prevState.selectedRound > 1 ? prevState.selectedRound - 1 : 1;
       return {
