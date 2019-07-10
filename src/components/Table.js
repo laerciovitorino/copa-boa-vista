@@ -16,7 +16,18 @@ export default class Table extends React.Component {
       Constants.SAMPAIAO,
       Constants.SAO_PAULO,
       Constants.SPORT
-    ]
+    ],
+    displayTitular: true,
+    displayAspirant: false
+  }
+
+  handleClick = () => {
+    this.setState(() => {
+      return {
+        displayTitular: this.state.displayAspirant,
+        displayAspirant: this.state.displayTitular
+      }
+    });
   }
 
   render() {
@@ -24,10 +35,26 @@ export default class Table extends React.Component {
       <div>
         <h2 className="table__title">Tabela</h2>
         <div>
-          <button type="button" className="btn btn-outline-secondary active button-holder">Titular</button>
-          <button type="button" className="btn btn-outline-secondary">Aspirante</button>
+          {
+            this.state.displayTitular ?
+              <button type="button" className="btn btn-secondary active button-titular" onClick={this.handleClick}>
+                Titular
+              </button> :
+              <button type="button" className="btn btn-light button-titular" onClick={this.handleClick}>
+                Titular
+              </button>
+            }
+          {
+            this.state.displayAspirant ?
+              <button type="button" className="btn btn-secondary active" onClick={this.handleClick}>
+                Aspirante
+              </button> :
+              <button type="button" className="btn btn-light" onClick={this.handleClick}>
+                Aspirante
+              </button>
+          }
         </div>
-        <table className="table table-striped table-responsive-md">
+        {this.state.displayTitular && <table className="table table-striped table-responsive-md">
           <thead className="thead-dark">
             <tr>
               <th>Time</th>
@@ -58,7 +85,39 @@ export default class Table extends React.Component {
               </tr>
             ))}
           </tbody>
-        </table>
+        </table>}
+        {this.state.displayAspirant && <table className="table table-striped table-responsive-md aspirant">
+          <thead className="thead-dark">
+            <tr>
+              <th>Time</th>
+              <th>P</th>
+              <th>J</th>
+              <th>V</th>
+              <th>E</th>
+              <th>D</th>
+              <th>GP</th>
+              <th>GC</th>
+              <th>SG</th>
+              <th>%</th>
+            </tr>
+          </thead>
+          <tbody>
+            {this.state.teams.map((team) => (
+              <tr key={team}>
+                <td><span className="position">{1}</span>{team}</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0%</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>}
       </div>
     );
   }
