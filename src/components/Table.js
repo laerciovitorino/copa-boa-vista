@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Games from './Games';
 import * as Constants from '../resources/constants';
 
 export default class Table extends React.Component {
@@ -17,17 +18,19 @@ export default class Table extends React.Component {
       Constants.SAO_PAULO,
       Constants.SPORT
     ],
-    displayTitular: true,
-    displayAspirant: false
+    displayAspirant: false,
+    displayTitular: true
   }
 
   handleClick = () => {
     this.setState(() => {
       return {
-        displayTitular: this.state.displayAspirant,
-        displayAspirant: this.state.displayTitular
+        displayAspirant: this.state.displayTitular,
+        displayTitular: this.state.displayAspirant
       }
     });
+
+    this.props.toggleGames(this.state.displayAspirant, this.state.displayTitular);
   }
 
   render() {
@@ -43,7 +46,7 @@ export default class Table extends React.Component {
               <button type="button" className="btn btn-light button-titular" onClick={this.handleClick}>
                 Titular
               </button>
-            }
+          }
           {
             this.state.displayAspirant ?
               <button type="button" className="btn btn-secondary active" onClick={this.handleClick}>

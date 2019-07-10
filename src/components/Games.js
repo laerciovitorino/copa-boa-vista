@@ -1,6 +1,9 @@
 import React from 'react';
 
-import * as Rounds from '../resources/data/Rounds.json';
+import { Table } from '../components/Table';
+
+import * as aspirantRounds from '../resources/data/aspirantRounds.json';
+import * as titularRounds from '../resources/data/titularRounds.json';
 
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -56,7 +59,21 @@ export default class Games extends React.Component {
             </li>
           </ul>
         </nav>
-        {Object.values(Rounds)[this.state.selectedRound-1].map((round) => (
+        {this.props.displayTitular && Object.values(titularRounds)[this.state.selectedRound-1].map((round) => (
+          <ul className="list-group list-group-flush" key={Math.random()}>
+            <li className="list-group-item">
+              <div className="list-group-item__location d-flex justify-content-center">
+                <span><strong>{round["date"]}</strong> {round["location"]} <strong>{round["time"]}</strong></span>
+              </div>
+              <div className="match d-flex justify-content-between">
+                <span>{round["team_1_short"]}<img src={require('../resources/images/logos/' + round["team_1"] + '.jpg')} className="logo-left" /></span>
+                <span>{} X {}</span>
+                <span><img src={require('../resources/images/logos/' + round["team_2"] + '.jpg')} className="logo-right" />{round["team_2_short"]}</span>
+              </div>
+            </li>
+          </ul>
+        ))}
+        {this.props.displayAspirant && Object.values(aspirantRounds)[this.state.selectedRound-1].map((round) => (
           <ul className="list-group list-group-flush" key={Math.random()}>
             <li className="list-group-item">
               <div className="list-group-item__location d-flex justify-content-center">

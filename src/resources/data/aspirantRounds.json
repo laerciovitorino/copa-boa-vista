@@ -1,0 +1,519 @@
+{
+  "round_1": [
+    {
+      "date": "14/07/2019",
+      "location": "ARENA 1",
+      "time": "16:00",
+      "team_1": "atletico",
+      "team_1_short": "ATL",
+      "team_2": "camaroes",
+      "team_2_short": "CAM"
+    },
+    {
+      "date": "14/07/2019",
+      "location": "ARENA 2",
+      "time": "16:00",
+      "team_1": "cariri",
+      "team_1_short": "CAR",
+      "team_2": "gonzagao",
+      "team_2_short": "GON"
+    },
+    {
+      "date": "14/07/2019",
+      "location": "ARENA 3",
+      "time": "16:00",
+      "team_1": "internacional",
+      "team_1_short": "INT",
+      "team_2": "macedao",
+      "team_2_short": "MAC"
+    },
+    {
+      "date": "14/07/2019",
+      "location": "ARENA 4",
+      "time": "16:00",
+      "team_1": "palmeiras",
+      "team_1_short": "PAL",
+      "team_2": "sampaiao",
+      "team_2_short": "SAM"
+    },
+    {
+      "date": "14/07/2019",
+      "location": "ARENA 5",
+      "time": "16:00",
+      "team_1": "sao-paulo",
+      "team_1_short": "SAO",
+      "team_2": "sport",
+      "team_2_short": "SPO"
+    }
+  ],
+  "round_2": [
+    {
+      "date": "21/07/2019",
+      "location": "ARENA 1",
+      "time": "16:00",
+      "team_1": "sport",
+      "team_1_short": "SPO",
+      "team_2": "alvorada",
+      "team_2_short": "ALV"
+    },
+    {
+      "date": "21/07/2019",
+      "location": "ARENA 2",
+      "time": "16:00",
+      "team_1": "atletico",
+      "team_1_short": "ATL",
+      "team_2": "camaroes",
+      "team_2_short": "CAM"
+    },
+    {
+      "date": "21/07/2019",
+      "location": "ARENA 3",
+      "time": "16:00",
+      "team_1": "cariri",
+      "team_1_short": "CAR",
+      "team_2": "gonzagao",
+      "team_2_short": "GON"
+    },
+    {
+      "date": "21/07/2019",
+      "location": "ARENA 4",
+      "time": "16:00",
+      "team_1": "internacional",
+      "team_1_short": "INT",
+      "team_2": "macedao",
+      "team_2_short": "MAC"
+    },
+    {
+      "date": "21/07/2019",
+      "location": "ARENA 5",
+      "time": "16:00",
+      "team_1": "palmeiras",
+      "team_1_short": "PAL",
+      "team_2": "sampaiao",
+      "team_2_short": "SAM"
+    }
+  ],
+  "round_3": [
+    {
+      "date": "28/07/2019",
+      "location": "ARENA 1",
+      "time": "16:00",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "28/07/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "28/07/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "28/07/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "28/07/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    }
+  ],
+  "round_4": [
+    {
+      "date": "04/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "04/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "04/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "04/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "04/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    }
+  ],
+  "round_5": [
+    {
+      "date": "11/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "11/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "11/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "11/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "11/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    }
+  ],
+  "round_6": [
+    {
+      "date": "18/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "18/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "18/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "18/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "18/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    }
+  ],
+  "round_7": [
+    {
+      "date": "25/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "25/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "25/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "25/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "25/09/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    }
+  ],
+  "round_8": [
+    {
+      "date": "01/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "01/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "01/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "01/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "01/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    }
+  ],
+  "round_9": [
+    {
+      "date": "08/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "08/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "08/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "08/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "08/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    }
+  ],
+  "round_10": [
+    {
+      "date": "15/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "15/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "15/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "15/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "15/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    }
+  ],
+  "round_11": [
+    {
+      "date": "22/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "22/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "22/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "22/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    },
+    {
+      "date": "22/10/2019",
+      "location": "",
+      "time": "",
+      "team_1": "",
+      "team_1_short": "",
+      "team_2": "",
+      "team_2_short": ""
+    }
+  ]
+}

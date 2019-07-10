@@ -9,6 +9,20 @@ import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default class Tournament extends React.Component {
+  state = {
+    displayAspirant: false,
+    displayTitular: true
+  }
+
+  toggleGames = (displayAspirant, displayTitular) => {
+    this.setState(() => {
+      return {
+        displayAspirant: displayTitular,
+        displayTitular: displayAspirant
+      }
+    });
+  }
+
   render() {
     return (
       <div>
@@ -31,10 +45,10 @@ export default class Tournament extends React.Component {
           </div>
           <div className="row">
             <div className="col-md-8">
-              <Table />
+              <Table toggleGames={this.toggleGames}/>
             </div>
             <div className="col-md-4">
-              <Games />
+              <Games displayAspirant={this.state.displayAspirant} displayTitular={this.state.displayTitular}/>
             </div>
           </div>
           <TopScorer />
