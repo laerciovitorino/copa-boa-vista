@@ -2,26 +2,8 @@
   "round_1": [
     {
       "date": "14/07/2019",
-      "location": "ARENA 1",
-      "time": "16:00",
-      "team_1": "atletico",
-      "team_1_short": "ATL",
-      "team_2": "camaroes",
-      "team_2_short": "CAM"
-    },
-    {
-      "date": "14/07/2019",
-      "location": "ARENA 2",
-      "time": "16:00",
-      "team_1": "cariri",
-      "team_1_short": "CAR",
-      "team_2": "gonzagao",
-      "team_2_short": "GON"
-    },
-    {
-      "date": "14/07/2019",
-      "location": "ARENA 3",
-      "time": "16:00",
+      "location": "BOA VISTA",
+      "time": "14:00",
       "team_1": "internacional",
       "team_1_short": "INT",
       "team_2": "macedao",
@@ -29,355 +11,373 @@
     },
     {
       "date": "14/07/2019",
-      "location": "ARENA 4",
-      "time": "16:00",
+      "location": "CALUETE",
+      "time": "14:00",
       "team_1": "palmeiras",
       "team_1_short": "PAL",
-      "team_2": "sampaiao",
-      "team_2_short": "SAM"
+      "team_2": "sport",
+      "team_2_short": "SPO"
     },
     {
       "date": "14/07/2019",
-      "location": "ARENA 5",
-      "time": "16:00",
+      "location": "CALUETE",
+      "time": "14:00",
+      "team_1": "sampaiao",
+      "team_1_short": "SAM",
+      "team_2": "atletico",
+      "team_2_short": "ATL"
+    },
+    {
+      "date": "14/07/2019",
+      "location": "SÃO PEDRO",
+      "time": "14:00",
+      "team_1": "cariri",
+      "team_1_short": "CAR",
+      "team_2": "camaroes",
+      "team_2_short": "CAM"
+    },
+    {
+      "date": "14/07/2019",
+      "location": "CACIMBA NOVA",
+      "time": "14:00",
       "team_1": "sao-paulo",
       "team_1_short": "SAO",
-      "team_2": "sport",
-      "team_2_short": "SPO"
+      "team_2": "gonzagao",
+      "team_2_short": "GON"
     }
   ],
   "round_2": [
     {
       "date": "21/07/2019",
-      "location": "ARENA 1",
-      "time": "16:00",
+      "location": "BOA VISTA",
+      "time": "",
+      "team_1": "macedao",
+      "team_1_short": "MAC",
+      "team_2": "cariri",
+      "team_2_short": "CAR"
+    },
+    {
+      "date": "21/07/2019",
+      "location": "RIACHO FUNDO",
+      "time": "14:00",
+      "team_1": "gonzagao",
+      "team_1_short": "GON",
+      "team_2": "sampaiao",
+      "team_2_short": "SAM"
+    },
+    {
+      "date": "21/07/2019",
+      "location": "SANTA ROSA",
+      "time": "14:00",
+      "team_1": "camaroes",
+      "team_1_short": "CAM",
+      "team_2": "palmeiras",
+      "team_2_short": "PAL"
+    },
+    {
+      "date": "21/07/2019",
+      "location": "BOA VISTA",
+      "time": "",
       "team_1": "sport",
       "team_1_short": "SPO",
+      "team_2": "sao-paulo",
+      "team_2_short": "SAO"
+    },
+    {
+      "date": "21/07/2019",
+      "location": "MÔNICA",
+      "time": "14:00",
+      "team_1": "atletico",
+      "team_1_short": "ATL",
+      "team_2": "alvorada",
+      "team_2_short": "ALV"
+    }
+  ],
+  "round_3": [
+    {
+      "date": "28/07/2019",
+      "location": "BOA VISTA",
+      "time": "09:00",
+      "team_1": "sport",
+      "team_1_short": "SPO",
+      "team_2": "cariri",
+      "team_2_short": "CAR"
+    },
+    {
+      "date": "28/07/2019",
+      "location": "MÔNICA",
+      "time": "14:00",
+      "team_1": "atletico",
+      "team_1_short": "ATL",
+      "team_2": "internacional",
+      "team_2_short": "INT"
+    },
+    {
+      "date": "28/07/2019",
+      "location": "CALUETE",
+      "time": "14:00",
+      "team_1": "sampaiao",
+      "team_1_short": "SAM",
+      "team_2": "sao-paulo",
+      "team_2_short": "SAO"
+    },
+    {
+      "date": "28/07/2019",
+      "location": "RIACHO FUNDO",
+      "time": "14:00",
+      "team_1": "gonzagao",
+      "team_1_short": "GON",
+      "team_2": "macedao",
+      "team_2_short": "MAC"
+    },
+    {
+      "date": "28/07/2019",
+      "location": "MALHADINHA",
+      "time": "14:00",
+      "team_1": "alvorada",
+      "team_1_short": "ALV",
+      "team_2": "palmeiras",
+      "team_2_short": "PAL"
+    }
+  ],
+  "round_4": [
+    {
+      "date": "04/08/2019",
+      "location": "CALUETE",
+      "time": "14:00",
+      "team_1": "palmeiras",
+      "team_1_short": "PAL",
+      "team_2": "sampaiao",
+      "team_2_short": "SAM"
+    },
+    {
+      "date": "04/08/2019",
+      "location": "BOA VISTA",
+      "time": "",
+      "team_1": "internacional",
+      "team_1_short": "INT",
       "team_2": "alvorada",
       "team_2_short": "ALV"
     },
     {
-      "date": "21/07/2019",
-      "location": "ARENA 2",
-      "time": "16:00",
-      "team_1": "atletico",
-      "team_1_short": "ATL",
-      "team_2": "camaroes",
-      "team_2_short": "CAM"
-    },
-    {
-      "date": "21/07/2019",
-      "location": "ARENA 3",
-      "time": "16:00",
+      "date": "04/08/2019",
+      "location": "SÃO PEDRO",
+      "time": "14:00",
       "team_1": "cariri",
       "team_1_short": "CAR",
       "team_2": "gonzagao",
       "team_2_short": "GON"
     },
     {
-      "date": "21/07/2019",
-      "location": "ARENA 4",
-      "time": "16:00",
-      "team_1": "internacional",
-      "team_1_short": "INT",
-      "team_2": "macedao",
-      "team_2_short": "MAC"
+      "date": "04/08/2019",
+      "location": "BOA VISTA",
+      "time": "",
+      "team_1": "macedao",
+      "team_1_short": "MAC",
+      "team_2": "atletico",
+      "team_2_short": "ATL"
     },
     {
-      "date": "21/07/2019",
-      "location": "ARENA 5",
-      "time": "16:00",
-      "team_1": "palmeiras",
-      "team_1_short": "PAL",
-      "team_2": "sampaiao",
-      "team_2_short": "SAM"
-    }
-  ],
-  "round_3": [
-    {
-      "date": "28/07/2019",
-      "location": "ARENA 1",
-      "time": "16:00",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
-    },
-    {
-      "date": "28/07/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
-    },
-    {
-      "date": "28/07/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
-    },
-    {
-      "date": "28/07/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
-    },
-    {
-      "date": "28/07/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
-    }
-  ],
-  "round_4": [
-    {
-      "date": "04/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
-    },
-    {
-      "date": "04/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
-    },
-    {
-      "date": "04/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
-    },
-    {
-      "date": "04/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
-    },
-    {
-      "date": "04/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "04/08/2019",
+      "location": "SANTA ROSA",
+      "time": "14:00",
+      "team_1": "camaroes",
+      "team_1_short": "CAM",
+      "team_2": "sport",
+      "team_2_short": "SPO"
     }
   ],
   "round_5": [
     {
-      "date": "11/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "11/08/2019",
+      "location": "SÃO PEDRO",
+      "time": "14:00",
+      "team_1": "cariri",
+      "team_1_short": "CAR",
+      "team_2": "palmeiras",
+      "team_2_short": "PAL"
     },
     {
-      "date": "11/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "11/08/2019",
+      "location": "BOA VISTA",
+      "time": "14:00",
+      "team_1": "internacional",
+      "team_1_short": "INT",
+      "team_2": "sampaiao",
+      "team_2_short": "SAM"
     },
     {
-      "date": "11/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "11/08/2019",
+      "location": "MALHADINHA",
+      "time": "14:00",
+      "team_1": "alvorada",
+      "team_1_short": "ALV",
+      "team_2": "sport",
+      "team_2_short": "SPO"
     },
     {
-      "date": "11/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "11/08/2019",
+      "location": "CACIMBA NOVA",
+      "time": "14:00",
+      "team_1": "sao-paulo",
+      "team_1_short": "SAO",
+      "team_2": "atletico",
+      "team_2_short": "ATL"
     },
     {
-      "date": "11/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "11/08/2019",
+      "location": "RIACHO FUNDO",
+      "time": "14:00",
+      "team_1": "gonzagao",
+      "team_1_short": "GON",
+      "team_2": "camaroes",
+      "team_2_short": "CAM"
     }
   ],
   "round_6": [
     {
-      "date": "18/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "18/08/2019",
+      "location": "CALUETE",
+      "time": "14:00",
+      "team_1": "sampaiao",
+      "team_1_short": "SAM",
+      "team_2": "cariri",
+      "team_2_short": "CAR"
     },
     {
-      "date": "18/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "18/08/2019",
+      "location": "CALUETE",
+      "time": "14:00",
+      "team_1": "palmeiras",
+      "team_1_short": "PAL",
+      "team_2": "internacional",
+      "team_2_short": "INT"
     },
     {
-      "date": "18/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "18/08/2019",
+      "location": "MÔNICA",
+      "time": "14:00",
+      "team_1": "atletico",
+      "team_1_short": "ATL",
+      "team_2": "gonzagao",
+      "team_2_short": "GON"
     },
     {
-      "date": "18/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "18/08/2019",
+      "location": "SANTA ROSA",
+      "time": "14:00",
+      "team_1": "camaroes",
+      "team_1_short": "CAM",
+      "team_2": "macedao",
+      "team_2_short": "MAC"
     },
     {
-      "date": "18/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "18/08/2019",
+      "location": "MALHADINHA",
+      "time": "14:00",
+      "team_1": "alvorada",
+      "team_1_short": "ALV",
+      "team_2": "sao-paulo",
+      "team_2_short": "SAO"
     }
   ],
   "round_7": [
     {
-      "date": "25/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "25/08/2019",
+      "location": "BOA VISTA",
+      "time": "14:00",
+      "team_1": "macedao",
+      "team_1_short": "MAC",
+      "team_2": "alvorada",
+      "team_2_short": "ALV"
     },
     {
-      "date": "25/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "25/08/2019",
+      "location": "SÃO PEDRO",
+      "time": "14:00",
+      "team_1": "cariri",
+      "team_1_short": "CAR",
+      "team_2": "internacional",
+      "team_2_short": "INT"
     },
     {
-      "date": "25/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "25/08/2019",
+      "location": "RIACHO FUNDO",
+      "time": "14:00",
+      "team_1": "gonzagao",
+      "team_1_short": "GON",
+      "team_2": "camaroes",
+      "team_2_short": "CAM"
     },
     {
-      "date": "25/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "25/08/2019",
+      "location": "CACIMBA NOVA",
+      "time": "14:00",
+      "team_1": "sao-paulo",
+      "team_1_short": "SAO",
+      "team_2": "palmeiras",
+      "team_2_short": "PAL"
     },
     {
-      "date": "25/09/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "25/08/2019",
+      "location": "MÔNICA",
+      "time": "14:00",
+      "team_1": "atletico",
+      "team_1_short": "ATL",
+      "team_2": "sport",
+      "team_2_short": "SPO"
     }
   ],
   "round_8": [
     {
-      "date": "01/10/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "01/09/2019",
+      "location": "BOA VISTA",
+      "time": "14:00",
+      "team_1": "internacional",
+      "team_1_short": "INT",
+      "team_2": "sao-paulo",
+      "team_2_short": "SAO"
     },
     {
-      "date": "01/10/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "01/09/2019",
+      "location": "BOA VISTA",
+      "time": "14:00",
+      "team_1": "macedao",
+      "team_1_short": "MAC",
+      "team_2": "sampaiao",
+      "team_2_short": "SAM"
     },
     {
-      "date": "01/10/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "01/09/2019",
+      "location": "SANTA ROSA",
+      "time": "14:00",
+      "team_1": "camaroes",
+      "team_1_short": "CAM",
+      "team_2": "atletico",
+      "team_2_short": "ATL"
     },
     {
-      "date": "01/10/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "01/09/2019",
+      "location": "SÃO PEDRO",
+      "time": "14:00",
+      "team_1": "cariri",
+      "team_1_short": "CAR",
+      "team_2": "alvorada",
+      "team_2_short": "ALV"
     },
     {
-      "date": "01/10/2019",
-      "location": "",
-      "time": "",
-      "team_1": "",
-      "team_1_short": "",
-      "team_2": "",
-      "team_2_short": ""
+      "date": "01/09/2019",
+      "location": "RIACHO FUNDO",
+      "time": "14:00",
+      "team_1": "gonzagao",
+      "team_1_short": "GON",
+      "team_2": "sport",
+      "team_2_short": "SPO"
     }
   ],
   "round_9": [
     {
-      "date": "08/10/2019",
+      "date": "08/09/2019",
       "location": "",
       "time": "",
       "team_1": "",
@@ -386,7 +386,7 @@
       "team_2_short": ""
     },
     {
-      "date": "08/10/2019",
+      "date": "08/09/2019",
       "location": "",
       "time": "",
       "team_1": "",
@@ -395,7 +395,7 @@
       "team_2_short": ""
     },
     {
-      "date": "08/10/2019",
+      "date": "08/09/2019",
       "location": "",
       "time": "",
       "team_1": "",
@@ -404,7 +404,7 @@
       "team_2_short": ""
     },
     {
-      "date": "08/10/2019",
+      "date": "08/09/2019",
       "location": "",
       "time": "",
       "team_1": "",
@@ -413,7 +413,7 @@
       "team_2_short": ""
     },
     {
-      "date": "08/10/2019",
+      "date": "08/09/2019",
       "location": "",
       "time": "",
       "team_1": "",
@@ -424,7 +424,7 @@
   ],
   "round_10": [
     {
-      "date": "15/10/2019",
+      "date": "22/09/2019",
       "location": "",
       "time": "",
       "team_1": "",
@@ -433,7 +433,7 @@
       "team_2_short": ""
     },
     {
-      "date": "15/10/2019",
+      "date": "22/09/2019",
       "location": "",
       "time": "",
       "team_1": "",
@@ -442,7 +442,7 @@
       "team_2_short": ""
     },
     {
-      "date": "15/10/2019",
+      "date": "22/09/2019",
       "location": "",
       "time": "",
       "team_1": "",
@@ -451,7 +451,7 @@
       "team_2_short": ""
     },
     {
-      "date": "15/10/2019",
+      "date": "22/09/2019",
       "location": "",
       "time": "",
       "team_1": "",
@@ -460,7 +460,7 @@
       "team_2_short": ""
     },
     {
-      "date": "15/10/2019",
+      "date": "22/09/2019",
       "location": "",
       "time": "",
       "team_1": "",
@@ -471,7 +471,7 @@
   ],
   "round_11": [
     {
-      "date": "22/10/2019",
+      "date": "29/09/2019",
       "location": "",
       "time": "",
       "team_1": "",
@@ -480,7 +480,7 @@
       "team_2_short": ""
     },
     {
-      "date": "22/10/2019",
+      "date": "29/09/2019",
       "location": "",
       "time": "",
       "team_1": "",
@@ -489,7 +489,7 @@
       "team_2_short": ""
     },
     {
-      "date": "22/10/2019",
+      "date": "29/09/2019",
       "location": "",
       "time": "",
       "team_1": "",
@@ -498,7 +498,7 @@
       "team_2_short": ""
     },
     {
-      "date": "22/10/2019",
+      "date": "29/09/2019",
       "location": "",
       "time": "",
       "team_1": "",
@@ -507,7 +507,7 @@
       "team_2_short": ""
     },
     {
-      "date": "22/10/2019",
+      "date": "29/09/2019",
       "location": "",
       "time": "",
       "team_1": "",

@@ -108,8 +108,8 @@ export default class Table extends React.Component {
             {this.state.teams.map((team) => (
               <tr key={team}>
                 <td><span className="position">{1}</span>{team}</td>
-                <td>1</td>
-                <td>1</td>
+                <td>0</td>
+                <td>0</td>
                 <td>0</td>
                 <td>0</td>
                 <td>0</td>
