@@ -1,4 +1,5 @@
 .scorers {
+  border-top: 1px solid lightgrey;
   overflow: auto;
   max-height: 40rem;
 }
@@ -10,7 +11,7 @@
 .scorers__subtitle {
   color: grey;
   font-size: 1.5rem;
-  margin: 1rem 0;
+  margin: 2rem 0 1rem;
 }
 
 .scorers__subtitle__player {
@@ -19,4 +20,37 @@
 
 .scorers__subtitle__goals {
   padding-right: 3rem;
+}
+
+.scorers__photo {
+  border-radius: 50%;
+  margin-left: 2rem;
+  width: 7rem;
+}
+
+.scorers__shield {
+  width: 5rem;
+  margin-left: 2rem;
+}
+
+.scorers__name_position {
+  display: inline-table;
+}
+
+.scorers__name {
+  display: block;
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+
+.scorers__position {
+  color: grey;
+  display: inline;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+
+.scorers_goals {
+  font-size: 3rem;
+  float: right;
 }
