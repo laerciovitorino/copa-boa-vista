@@ -1,14 +1,14 @@
 {
   "players": [
     {
-      "photo": "laercio-vitorino.jpg",
+      "photo": "",
       "shield": "sport.jpg",
       "name": "Antonio",
       "position": "MEIO-CAMPO",
       "goals": "3"
     },
     {
-      "photo": "laercio-vitorino.jpg",
+      "photo": "",
       "shield": "alvorada.jpg",
       "name": "José",
       "position": "ATACANTE",

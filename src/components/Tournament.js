@@ -45,10 +45,16 @@ export default class Tournament extends React.Component {
           </div>
           <div className="row">
             <div className="col-md-8">
-              <Table toggleGames={this.toggleGames}/>
+              <Table
+                toggleGames={this.toggleGames}
+              />
             </div>
             <div className="col-md-4">
-              <Games displayAspirant={this.state.displayAspirant} displayTitular={this.state.displayTitular}/>
+              <Games
+                displayAspirant={this.state.displayAspirant}
+                displayTitular={this.state.displayTitular}
+                handleScores={this.handleScores}
+              />
             </div>
           </div>
           <TopScorer />
