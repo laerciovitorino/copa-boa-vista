@@ -12,8 +12,8 @@ export default class TopScorer extends React.Component {
           <span className="scorers__subtitle__player">Classificação</span>
           <span className="scorers__subtitle__goals">Gols</span>
         </div>
-        {1 === 0 && <ul className="list-group list-group-flush scorers">
-          {Object.values(Scorers)[0].map((scorer) => (
+        <ul className="list-group list-group-flush scorers">
+          {1 === 0 && Object.values(Scorers)[0].map((scorer) => (
             <li className="list-group-item" key={scorer["name"]}>
               <span>{1}</span>
               <span><img src={require('../resources/images/logos/' + scorer["photo"])} className="scorers__photo" /></span>
@@ -25,7 +25,7 @@ export default class TopScorer extends React.Component {
               <span className="scorers_goals">{scorer["goals"]}</span>
             </li>
           ))}
-        </ul>}
+        </ul>
       </div>
     );
   }

@@ -250,18 +250,18 @@ export default class Table extends React.Component {
             </tr>
           </thead>
           <tbody>
-            {this.sortAspirantResults().map((result, index) => (
+            {this.state.names.map((team, index) => (
               <tr key={index}>
-                <td><span className="position">{1}</span>{result[9]}</td>
-                <td>{result[0]}</td>
-                <td>{result[1]}</td>
-                <td>{result[2]}</td>
-                <td>{result[3]}</td>
-                <td>{result[4]}</td>
-                <td>{result[5]}</td>
-                <td>{result[6]}</td>
-                <td>{result[7]}</td>
-                <td>{result[8]}%</td>
+                <td><span className="position">{1}</span>{team}</td>
+                <td>{0}</td>
+                <td>{0}</td>
+                <td>{0}</td>
+                <td>{0}</td>
+                <td>{0}</td>
+                <td>{0}</td>
+                <td>{0}</td>
+                <td>{0}</td>
+                <td>{0}%</td>
               </tr>
             ))}
           </tbody>

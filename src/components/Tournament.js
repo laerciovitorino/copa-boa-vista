@@ -35,7 +35,7 @@ export default class Tournament extends React.Component {
                   <li className="page-item">
                     <a className="page-left" href="#"><FontAwesomeIcon icon={faChevronLeft} style={{color: "grey"}} /></a>
                   </li>
-                  <li>PRIMEIRA FASE</li>
+                  <li className="fase-title">PRIMEIRA FASE</li>
                   <li className="page-item">
                     <a className="page-right" href="#"><FontAwesomeIcon icon={faChevronRight} style={{color: "grey"}} /></a>
                   </li>
@@ -49,7 +49,7 @@ export default class Tournament extends React.Component {
                 toggleGames={this.toggleGames}
               />
             </div>
-            <div className="col-md-4">
+            <div className="col-md-auto">
               <Games
                 displayAspirant={this.state.displayAspirant}
                 displayTitular={this.state.displayTitular}
@@ -58,6 +58,11 @@ export default class Tournament extends React.Component {
             </div>
           </div>
           <TopScorer />
+          <div className="row">
+            <div className="col-md-12">
+              <footer className="credits">Laércio Vitorino e Lavoisier Vitorino 2019 &copy;</footer>
+            </div>
+          </div>
         </div>
       </div>
     );
