@@ -33,11 +33,11 @@ export default class Tournament extends React.Component {
               <nav aria-label="Page navigation example" className="tournament-fases">
                 <ul className="pagination d-flex justify-content-between">
                   <li className="page-item">
-                    <a className="page-left" href="#"><FontAwesomeIcon icon={faChevronLeft} style={{color: "grey"}} /></a>
+                    <a className="page-left" href="#"><FontAwesomeIcon icon={faChevronLeft} style={{color: "lightgrey"}} /></a>
                   </li>
                   <li className="fase-title">PRIMEIRA FASE</li>
                   <li className="page-item">
-                    <a className="page-right" href="#"><FontAwesomeIcon icon={faChevronRight} style={{color: "grey"}} /></a>
+                    <a className="page-right" href="#"><FontAwesomeIcon icon={faChevronRight} style={{color: "lightgrey"}} /></a>
                   </li>
                 </ul>
               </nav>

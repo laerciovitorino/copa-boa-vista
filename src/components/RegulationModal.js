@@ -20,7 +20,8 @@ const RegulationModal = (props) => (
     participantes nas reuniões que antecederam o início do presente evento esportivo.</p>
     <p>Art. 3 – Participam da XXIII COPA BOA VISTA/2019, representações esportivas do nosso município.</p>
     <p>Art. 4 - Cada equipe inscrita fica obrigada a participar com um quadro Titular e um Aspirante com no mínimo
-    22 (vinte e dois) jogadores inscritos na equipe. Pode inscrever no máximo 20 (vinte) atletas por quadro.</p>
+    22 (vinte e dois) jogadores inscritos na equipe, sendo 11 (onze) em cada quadro. Pode inscrever no máximo 20
+    (vinte) atletas por quadro.</p>
     <p>Art. 5 – A XXIII COPA BOA VISTA/2019 é uma promoção da DIVISÃO DE DESPORTOS da PREFEITURA
     MUNICIPAL DE BOA VISTA.</p>
     <p>Art. 6 – A XXIII COPA BOA VISTA/2019, terá início no dia 14 de JULHO de 2019.</p>
@@ -31,13 +32,13 @@ const RegulationModal = (props) => (
     <p>Art. 7 – A XXIII COPA BOA VISTA/2019, será disputada em turno único, com todos jogando contra todos com
     pontos corridos, e com jogos só de ida, ao final desta fase, serão classificadas 08 (oito) equipes que obtiverem
     maior número de pontos, onde teremos a fase de mata-mata.</p>
-    <p>Art. 8 – A segunda fase será disputada da seguinte forma: 1º. x 8º, 2º x 7º. , 3º. x 6º. e 4º. x 5º. onde 1º, 2º., 3º. e
-    4º. . colocados, jogarão por dois resultados iguais e o segundo jogo em seus campos. Nas semi-finais serão da
-    seguinte forma: vencedor de 1º. x 8º. Contra vencedor de 3º. x 6º. E vencedor de 2º. x 7º. Contra vencedor de 4º. x
-    5º. As semi-finais, todos os jogos serão na cidade de Boa Vista(zona urbana). E nenhuma das equipes levará
-    vantagem nesta fase. Terminado empatados em número de pontos nesta fase, será observado o saldo de gols
-    nesta fase. Caso ocorra empate neste segundo critério, a decisão de quem vai para final, será através da cobrança
-    de 05 penalidades máximas.</p>
+    <p>Art. 8 – A segunda fase será disputada da seguinte forma: 1º. x 8º, 2º x 7º. , 3º. x 6º. e 4º. x 5º. onde 1º,
+    2º., 3º. e 4º. . colocados, jogarão por dois resultados iguais e o segundo jogo em seus campos. Nas semi-finais
+    serão da seguinte forma: vencedor de 1º. x 8º. Contra vencedor de 3º. x 6º. E vencedor de 2º. x 7º. Contra
+    vencedor de 4º. x  5º. As semi-finais, todos os jogos serão na cidade de Boa Vista(zona urbana). E nenhuma das
+    equipes levará vantagem nesta fase. Terminado empatados em número de pontos nesta fase, será observado o saldo de
+    gols nesta fase. Caso ocorra empate neste segundo critério, a decisão de quem vai para final, será através da
+    cobrança de 05 penalidades máximas.</p>
     <p>Art. 9 – A finalíssima, será em um só jogo, na cidade de BOA VISTA, onde as equipes não terão vantagem no
     jogo final. Se o jogo terminar empatado no tempo normal, o campeão sairá do vencedor das cobranças de 05
     penalidades máximas da marca da cal. Os jogos serão realizados no período da manhã e na zona urbana.</p>
@@ -107,7 +108,7 @@ const RegulationModal = (props) => (
     <p>Art. 20 – O árbitro é a autoridade em campo que poderá suspender uma partida, em comum acordo com o
     coordenador da partida.</p>
   
-    <p>Art. 21 – Um jogo previamente marcado para um campo e que o este campo não tenha condições para realização
+    <p>Art. 21 – Um jogo previamente marcado para um campo e que este campo não tenha condições para realização
     do mesmo, será realizado em outro campo, indicado pela coordenação até às 09:00 h do dia do jogo, se o jogo
     estiver marcado para o período da tarde. Cabe a coordenação geral, indicar onde deve jogar, a equipe que
     perdeu o direito de jogar em seu campo.</p>
@@ -123,8 +124,8 @@ const RegulationModal = (props) => (
     jogador que não seja eleitor de Boa Vista, caso inscrito. Nenhum jogador inscrito no quadro TITULAR, poderá
     participar do quadro ASPIRANTE. Cada equipe participante desta competição, poderá inscrever 04 (quatro)
     jogadores que não tenham TÍTULO ELEITORAL da cidade de Boa Vista, no quadro TITULAR. Data-base
-    para este direito é o título esteja com data de emissão até 31/12/2016, e quem transferiu o título eleitoral após esta
-    data, será considerado jogador não eleitor de Boa Vista. O jogador que transgredir esta norma, será
+    para este direito é o título esteja com data de emissão até 31/12/2016, e quem transferiu o título eleitoral após
+    esta data, será considerado jogador não eleitor de Boa Vista. O jogador que transgredir esta norma, será
     automaticamente eliminado.</p>
     <p>Art. 25 – Somente será permitida a inscrição de atletas até a QUINTA rodada do evento, e o atleta que se
     inscrever em uma equipe, depois de regularizado, não poderá ser regularizado por outra equipe, mesmo que
@@ -132,9 +133,9 @@ const RegulationModal = (props) => (
     Não sendo permitida a regularização de atletas aos domingos. Na QUINTA rodada, todas as carteiras de atletas,
     terão de estar PLASTIFICADAS, não o fazendo, perderá automaticamente os pontos que tenha obtido em
     campo, naquele jogo, para a equipe adversária, desde que ó corrido conste em súmula do jogo.</p>
-    <p>Art. 26 – Os diretores ou responsáveis por suas equipes, ficarão obrigados, antes do início de cada partida, por
-    ocasião da assinatura da súmula do jogo a apresentação ao árbitro do jogo, seus atletas munidos das carteiras de
-    identificação de atletas. Para os analfabetos, o árbitro colocará o nome do mesmo em letra de imprensa. Poderá
+    <p>Art. 26 – Os diretores ou responsáveis por suas equipes, ficarão obrigados, antes do início de cada partida,
+    por ocasião da assinatura da súmula do jogo a apresentação ao árbitro do jogo, seus atletas munidos das carteiras
+    de identificação de atletas. Para os analfabetos, o árbitro colocará o nome do mesmo em letra de imprensa. Poderá
     participar da partida, quem chegar até o intervalo do 1º. Para o 2º. Tempo.</p>
     <p>Art. 27 – As equipes inscritas no certame, poderão ter em seus quadros atletas de qualquer idade. Quanto aos
     atletas menores de 18(dezoito) anos, os dirigentes das equipes serão os responsáveis por quaisquer atos
@@ -152,10 +153,13 @@ const RegulationModal = (props) => (
   
     <p>Art. 30 – O atleta que for expulso de campo pelo árbitro da partida, cumprirá suspensão automática de uma
     partida. Em caso de reincidência cumprirá suspensão automática de três jogos, se voltar a ser expulso pela
-    terceira vez consecutiva ou alternada, será eliminado do certame.</p>
-    <p>Art. 31 – O atleta inscrito em uma equipe e que esteja participando de um jogo, que agredir fisicamente o árbitro
-    da partida, seus auxiliares, membros da coordenação geral e JJD, será julgado e se culpado, será eliminado do
-    certame por um período de dois anos, ou quando agredir fisicamente qualquer uma pessoa que esta não esteja
+    terceira vez consecutiva ou alternada, será eliminado do certame. O atleta que for expulso no quadro aspirante,
+    não poderá jogar pelo quadro titular naquele dia e também não poderá participar do jogo seguinte nos dois quadros.
+    As expulsões serão cumulativas nos dois quadros. O atleta que for expulso 03(três) vezes no somatório dos dois
+    quadros, estará eliminado da competição.</p>
+    <p>Art. 31 – O atleta inscrito em uma equipe e que esteja participando de um jogo, que agredir fisicamente o
+    árbitro da partida, seus auxiliares, membros da coordenação geral e JJD, será julgado e se culpado, será eliminado
+    do certame por um período de dois anos, ou quando agredir fisicamente qualquer uma pessoa que esta não esteja
     participando do jogo, por período de uma ano. A PUNIÇÃO SERÁ A PARTIR DO JULGAMENTO.</p>
     <p>Art. 32 - As paridas julgadas pela JJD cujos pontos forem adjudicados a uma equipe que os tenha perdido em
     campo, o resultado será 1 x 0.</p>
@@ -168,20 +172,20 @@ const RegulationModal = (props) => (
     <p>Art. 34 – Fica criada a junta de justiça desportiva da XXIII COPA BOA VISTA/2019, composta por 03 (três)
     membros efetivos e 02 (dois) suplentes, que terão a responsabilidade de julgar protestos e demais causas
     jurídicas do certame.</p>
-    <p>Art. 35 – A equipe que se sentir prejudicada em seus direitos, terá 48 (quarenta e oito) horas de dia útil, após o
-    final do jogo para protestar o resultado de uma partida, protocolando o referido documento e anexos, junto a
-    coordenação geral, para a devida apreciação e julgamento.</p>
+    <p>Art. 35 – A equipe que se sentir prejudicada em seus direitos, terá 48 (quarenta e oito) horas de dia útil,
+    após o final do jogo para protestar o resultado de uma partida, protocolando o referido documento e anexos, junto
+    a coordenação geral, para a devida apreciação e julgamento.</p>
     
     <h3 className="regulation__subtitle">CAPÍTULO X</h3>
     <h4 className="regulation__topic">DOS ÁRBITROS</h4>
   
     <p>Art. 36 – Caberá aos árbitros, obrigatoriamente relatar todas as ocorrências registradas na partida,
-    encaminhando a súmula e seus anexos, até a terça – feira à coordenação geral, para que tenhamos condições de
-    entregar na quarta-feira, cópia da súmula para todas as equipes.</p>
-    <p>Art. 37 – O árbitro ou trio de arbitragem devidamente escalado deverá se encontrar presente ao local do jogo, 15
-    ( quinze) minutos antes do seu início.</p>
-    <p>Art. 38 – As equipes que se sentirem prejudicadas pela arbitragem, terão direito através de ofício, a vetar aquele
-    árbitro que o prejudicou. Para isso, é necessário provas, que serão analisadas pela coordenação geral.</p>
+    encaminhando a súmula e seus anexos, até a terça-feira à coordenação geral, para que tenhamos condições de
+    entregar na quarta-feira, cópia da súmula no SITE DA COPA.</p>
+    <p>Art. 37 – O árbitro ou trio de arbitragem devidamente escalado deverá se encontrar presente ao local do jogo,
+    15(quinze) minutos antes do seu início.</p>
+    <p>Art. 38 – As equipes que se sentirem prejudicadas pela arbitragem, terão direito através de ofício, a vetar
+    aquele árbitro que o prejudicou. Para isso, é necessário provas, que serão analisadas pela coordenação geral.</p>
   
     <h3 className="regulation__subtitle">CAPÍTULO XI</h3>
     <h4 className="regulation__topic">DOS TÍTULOS E PRÊMIOS</h4>
@@ -193,8 +197,8 @@ const RegulationModal = (props) => (
         <li>Equipe vice-campeã: Troféu e medalhas;</li>
         <li>Artilheiro – troféu;</li>
         <li>Goleiro menos vazado(os dois envolvidos na final) troféu;</li>
-        <li>R$ 6.000,00 (seis mil reais) – para o quadro titular, sendo: equipe campeã R$ 3.00,00 – vice R$ 1.500,00 – 3º.
-        colocado R$ 1.000,00 e 4º. Colocado R$ 500,00.</li>
+        <li>R$ 6.000,00 (seis mil reais) – para o quadro titular, sendo: equipe campeã R$ 3.000,00 – vice R$ 1.500,00 –
+        3º. colocado R$ 1.000,00 e 4º. Colocado R$ 500,00.</li>
         <li>R$ 4.000,00 (quatro mil reais) – para o quadro aspirante, sendo: equipe campeã R$ 2.000,00 – vice R$ 1.000,00 –
         3º. Colocado R$ 500,00 e 4º. Colocado R$ 500,00.</li>
       </ul>
@@ -208,9 +212,8 @@ const RegulationModal = (props) => (
     <p>Art. 41 - A coordenação geral, não se responsabiliza por quaisquer acidentes que ocorram com os atletas,
     dirigentes, arbitragem e torcida, antes, durante e depois de cada jogo.</p>
     <p>Art. 42 – Se for registrada agressão generalizada numa partida, devidamente relatada na súmula do jogo pelo
-    árbitro, a equipe que provocou tais incidentes, será eliminada da competição. Dirigentes constantes na relação
-    entregue à coordenação que praticar os mesmos atos constantes no 31 deste regulamento, a equipe será suspensa
-    pelo mesmo prazo.</p>
+    árbitro, a equipe que provocou tais incidentes, será eliminada da competição, e os envolvidos, se enquadrarão no
+    artigo 31 deste regulamento.</p>
     <p>Art. 43 - A PREFEITURA MUNICIPAL DE BOA VISTA, custeará: três bolas, um padrão completo,
     arbitragem e transporte quando necessário, para todas as equipes participantes do certame.</p>
     <p>Art. 44 – A equipe que abandonar a competição ou for eliminada, não poderá participar da competição de

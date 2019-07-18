@@ -42,7 +42,7 @@ export default class Games extends React.Component {
               <a className="page-left" href="#">
                 {
                   this.state.selectedRound === 1 ?
-                  <FontAwesomeIcon icon={faChevronLeft} style={{color: "grey"}} onClick={this.handleRoundLeft} /> :
+                  <FontAwesomeIcon icon={faChevronLeft} style={{color: "lightgrey", cursor: "default"}} onClick={this.handleRoundLeft} /> :
                   <FontAwesomeIcon icon={faChevronLeft} onClick={this.handleRoundLeft} />
                 }
               </a>
@@ -52,7 +52,7 @@ export default class Games extends React.Component {
               <a className="page-right" href="#">
                 {
                   this.state.selectedRound === this.state.rounds.length ?
-                  <FontAwesomeIcon icon={faChevronRight} style={{color: "grey"}} onClick={this.handleRoundRight}/> :
+                  <FontAwesomeIcon icon={faChevronRight} style={{color: "lightgrey", cursor: "default"}} onClick={this.handleRoundRight}/> :
                   <FontAwesomeIcon icon={faChevronRight} onClick={this.handleRoundRight}/>
                 }
               </a>
@@ -66,9 +66,17 @@ export default class Games extends React.Component {
                 <span><strong>{round["date"]}</strong> {round["location"]} <strong>{round["time"]}</strong></span>
               </div>
               <div className="match d-flex justify-content-between">
-                <span>{round["team_1_short"]}<img src={require('../resources/images/logos/' + round["team_1"] + '.jpg')} className="logo-left" /></span>
-                <span>{round["score_team_1"] > -1 && <strong>{round["score_team_1"]}</strong>}<span className="games__delimiter">X</span>{round["score_team_2"] > -1 && <strong>{round["score_team_2"]}</strong>}</span>
-                <span><img src={require('../resources/images/logos/' + round["team_2"] + '.jpg')} className="logo-right" />{round["team_2_short"]}</span>
+                <span>{round["team_1_short"]}
+                  <img src={require('../resources/images/logos/' + round["team_1"] + '.jpg')} className="logo-left" />
+                </span>
+                <span>
+                  {round["score_team_1"] > -1 && <strong>{round["score_team_1"]}</strong>}
+                  <span className="games__delimiter">X</span>
+                  {round["score_team_2"] > -1 && <strong>{round["score_team_2"]}</strong>}
+                </span>
+                <span>
+                  <img src={require('../resources/images/logos/' + round["team_2"] + '.jpg')} className="logo-right" />{round["team_2_short"]}
+                </span>
               </div>
             </li>
           </ul>
@@ -80,8 +88,14 @@ export default class Games extends React.Component {
                 <span><strong>{round["date"]}</strong> {round["location"]} <strong>{round["time"]}</strong></span>
               </div>
               <div className="match d-flex justify-content-between">
-                <span>{round["team_1_short"]}<img src={require('../resources/images/logos/' + round["team_1"] + '.jpg')} className="logo-left" /></span>
-                <span>{round["score_team_1"] > -1 && <strong>{round["score_team_1"]}</strong>}<span className="games__delimiter">X</span>{round["score_team_2"] > -1 && <strong>{round["score_team_2"]}</strong>}</span>
+                <span>{round["team_1_short"]}
+                  <img src={require('../resources/images/logos/' + round["team_1"] + '.jpg')} className="logo-left" />
+                </span>
+                <span>
+                  {round["score_team_1"] > -1 && <strong>{round["score_team_1"]}</strong>}
+                  <span className="games__delimiter">X</span>
+                  {round["score_team_2"] > -1 && <strong>{round["score_team_2"]}</strong>}
+                </span>
                 <span><img src={require('../resources/images/logos/' + round["team_2"] + '.jpg')} className="logo-right" />{round["team_2_short"]}</span>
               </div>
             </li>
