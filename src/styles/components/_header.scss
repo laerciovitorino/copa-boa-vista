@@ -41,6 +41,14 @@ a.nav-link {
   display: none;
 }
 
+.header__button {
+  background: lighten($color: green, $amount: 5%);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  width: 14rem;
+}
+
 @media only screen and (max-width: 700px) {
 	.header__title {
     width: 55rem;
@@ -102,7 +110,7 @@ a.nav-link {
       color: white;
       font-size: 2rem;
       display: inline-block;
-      margin: 1rem 14.5rem;
+      margin: 1rem 13rem;
       align-items: center;
       text-decoration: none;
     }
@@ -121,7 +129,7 @@ a.nav-link {
       color: white;
       font-size: 2rem;
       display: inline-block;
-      margin: 1rem 12rem;
+      margin: 1rem 11rem;
       align-items: center;
       text-decoration: none;
     }
@@ -139,7 +147,7 @@ a.nav-link {
       color: white;
       font-size: 1.6rem;
       display: inline-block;
-      margin: 1rem 11rem;
+      margin: 1rem 9rem;
       align-items: center;
       text-decoration: none;
     }

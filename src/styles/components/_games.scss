@@ -19,8 +19,8 @@
 }
 
 .match {
-	font-size: 2.5rem;
-	margin: 2rem 0 0;
+  font-size: 2.5rem;
+  margin: 2rem 0 0;
 }
 
 .logo-left {
@@ -39,6 +39,10 @@
   color: grey;
   font-size: 1.5rem;
   padding: 0 .9rem;
+}
+
+.empty-score {
+  padding: 0 .6rem;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -85,20 +89,20 @@
 @media only screen and (max-width: 415px) {
   .match {
     font-size: 2.3rem;
-    margin: 1.1rem 4rem 0;
+    margin: 1.1rem 3.8rem 0;
   }
 }
 
 @media only screen and (max-width: 375px) {
   .match {
     font-size: 2rem;
-    margin: 1.1rem 2rem 0;
+    margin: 1.1rem 1.8rem 0;
   }
 }
 
 @media only screen and (max-width: 320px) {
   .match {
     font-size: 1.8rem;
-    margin: 1.1rem .8rem 0;
+    margin: 1.1rem .5rem 0;
   }
 }

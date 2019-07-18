@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default class Games extends React.Component {
   state = {
     rounds: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
-    selectedRound: 1
+    selectedRound: 2
   }
 
   handleRoundRight = (e) => {
@@ -69,11 +69,18 @@ export default class Games extends React.Component {
                 <span>{round["team_1_short"]}
                   <img src={require('../resources/images/logos/' + round["team_1"] + '.jpg')} className="logo-left" />
                 </span>
-                <span>
-                  {round["score_team_1"] > -1 && <strong>{round["score_team_1"]}</strong>}
-                  <span className="games__delimiter">X</span>
-                  {round["score_team_2"] > -1 && <strong>{round["score_team_2"]}</strong>}
-                </span>
+                {round["score_team_1"] > -1 || round["score_team_2"] > -1 ?
+                  <span>
+                    {<strong>{round["score_team_1"]}</strong>}
+                    <span className="games__delimiter">X</span>
+                    {<strong>{round["score_team_2"]}</strong>}
+                  </span> :
+                  <span>
+                    <span className="empty-score"></span>
+                    <span className="games__delimiter">X</span>
+                    <span className="empty-score"></span>
+                  </span>
+                }
                 <span>
                   <img src={require('../resources/images/logos/' + round["team_2"] + '.jpg')} className="logo-right" />{round["team_2_short"]}
                 </span>
@@ -91,11 +98,18 @@ export default class Games extends React.Component {
                 <span>{round["team_1_short"]}
                   <img src={require('../resources/images/logos/' + round["team_1"] + '.jpg')} className="logo-left" />
                 </span>
-                <span>
-                  {round["score_team_1"] > -1 && <strong>{round["score_team_1"]}</strong>}
-                  <span className="games__delimiter">X</span>
-                  {round["score_team_2"] > -1 && <strong>{round["score_team_2"]}</strong>}
-                </span>
+                {round["score_team_1"] > -1 || round["score_team_2"] > -1 ?
+                  <span>
+                    {<strong>{round["score_team_1"]}</strong>}
+                    <span className="games__delimiter">X</span>
+                    {<strong>{round["score_team_2"]}</strong>}
+                  </span> :
+                  <span>
+                    <span className="empty-score"></span>
+                    <span className="games__delimiter">X</span>
+                    <span className="empty-score"></span>
+                  </span>
+                }
                 <span><img src={require('../resources/images/logos/' + round["team_2"] + '.jpg')} className="logo-right" />{round["team_2_short"]}</span>
               </div>
             </li>

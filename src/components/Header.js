@@ -42,7 +42,7 @@ export default class Header extends React.Component {
                 show={this.state.showRegulationModal}
                 handleClose={this.hideRegulationModal}
               />
-                Regulamento
+              <button className="header__button">Regulamento</button>
             </a>
           </li>
         </ul>
