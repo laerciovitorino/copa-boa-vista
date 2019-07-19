@@ -218,20 +218,138 @@ export default class Table extends React.Component {
             </tr>
           </thead>
           <tbody>
-            {this.state.names.map((team) => (
-              <tr key={team}>
-                <td><span className="position">{1}</span>{team}</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0%</td>
-              </tr>
-            ))}
+            <tr>
+              <td><span className="position" style={{color: "blue"}}>{1}</span>{Constants.INTERNACIONAL}</td>
+              <td>3</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>4</td>
+              <td>0</td>
+              <td>4</td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td><span className="position" style={{color: "blue"}}>{2}</span>{Constants.PALMEIRAS}</td>
+              <td>3</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>2</td>
+              <td>0</td>
+              <td>2</td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td><span className="position" style={{color: "blue"}}>{3}</span>{Constants.SAMPAIAO}</td>
+              <td>3</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>2</td>
+              <td>0</td>
+              <td>2</td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td><span className="position" style={{color: "blue"}}>{4}</span>{Constants.GONZAGAO}</td>
+              <td>3</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>3</td>
+              <td>2</td>
+              <td>1</td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td><span className="position" style={{color: "blue"}}>{5}</span>{Constants.CARIRI}</td>
+              <td>3</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td><span className="position" style={{color: "blue"}}>{6}</span>{Constants.ALVORADA}</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <td><span className="position" style={{color: "blue"}}>{7}</span>{Constants.SAO_PAULO}</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>-1</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <td><span className="position" style={{color: "blue"}}>{8}</span>{Constants.CAMAROES}</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              <td>-1</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <td><span className="position">{9}</span>{Constants.ATLETICO}</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>2</td>
+              <td>-2</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <td><span className="position">{10}</span>{Constants.SPORT}</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>2</td>
+              <td>-2</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <td><span className="position">{11}</span>{Constants.MACEDAO}</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>4</td>
+              <td>-4</td>
+              <td>0%</td>
+            </tr>
           </tbody>
         </table>}
         {this.state.displayAspirant && <table className="table table-striped table-responsive-md aspirant">
@@ -250,22 +368,144 @@ export default class Table extends React.Component {
             </tr>
           </thead>
           <tbody>
-            {this.state.names.map((team, index) => (
-              <tr key={index}>
-                <td><span className="position">{1}</span>{team}</td>
-                <td>{0}</td>
-                <td>{0}</td>
-                <td>{0}</td>
-                <td>{0}</td>
-                <td>{0}</td>
-                <td>{0}</td>
-                <td>{0}</td>
-                <td>{0}</td>
-                <td>{0}%</td>
-              </tr>
-            ))}
+            <tr>
+              <td><span className="position" style={{color: "blue"}}>{1}</span>{Constants.PALMEIRAS}</td>
+              <td>3</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>5</td>
+              <td>0</td>
+              <td>5</td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td><span className="position" style={{color: "blue"}}>{2}</span>{Constants.MACEDAO}</td>
+              <td>3</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td><span className="position" style={{color: "blue"}}>{3}</span>{Constants.SAMPAIAO}</td>
+              <td>3</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td><span className="position" style={{color: "blue"}}>{4}</span>{Constants.CAMAROES}</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>2</td>
+              <td>2</td>
+              <td>0</td>
+              <td>33%</td>
+            </tr>
+            <tr>
+              <td><span className="position" style={{color: "blue"}}>{5}</span>{Constants.CARIRI}</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>2</td>
+              <td>2</td>
+              <td>0</td>
+              <td>33%</td>
+            </tr>
+            <tr>
+              <td><span className="position" style={{color: "blue"}}>{6}</span>{Constants.GONZAGAO}</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>33%</td>
+            </tr>
+            <tr>
+              <td><span className="position" style={{color: "blue"}}>{7}</span>{Constants.SAO_PAULO}</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>33%</td>
+            </tr>
+            <tr>
+              <td><span className="position" style={{color: "blue"}}>{8}</span>{Constants.ALVORADA}</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <td><span className="position">{9}</span>{Constants.INTERNACIONAL}</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              <td>-1</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <td><span className="position">{10}</span>{Constants.ATLETICO}</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              <td>-1</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <td><span className="position">{11}</span>{Constants.SPORT}</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>5</td>
+              <td>-5</td>
+              <td>0%</td>
+            </tr>
           </tbody>
         </table>}
+        <div className="table__bottom-info">
+          <div className="bottom-info-shape"></div>
+          <span className="bottom-info-text">CLASSIFICADOS PARA SEMI-FINAIS</span>
+        </div>
       </div>
     );
   }
