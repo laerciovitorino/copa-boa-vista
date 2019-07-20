@@ -6,32 +6,19 @@ import * as titularRounds from '../resources/data/titularRounds.json';
 
 export default class Table extends React.Component {
   state = {
-    teams: [
-      "alvorada",
-      "atletico",
-      "camaroes",
-      "cariri",
-      "gonzagao",
-      "internacional",
-      "macedao",
-      "palmeiras",
-      "sampaiao",
-      "sao-paulo",
-      "sport"
-    ],
-    names: [
-      Constants.ALVORADA,
-      Constants.ATLETICO,
-      Constants.CAMAROES,
-      Constants.CARIRI,
-      Constants.GONZAGAO,
-      Constants.INTERNACIONAL,
-      Constants.MACEDAO,
-      Constants.PALMEIRAS,
-      Constants.SAMPAIAO,
-      Constants.SAO_PAULO,
-      Constants.SPORT
-    ],
+    names: {
+      "alvorada": Constants.ALVORADA,
+      "atletico": Constants.ATLETICO,
+      "camaroes": Constants.CAMAROES,
+      "cariri": Constants.CARIRI,
+      "gonzagao": Constants.GONZAGAO,
+      "internacional": Constants.INTERNACIONAL,
+      "macedao": Constants.MACEDAO,
+      "palmeiras": Constants.PALMEIRAS,
+      "sampaiao": Constants.SAMPAIAO,
+      "sao-paulo": Constants.SAO_PAULO,
+      "sport": Constants.SPORT,
+    },
     displayAspirant: false,
     displayTitular: true
   }
@@ -47,7 +34,7 @@ export default class Table extends React.Component {
     this.props.toggleGames(this.state.displayAspirant, this.state.displayTitular);
   }
 
-  handleAspirantScores = () => {
+  handleScores = (groupRounds) => {
     let results = {
       "alvorada": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "atletico": [0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -61,9 +48,10 @@ export default class Table extends React.Component {
       "sao-paulo": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "sport": [0, 0, 0, 0, 0, 0, 0, 0, 0],
     };
+    const rounds = groupRounds;
 
-    Object.values(aspirantRounds).map((round, index) => {
-      if (index < Object.keys(aspirantRounds).length - 1) {
+    Object.values(rounds).map((round, index) => {
+      if (index < Object.keys(rounds).length - 1) {
         Object.values(round).map((match) => {
           if (match["score_team_1"] > -1 && match["score_team_1"] > -1){
             if (match["score_team_1"] > match["score_team_2"]) {
@@ -130,52 +118,59 @@ export default class Table extends React.Component {
     return results;
   }
 
-  sortAspirantResults = () => {
-    const results = this.handleAspirantScores();
+  sortResults = (roundResults) => {
+    const results = this.handleScores(roundResults);
     let sortedResults = [];
+    const teams = Object.keys(results);
 
-    let points = Number.MIN_VALUE;
-    let wins = Number.MIN_VALUE;
-    let goalsPro = Number.MIN_VALUE;
-    let goalsAg = Number.MAX_VALUE;
-
-    this.state.teams.map((team, index) => {
-      if (sortedResults === []) {
-        sortedResults.splice(0, 0, results[team].concat(team));
+    teams.map((team, index) => {
+      let position = 0;
+      if (sortedResults.length === 0) {
+        position = 0;
       } else {
-        sortedResults.map((result) => {
-          if (results[team][0] > result[0]) {
-            sortedResults.splice(0, 0, results[team].concat(team));
-          } else if (results[team][0] === result[0]) {
-            if (results[team][2] > result[2]) {
-              sortedResults.splice(0, 0, results[team].concat(team));
-            } else if (results[team][2] === result[2]) {
-              if (results[team][5] > result[5]) {
-                sortedResults.splice(0, 0, results[team].concat(team));
-              } else if (results[team][5] === result[5]) {
-                if (results[team][5] <= result[5]) {
-                  sortedResults.splice(0, 0, results[team].concat(team));
+        sortedResults.map((result, subindex) => {
+          if (results[team][0] >= result[0]) {
+            if (results[team][0] === result[0]) {
+              if (results[team][2] >= result[2]) {
+                if (results[team][2] === result[2]) {
+                  if (results[team][5] >= result[5]) {
+                    if (results[team][5] === result[5]) {
+                      if (results[team][6] <= result[6]) {
+                        if (results[team][6] === result[6]) {
+                          if (team < result) {
+                            position = subindex;
+                          } else {
+                            position = subindex > position ? subindex : position + 1;
+                          }
+                        } else {
+                          position = subindex;
+                        }
+                      } else {
+                        position = index;
+                      }
+                    } else {
+                      position = subindex > position ? position : subindex;
+                    }
+                  } else {
+                    position = subindex > position ? subindex : position + 1;
+                  }
                 } else {
-                  sortedResults.splice(index, 0, results[team].concat(team));
+                  
                 }
-              } else {
-                sortedResults.splice(index, 0, results[team].concat(team));
               }
             } else {
-              sortedResults.splice(index, 0, results[team].concat(team));
+              if (subindex < position) {
+                position = subindex;
+              }
             }
           } else {
-            sortedResults.splice(index, 0, results[team].concat(team));
+            position = subindex > position ? subindex : position + 1;
           }
         });
       }
+      sortedResults.splice(position, 0, results[team].concat(team));
     });
-    console.log(sortedResults);
     return sortedResults;
-  }
-
-  handleTitularScores = () => {
-
   }
 
   render() {
@@ -218,138 +213,27 @@ export default class Table extends React.Component {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td><span className="position" style={{color: "blue"}}>{1}</span>{Constants.INTERNACIONAL}</td>
-              <td>3</td>
-              <td>1</td>
-              <td>1</td>
-              <td>0</td>
-              <td>0</td>
-              <td>4</td>
-              <td>0</td>
-              <td>4</td>
-              <td>100%</td>
-            </tr>
-            <tr>
-              <td><span className="position" style={{color: "blue"}}>{2}</span>{Constants.PALMEIRAS}</td>
-              <td>3</td>
-              <td>1</td>
-              <td>1</td>
-              <td>0</td>
-              <td>0</td>
-              <td>2</td>
-              <td>0</td>
-              <td>2</td>
-              <td>100%</td>
-            </tr>
-            <tr>
-              <td><span className="position" style={{color: "blue"}}>{3}</span>{Constants.SAMPAIAO}</td>
-              <td>3</td>
-              <td>1</td>
-              <td>1</td>
-              <td>0</td>
-              <td>0</td>
-              <td>2</td>
-              <td>0</td>
-              <td>2</td>
-              <td>100%</td>
-            </tr>
-            <tr>
-              <td><span className="position" style={{color: "blue"}}>{4}</span>{Constants.GONZAGAO}</td>
-              <td>3</td>
-              <td>1</td>
-              <td>1</td>
-              <td>0</td>
-              <td>0</td>
-              <td>3</td>
-              <td>2</td>
-              <td>1</td>
-              <td>100%</td>
-            </tr>
-            <tr>
-              <td><span className="position" style={{color: "blue"}}>{5}</span>{Constants.CARIRI}</td>
-              <td>3</td>
-              <td>1</td>
-              <td>1</td>
-              <td>0</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>1</td>
-              <td>100%</td>
-            </tr>
-            <tr>
-              <td><span className="position" style={{color: "blue"}}>{6}</span>{Constants.ALVORADA}</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0%</td>
-            </tr>
-            <tr>
-              <td><span className="position" style={{color: "blue"}}>{7}</span>{Constants.SAO_PAULO}</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>0</td>
-              <td>1</td>
-              <td>2</td>
-              <td>3</td>
-              <td>-1</td>
-              <td>0%</td>
-            </tr>
-            <tr>
-              <td><span className="position" style={{color: "blue"}}>{8}</span>{Constants.CAMAROES}</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>1</td>
-              <td>-1</td>
-              <td>0%</td>
-            </tr>
-            <tr>
-              <td><span className="position">{9}</span>{Constants.ATLETICO}</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>2</td>
-              <td>-2</td>
-              <td>0%</td>
-            </tr>
-            <tr>
-              <td><span className="position">{10}</span>{Constants.SPORT}</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>2</td>
-              <td>-2</td>
-              <td>0%</td>
-            </tr>
-            <tr>
-              <td><span className="position">{11}</span>{Constants.MACEDAO}</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>4</td>
-              <td>-4</td>
-              <td>0%</td>
-            </tr>
+            {this.sortResults(Object(titularRounds)).map((result, index) => (
+              <tr key={result}>
+                <td>
+                  {
+                    index <= 7 ?
+                    <span className="position" style={{color: "blue"}}>{index + 1}</span> :
+                    <span className="position">{index + 1}</span>
+                  }
+                  {this.state.names[result[9]]}
+                </td>
+                <td>{result[0]}</td>
+                <td>{result[1]}</td>
+                <td>{result[2]}</td>
+                <td>{result[3]}</td>
+                <td>{result[4]}</td>
+                <td>{result[5]}</td>
+                <td>{result[6]}</td>
+                <td>{result[7]}</td>
+                <td>{result[8]}%</td>
+              </tr>
+            ))}
           </tbody>
         </table>}
         {this.state.displayAspirant && <table className="table table-striped table-responsive-md aspirant">
@@ -368,143 +252,32 @@ export default class Table extends React.Component {
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td><span className="position" style={{color: "blue"}}>{1}</span>{Constants.PALMEIRAS}</td>
-              <td>3</td>
-              <td>1</td>
-              <td>1</td>
-              <td>0</td>
-              <td>0</td>
-              <td>5</td>
-              <td>0</td>
-              <td>5</td>
-              <td>100%</td>
-            </tr>
-            <tr>
-              <td><span className="position" style={{color: "blue"}}>{2}</span>{Constants.MACEDAO}</td>
-              <td>3</td>
-              <td>1</td>
-              <td>1</td>
-              <td>0</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>1</td>
-              <td>100%</td>
-            </tr>
-            <tr>
-              <td><span className="position" style={{color: "blue"}}>{3}</span>{Constants.SAMPAIAO}</td>
-              <td>3</td>
-              <td>1</td>
-              <td>1</td>
-              <td>0</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>1</td>
-              <td>100%</td>
-            </tr>
-            <tr>
-              <td><span className="position" style={{color: "blue"}}>{4}</span>{Constants.CAMAROES}</td>
-              <td>1</td>
-              <td>1</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>2</td>
-              <td>2</td>
-              <td>0</td>
-              <td>33%</td>
-            </tr>
-            <tr>
-              <td><span className="position" style={{color: "blue"}}>{5}</span>{Constants.CARIRI}</td>
-              <td>1</td>
-              <td>1</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>2</td>
-              <td>2</td>
-              <td>0</td>
-              <td>33%</td>
-            </tr>
-            <tr>
-              <td><span className="position" style={{color: "blue"}}>{6}</span>{Constants.GONZAGAO}</td>
-              <td>1</td>
-              <td>1</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>1</td>
-              <td>1</td>
-              <td>0</td>
-              <td>33%</td>
-            </tr>
-            <tr>
-              <td><span className="position" style={{color: "blue"}}>{7}</span>{Constants.SAO_PAULO}</td>
-              <td>1</td>
-              <td>1</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>1</td>
-              <td>1</td>
-              <td>0</td>
-              <td>33%</td>
-            </tr>
-            <tr>
-              <td><span className="position" style={{color: "blue"}}>{8}</span>{Constants.ALVORADA}</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0</td>
-              <td>0%</td>
-            </tr>
-            <tr>
-              <td><span className="position">{9}</span>{Constants.INTERNACIONAL}</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>1</td>
-              <td>-1</td>
-              <td>0%</td>
-            </tr>
-            <tr>
-              <td><span className="position">{10}</span>{Constants.ATLETICO}</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>1</td>
-              <td>-1</td>
-              <td>0%</td>
-            </tr>
-            <tr>
-              <td><span className="position">{11}</span>{Constants.SPORT}</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>0</td>
-              <td>1</td>
-              <td>0</td>
-              <td>5</td>
-              <td>-5</td>
-              <td>0%</td>
-            </tr>
+            {this.sortResults(Object(aspirantRounds)).map((result, index) => (
+              <tr key={result}>
+                <td>
+                  {
+                    index <= 7 ?
+                    <span className="position" style={{color: "blue"}}>{index + 1}</span> :
+                    <span className="position">{index + 1}</span>
+                  }
+                  {this.state.names[result[9]]}
+                </td>
+                <td>{result[0]}</td>
+                <td>{result[1]}</td>
+                <td>{result[2]}</td>
+                <td>{result[3]}</td>
+                <td>{result[4]}</td>
+                <td>{result[5]}</td>
+                <td>{result[6]}</td>
+                <td>{result[7]}</td>
+                <td>{result[8]}%</td>
+              </tr>
+            ))}
           </tbody>
         </table>}
         <div className="table__bottom-info">
           <div className="bottom-info-shape"></div>
-          <span className="bottom-info-text">CLASSIFICADOS PARA SEMI-FINAIS</span>
+          <span className="bottom-info-text">CLASSIFICADOS PARA QUARTAS DE FINAL</span>
         </div>
       </div>
     );

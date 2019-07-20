@@ -5,6 +5,7 @@ const RegulationModal = (props) => (
   <Modal
     isOpen={!!props.show}
     onRequestClose={props.handleClose}
+    contentLabel=""
     closeTimeoutMS={200}
   >
     <h1 className="regulation__main-title">XXIII COPA BOA VISTA/2019</h1>
