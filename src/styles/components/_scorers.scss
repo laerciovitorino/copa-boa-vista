@@ -15,11 +15,11 @@
 }
 
 .scorers__subtitle__player {
-  padding-left: 3rem;
+  padding-left: 1rem;
 }
 
 .scorers__subtitle__goals {
-  padding-right: 3rem;
+  padding-right: 4rem;
 }
 
 .scorers__photo {
@@ -67,8 +67,104 @@
   font-size: 3rem;
 }
 
+@media only screen and (max-width: 1024px) {
+  .scorers__subtitle__player {
+    padding-left: .1rem;
+  }
+
+  .scorers__subtitle__goals {
+    padding-right: 1rem;
+  }
+}
+
 @media only screen and (max-width: 991px) {
   .scorers__title {
     margin-top: 5rem;
+  }
+
+  .scorers__subtitle__player {
+    padding-left: .1rem;
+  }
+  
+  .scorers__subtitle__goals {
+    padding-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .scorers__subtitle__player {
+    padding-left: .1rem;
+  }
+  
+  .scorers__subtitle__goals {
+    padding-right: 1rem;
+  }
+
+  .scorers__shield {
+    width: 3.2rem;
+    margin-left: 1.2rem;
+  }
+
+  .scorers__photo {
+    border-radius: 50%;
+    margin-left: 1.2rem;
+    width: 4.5rem;
+  }
+  
+  .scorers__photo-empty {
+    border-radius: 50%;
+    margin-left: 2.7rem;
+    width: 4.5rem;
+  }
+
+  .scorers__name {
+    display: block;
+    font-size: 1.8rem;
+    margin-left: 1.2rem;
+  }
+
+  .ranking {
+    color: darkgrey;
+    font-size: 2.5rem;
+    margin-left: -1rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .scorers__subtitle__player {
+    padding-left: .1rem;
+  }
+  
+  .scorers__subtitle__goals {
+    padding-right: 1rem;
+  }
+
+  .scorers__shield {
+    width: 3.2rem;
+    margin-left: 1rem;
+  }
+
+  .scorers__photo {
+    border-radius: 50%;
+    margin-left: .9rem;
+    width: 4.5rem;
+  }
+  
+  .scorers__photo-empty {
+    border-radius: 50%;
+    margin-left: 2.4rem;
+    width: 4.5rem;
+  }
+
+  .scorers__name {
+    display: block;
+    font-size: 1.4rem;
+    margin-left: .9rem;
+  }
+
+  .ranking {
+    color: darkgrey;
+    font-size: 2.5rem;
+    margin-left: -1rem;
   }
 }
