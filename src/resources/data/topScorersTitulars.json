@@ -1,0 +1,81 @@
+{
+  "players": [
+    {
+      "photo": "alexsandro-araujo",
+      "shield": "cariri",
+      "name": "Alexsandro Araújo",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "alif-pinto",
+      "shield": "palmeiras",
+      "name": "Alif Pinto",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "allison-rodrigo",
+      "shield": "gonzagao",
+      "name": "Allison Rodrigo",
+      "position": "",
+      "goals": "2"
+    },
+    {
+      "photo": "emanoel-celestino",
+      "shield": "internacional",
+      "name": "Emanoel Celestino",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "geovanni-valentim",
+      "shield": "palmeiras",
+      "name": "Geovanni Valentim",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "ives-eneas",
+      "shield": "internacional",
+      "name": "Ives Enéas",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "jonilson-santos",
+      "shield": "sampaiao",
+      "name": "Jonilson Santos",
+      "position": "",
+      "goals": "2"
+    },
+    {
+      "photo": "leonardo-monteiro",
+      "shield": "internacional",
+      "name": "Leonardo Monteiro",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "lucas-rafael",
+      "shield": "sao-paulo",
+      "name": "Lucas Rafael",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "martiliano-da-silva",
+      "shield": "sao-paulo",
+      "name": "Martiliano da Silva",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "rosinaldo-emiliano",
+      "shield": "internacional",
+      "name": "Rosinaldo Emiliano",
+      "position": "",
+      "goals": "1"
+    }
+  ]
+}

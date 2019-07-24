@@ -25,11 +25,11 @@
 .scorers__photo {
   border-radius: 50%;
   margin-left: 2rem;
-  width: 7rem;
+  width: 6.5rem;
 }
 
 .scorers__shield {
-  width: 5rem;
+  width: 4.2rem;
   margin-left: 2rem;
 }
 
@@ -39,7 +39,7 @@
 
 .scorers__name {
   display: block;
-  font-size: 3rem;
+  font-size: 2.2rem;
   margin-left: 2rem;
 }
 
@@ -51,8 +51,9 @@
 }
 
 .scorers_goals {
-  font-size: 3rem;
   float: right;
+  font-size: 2.6rem;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 991px) {

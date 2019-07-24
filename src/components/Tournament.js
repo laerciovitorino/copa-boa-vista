@@ -57,7 +57,10 @@ export default class Tournament extends React.Component {
               />
             </div>
           </div>
-          <TopScorer />
+          <TopScorer
+            displayAspirant={this.state.displayAspirant}
+            displayTitular={this.state.displayTitular}
+          />
           <div className="row">
             <div className="col-md-12">
               <footer className="credits">Laércio Vitorino e Lavoisier Vitorino 2019 &copy;</footer>

@@ -1,0 +1,88 @@
+{
+  "players": [
+    {
+      "photo": "agnaldo-nunes",
+      "shield": "cariri",
+      "name": "Agnaldo Nunes",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "alex-de-santana",
+      "shield": "gonzagao",
+      "name": "Alex de Santana",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "carlos-alberto",
+      "shield": "palmeiras",
+      "name": "Carlos Alberto",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "ellysson-medeiros",
+      "shield": "cariri",
+      "name": "Ellysson Medeiros",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "giovano-viana",
+      "shield": "sao-paulo",
+      "name": "Giovano Viana",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "gustavo-cunha",
+      "shield": "camaroes",
+      "name": "Gustavo Cunha",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "gustavo-porto",
+      "shield": "macedao",
+      "name": "Gustavo Porto",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "jailson-sampaio",
+      "shield": "palmeiras",
+      "name": "Jailson Sampaio",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "jonas-silva",
+      "shield": "palmeiras",
+      "name": "Jonas Silva",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "jotailton",
+      "shield": "camaroes",
+      "name": "Jotailton",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "marcio-araujo",
+      "shield": "palmeiras",
+      "name": "Márcio Araújo",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "tallison",
+      "shield": "palmeiras",
+      "name": "Tállison",
+      "position": "",
+      "goals": "1"
+    }
+  ]
+}

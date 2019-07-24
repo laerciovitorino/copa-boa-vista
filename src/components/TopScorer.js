@@ -1,6 +1,7 @@
 import React from 'react';
 
-import * as Scorers from '../resources/data/topScorers.json';
+import * as ScorersAspirants from '../resources/data/topScorersAspirants.json';
+import * as ScorersTitulars from '../resources/data/topScorersTitulars.json';
 
 export default class TopScorer extends React.Component {
   // fazer a função que irá calcular as posições dos artilheiros
@@ -12,12 +13,12 @@ export default class TopScorer extends React.Component {
           <span className="scorers__subtitle__player">Classificação</span>
           <span className="scorers__subtitle__goals">Gols</span>
         </div>
-        <ul className="list-group list-group-flush scorers">
-          {1 === 0 && Object.values(Scorers)[0].map((scorer) => (
+        {this.props.displayTitular && <ul className="list-group list-group-flush scorers">
+          {Object.values(ScorersTitulars)[0].map((scorer) => (
             <li className="list-group-item" key={scorer["name"]}>
               <span>{1}</span>
-              <span><img src={require('../resources/images/logos/' + scorer["photo"])} className="scorers__photo" /></span>
-              <span><img src={require('../resources/images/logos/' + scorer["shield"])} className="scorers__shield" /></span>
+              <span><img src={require('../resources/images/scorers/titulars/' + scorer["photo"] + '.jpg')} className="scorers__photo" /></span>
+              <span><img src={require('../resources/images/logos/' + scorer["shield"] + '.jpg')} className="scorers__shield" /></span>
               <div className="scorers__name_position">
                 <div className="scorers__name">{scorer["name"]}</div>
                 <div className="scorers__position">{scorer["position"]}</div>
@@ -25,7 +26,21 @@ export default class TopScorer extends React.Component {
               <span className="scorers_goals">{scorer["goals"]}</span>
             </li>
           ))}
-        </ul>
+        </ul>}
+        {this.props.displayAspirant && <ul className="list-group list-group-flush scorers">
+          {Object.values(ScorersAspirants)[0].map((scorer) => (
+            <li className="list-group-item" key={scorer["name"]}>
+              <span>{1}</span>
+              <span><img src={require('../resources/images/scorers/aspirants/' + scorer["photo"] + '.jpg')} className="scorers__photo" /></span>
+              <span><img src={require('../resources/images/logos/' + scorer["shield"] + '.jpg')} className="scorers__shield" /></span>
+              <div className="scorers__name_position">
+                <div className="scorers__name">{scorer["name"]}</div>
+                <div className="scorers__position">{scorer["position"]}</div>
+              </div>
+              <span className="scorers_goals">{scorer["goals"]}</span>
+            </li>
+          ))}
+        </ul>}
       </div>
     );
   }
