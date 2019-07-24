@@ -4,7 +4,34 @@ import * as ScorersAspirants from '../resources/data/topScorersAspirants.json';
 import * as ScorersTitulars from '../resources/data/topScorersTitulars.json';
 
 export default class TopScorer extends React.Component {
-  // fazer a função que irá calcular as posições dos artilheiros
+  calculateScorersOrder = (topScorers) => {
+    const scorersOrdered = [];
+    topScorers.map((scorer, index) => {
+      if (scorersOrdered.length === 0) {
+        scorersOrdered.push(scorer);
+      } else {
+        let position = 0;
+        scorersOrdered.map((orderedScorer, subindex) => {
+          if (scorer["goals"] >= orderedScorer["goals"]) {
+            if (scorer["goals"] > orderedScorer["goals"]) {
+              position = subindex > position ? position: subindex;
+            } else {
+              if (scorer["name"] < orderedScorer["name"]) {
+                position = subindex > position ? position: subindex;
+              } else {
+                position = subindex > position ? position : subindex + 1;
+              }
+            }
+          } else {
+            position = subindex + 1;
+          }
+        });
+        scorersOrdered.splice(position, 0, scorer);
+      }
+    });
+    return scorersOrdered;
+  }
+
   render() {
     return (
       <div>
@@ -14,9 +41,9 @@ export default class TopScorer extends React.Component {
           <span className="scorers__subtitle__goals">Gols</span>
         </div>
         {this.props.displayTitular && <ul className="list-group list-group-flush scorers">
-          {Object.values(ScorersTitulars)[0].map((scorer) => (
+          {this.calculateScorersOrder(Object.values(ScorersTitulars)[0]).map((scorer, index) => (
             <li className="list-group-item" key={scorer["name"]}>
-              <span>{1}</span>
+              <span className="ranking">{scorer}</span>
               <span><img src={require('../resources/images/scorers/titulars/' + scorer["photo"] + '.jpg')} className="scorers__photo" /></span>
               <span><img src={require('../resources/images/logos/' + scorer["shield"] + '.jpg')} className="scorers__shield" /></span>
               <div className="scorers__name_position">
@@ -28,7 +55,7 @@ export default class TopScorer extends React.Component {
           ))}
         </ul>}
         {this.props.displayAspirant && <ul className="list-group list-group-flush scorers">
-          {Object.values(ScorersAspirants)[0].map((scorer) => (
+          {this.calculateScorersOrder(Object.values(ScorersAspirants)[0]).map((scorer) => (
             <li className="list-group-item" key={scorer["name"]}>
               <span>{1}</span>
               <span><img src={require('../resources/images/scorers/aspirants/' + scorer["photo"] + '.jpg')} className="scorers__photo" /></span>
