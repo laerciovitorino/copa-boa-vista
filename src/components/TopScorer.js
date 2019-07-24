@@ -32,6 +32,31 @@ export default class TopScorer extends React.Component {
     return scorersOrdered;
   }
 
+  groupRanking = (topScorers) => {
+    const scorersOrdered = this.calculateScorersOrder(topScorers);
+    let scorersGrouped = [];
+    let ranking = 1;
+    let index = 0
+
+    scorersOrdered.map((scorer) => {
+      if (scorersGrouped.length === 0) {
+        scorer.ranking = ranking;
+        scorersGrouped.push(scorer);
+        index += 1;
+      } else {
+        if (scorer["goals"] === scorersGrouped[index - 1]["goals"]) {
+          scorersGrouped.push(scorer);
+          index += 1;
+        } else {
+          scorer.ranking = ++ranking;
+          scorersGrouped.push(scorer);
+          index += 1;
+        }
+      }
+    });
+    return scorersGrouped;
+  }
+
   render() {
     return (
       <div>
@@ -41,10 +66,18 @@ export default class TopScorer extends React.Component {
           <span className="scorers__subtitle__goals">Gols</span>
         </div>
         {this.props.displayTitular && <ul className="list-group list-group-flush scorers">
-          {this.calculateScorersOrder(Object.values(ScorersTitulars)[0]).map((scorer, index) => (
+          {this.groupRanking(Object.values(ScorersTitulars)[0]).map((scorer) => (
             <li className="list-group-item" key={scorer["name"]}>
-              <span className="ranking">{scorer}</span>
-              <span><img src={require('../resources/images/scorers/titulars/' + scorer["photo"] + '.jpg')} className="scorers__photo" /></span>
+              <span className="ranking">{scorer["ranking"]}</span>
+              {
+                scorer["ranking"] ?
+                <span>
+                  <img src={require('../resources/images/scorers/titulars/' + scorer["photo"] + '.jpg')} className="scorers__photo" />
+                </span> :
+                <span>
+                  <img src={require('../resources/images/scorers/titulars/' + scorer["photo"] + '.jpg')} className="scorers__photo-empty" />
+                </span>
+              }
               <span><img src={require('../resources/images/logos/' + scorer["shield"] + '.jpg')} className="scorers__shield" /></span>
               <div className="scorers__name_position">
                 <div className="scorers__name">{scorer["name"]}</div>
@@ -55,10 +88,18 @@ export default class TopScorer extends React.Component {
           ))}
         </ul>}
         {this.props.displayAspirant && <ul className="list-group list-group-flush scorers">
-          {this.calculateScorersOrder(Object.values(ScorersAspirants)[0]).map((scorer) => (
+          {this.groupRanking(Object.values(ScorersAspirants)[0]).map((scorer) => (
             <li className="list-group-item" key={scorer["name"]}>
-              <span>{1}</span>
-              <span><img src={require('../resources/images/scorers/aspirants/' + scorer["photo"] + '.jpg')} className="scorers__photo" /></span>
+              <span className="ranking">{scorer["ranking"]}</span>
+              {
+                scorer["ranking"] ?
+                <span>
+                  <img src={require('../resources/images/scorers/aspirants/' + scorer["photo"] + '.jpg')} className="scorers__photo" />
+                </span> :
+                <span>
+                  <img src={require('../resources/images/scorers/aspirants/' + scorer["photo"] + '.jpg')} className="scorers__photo-empty" />
+                </span>
+              }
               <span><img src={require('../resources/images/logos/' + scorer["shield"] + '.jpg')} className="scorers__shield" /></span>
               <div className="scorers__name_position">
                 <div className="scorers__name">{scorer["name"]}</div>
