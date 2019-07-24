@@ -58,7 +58,7 @@
   ],
   "round_2": [
     {
-      "date": "21/07/2019",
+      "date": "28/07/2019",
       "location": "BOA VISTA",
       "time": "10:45",
       "team_1": "macedao",
@@ -69,7 +69,7 @@
       "score_team_2": -1
     },
     {
-      "date": "21/07/2019",
+      "date": "28/07/2019",
       "location": "RIACHO FUNDO",
       "time": "15:45",
       "team_1": "gonzagao",
@@ -80,7 +80,7 @@
       "score_team_2": -1
     },
     {
-      "date": "21/07/2019",
+      "date": "28/07/2019",
       "location": "SANTA ROSA",
       "time": "15:45",
       "team_1": "camaroes",
@@ -91,7 +91,7 @@
       "score_team_2": -1
     },
     {
-      "date": "21/07/2019",
+      "date": "28/07/2019",
       "location": "BOA VISTA",
       "time": "15:45",
       "team_1": "sport",
@@ -102,7 +102,7 @@
       "score_team_2": -1
     },
     {
-      "date": "21/07/2019",
+      "date": "28/07/2019",
       "location": "MÔNICA",
       "time": "15:45",
       "team_1": "atletico",
@@ -115,7 +115,7 @@
   ],
   "round_3": [
     {
-      "date": "28/07/2019",
+      "date": "04/08/2019",
       "location": "BOA VISTA",
       "time": "15:45",
       "team_1": "sport",
@@ -126,7 +126,7 @@
       "score_team_2": -1
     },
     {
-      "date": "28/07/2019",
+      "date": "04/08/2019",
       "location": "MÔNICA",
       "time": "15:45",
       "team_1": "atletico",
@@ -137,7 +137,7 @@
       "score_team_2": -1
     },
     {
-      "date": "28/07/2019",
+      "date": "04/08/2019",
       "location": "CALUETE",
       "time": "15:45",
       "team_1": "sampaiao",
@@ -148,7 +148,7 @@
       "score_team_2": -1
     },
     {
-      "date": "28/07/2019",
+      "date": "04/08/2019",
       "location": "RIACHO FUNDO",
       "time": "15:45",
       "team_1": "gonzagao",
@@ -159,7 +159,7 @@
       "score_team_2": -1
     },
     {
-      "date": "28/07/2019",
+      "date": "04/08/2019",
       "location": "MALHADINHA",
       "time": "15:45",
       "team_1": "alvorada",
@@ -172,7 +172,7 @@
   ],
   "round_4": [
     {
-      "date": "04/08/2019",
+      "date": "11/08/2019",
       "location": "CALUETE",
       "time": "15:45",
       "team_1": "palmeiras",
@@ -183,7 +183,7 @@
       "score_team_2": -1
     },
     {
-      "date": "04/08/2019",
+      "date": "11/08/2019",
       "location": "BOA VISTA",
       "time": "10:45",
       "team_1": "internacional",
@@ -194,7 +194,7 @@
       "score_team_2": -1
     },
     {
-      "date": "04/08/2019",
+      "date": "11/08/2019",
       "location": "SÃO PEDRO",
       "time": "15:45",
       "team_1": "cariri",
@@ -205,7 +205,7 @@
       "score_team_2": -1
     },
     {
-      "date": "04/08/2019",
+      "date": "11/08/2019",
       "location": "BOA VISTA",
       "time": "15:45",
       "team_1": "macedao",
@@ -216,7 +216,7 @@
       "score_team_2": -1
     },
     {
-      "date": "04/08/2019",
+      "date": "11/08/2019",
       "location": "SANTA ROSA",
       "time": "15:45",
       "team_1": "camaroes",
@@ -229,7 +229,7 @@
   ],
   "round_5": [
     {
-      "date": "11/08/2019",
+      "date": "18/08/2019",
       "location": "SÃO PEDRO",
       "time": "15:45",
       "team_1": "cariri",
@@ -240,7 +240,7 @@
       "score_team_2": -1
     },
     {
-      "date": "11/08/2019",
+      "date": "18/08/2019",
       "location": "BOA VISTA",
       "time": "15:45",
       "team_1": "internacional",
@@ -251,7 +251,7 @@
       "score_team_2": -1
     },
     {
-      "date": "11/08/2019",
+      "date": "18/08/2019",
       "location": "MALHADINHA",
       "time": "15:45",
       "team_1": "alvorada",
@@ -262,7 +262,7 @@
       "score_team_2": -1
     },
     {
-      "date": "11/08/2019",
+      "date": "18/08/2019",
       "location": "CACIMBA NOVA",
       "time": "15:45",
       "team_1": "sao-paulo",
@@ -273,7 +273,7 @@
       "score_team_2": -1
     },
     {
-      "date": "11/08/2019",
+      "date": "18/08/2019",
       "location": "RIACHO FUNDO",
       "time": "15:45",
       "team_1": "gonzagao",
@@ -286,7 +286,7 @@
   ],
   "round_6": [
     {
-      "date": "18/08/2019",
+      "date": "25/08/2019",
       "location": "CALUETE",
       "time": "15:45",
       "team_1": "sampaiao",
@@ -297,7 +297,7 @@
       "score_team_2": -1
     },
     {
-      "date": "18/08/2019",
+      "date": "25/08/2019",
       "location": "CALUETE",
       "time": "15:45",
       "team_1": "palmeiras",
@@ -308,7 +308,7 @@
       "score_team_2": -1
     },
     {
-      "date": "18/08/2019",
+      "date": "25/08/2019",
       "location": "MÔNICA",
       "time": "15:45",
       "team_1": "atletico",
@@ -319,7 +319,7 @@
       "score_team_2": -1
     },
     {
-      "date": "18/08/2019",
+      "date": "25/08/2019",
       "location": "SANTA ROSA",
       "time": "15:45",
       "team_1": "camaroes",
@@ -330,7 +330,7 @@
       "score_team_2": -1
     },
     {
-      "date": "18/08/2019",
+      "date": "25/08/2019",
       "location": "MALHADINHA",
       "time": "15:45",
       "team_1": "alvorada",
@@ -343,7 +343,7 @@
   ],
   "round_7": [
     {
-      "date": "25/08/2019",
+      "date": "01/09/2019",
       "location": "BOA VISTA",
       "time": "15:45",
       "team_1": "macedao",
@@ -354,7 +354,7 @@
       "score_team_2": -1
     },
     {
-      "date": "25/08/2019",
+      "date": "01/09/2019",
       "location": "SÃO PEDRO",
       "time": "15:45",
       "team_1": "cariri",
@@ -365,7 +365,7 @@
       "score_team_2": -1
     },
     {
-      "date": "25/08/2019",
+      "date": "01/09/2019",
       "location": "CALUETE",
       "time": "15:45",
       "team_1": "sampaiao",
@@ -376,7 +376,7 @@
       "score_team_2": -1
     },
     {
-      "date": "25/08/2019",
+      "date": "01/09/2019",
       "location": "CACIMBA NOVA",
       "time": "15:45",
       "team_1": "sao-paulo",
@@ -387,7 +387,7 @@
       "score_team_2": -1
     },
     {
-      "date": "25/08/2019",
+      "date": "01/09/2019",
       "location": "MÔNICA",
       "time": "15:45",
       "team_1": "atletico",
@@ -400,7 +400,7 @@
   ],
   "round_8": [
     {
-      "date": "01/09/2019",
+      "date": "08/09/2019",
       "location": "BOA VISTA",
       "time": "15:45",
       "team_1": "internacional",
@@ -411,7 +411,7 @@
       "score_team_2": -1
     },
     {
-      "date": "01/09/2019",
+      "date": "08/09/2019",
       "location": "BOA VISTA",
       "time": "10:45",
       "team_1": "macedao",
@@ -422,7 +422,7 @@
       "score_team_2": -1
     },
     {
-      "date": "01/09/2019",
+      "date": "08/09/2019",
       "location": "SANTA ROSA",
       "time": "15:45",
       "team_1": "camaroes",
@@ -433,7 +433,7 @@
       "score_team_2": -1
     },
     {
-      "date": "01/09/2019",
+      "date": "08/09/2019",
       "location": "SÃO PEDRO",
       "time": "15:45",
       "team_1": "cariri",
@@ -444,7 +444,7 @@
       "score_team_2": -1
     },
     {
-      "date": "01/09/2019",
+      "date": "08/09/2019",
       "location": "RIACHO FUNDO",
       "time": "15:45",
       "team_1": "gonzagao",
@@ -457,7 +457,7 @@
   ],
   "round_9": [
     {
-      "date": "08/09/2019",
+      "date": "22/09/2019",
       "location": "CACIMBA NOVA",
       "time": "15:45",
       "team_1": "sao-paulo",
@@ -468,7 +468,7 @@
       "score_team_2": -1
     },
     {
-      "date": "08/09/2019",
+      "date": "22/09/2019",
       "location": "CALUETE",
       "time": "15:45",
       "team_1": "palmeiras",
@@ -479,7 +479,7 @@
       "score_team_2": -1
     },
     {
-      "date": "08/09/2019",
+      "date": "22/09/2019",
       "location": "SANTA ROSA",
       "time": "15:45",
       "team_1": "camaroes",
@@ -490,7 +490,7 @@
       "score_team_2": -1
     },
     {
-      "date": "08/09/2019",
+      "date": "22/09/2019",
       "location": "MALHADINHA",
       "time": "15:45",
       "team_1": "alvorada",
@@ -501,7 +501,7 @@
       "score_team_2": -1
     },
     {
-      "date": "08/09/2019",
+      "date": "22/09/2019",
       "location": "BOA VISTA",
       "time": "15:45",
       "team_1": "sport",
@@ -514,7 +514,7 @@
   ],
   "round_10": [
     {
-      "date": "22/09/2019",
+      "date": "29/09/2019",
       "location": "BOA VISTA",
       "time": "15:45",
       "team_1": "internacional",
@@ -525,7 +525,7 @@
       "score_team_2": -1
     },
     {
-      "date": "22/09/2019",
+      "date": "29/09/2019",
       "location": "CALUETE",
       "time": "15:45",
       "team_1": "palmeiras",
@@ -536,7 +536,7 @@
       "score_team_2": -1
     },
     {
-      "date": "22/09/2019",
+      "date": "29/09/2019",
       "location": "MALHADINHA",
       "time": "15:45",
       "team_1": "alvorada",
@@ -547,7 +547,7 @@
       "score_team_2": -1
     },
     {
-      "date": "22/09/2019",
+      "date": "29/09/2019",
       "location": "CACIMBA NOVA",
       "time": "15:45",
       "team_1": "sao-paulo",
@@ -558,7 +558,7 @@
       "score_team_2": -1
     },
     {
-      "date": "22/09/2019",
+      "date": "29/09/2019",
       "location": "SÃO PEDRO",
       "time": "15:45",
       "team_1": "cariri",
@@ -571,7 +571,7 @@
   ],
   "round_11": [
     {
-      "date": "29/09/2019",
+      "date": "06/10/2019",
       "location": "BOA VISTA",
       "time": "15:45",
       "team_1": "sport",
@@ -582,7 +582,7 @@
       "score_team_2": -1
     },
     {
-      "date": "29/09/2019",
+      "date": "06/10/2019",
       "location": "BOA VISTA",
       "time": "10:45",
       "team_1": "macedao",
@@ -593,7 +593,7 @@
       "score_team_2": -1
     },
     {
-      "date": "29/09/2019",
+      "date": "06/10/2019",
       "location": "RIACHO FUNDO",
       "time": "15:45",
       "team_1": "gonzagao",
@@ -604,7 +604,7 @@
       "score_team_2": -1
     },
     {
-      "date": "29/09/2019",
+      "date": "06/10/2019",
       "location": "MÔNICA",
       "time": "15:45",
       "team_1": "atletico",
@@ -615,7 +615,7 @@
       "score_team_2": -1
     },
     {
-      "date": "29/09/2019",
+      "date": "06/10/2019",
       "location": "SANTA ROSA",
       "time": "15:45",
       "team_1": "camaroes",
