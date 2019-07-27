@@ -221,7 +221,11 @@ export default class Table extends React.Component {
                     <span className="position" style={{color: "blue"}}>{index + 1}</span> :
                     <span className="position">{index + 1}</span>
                   }
-                  {this.state.names[result[9]]}
+                  {
+                    index < 9 ?
+                    <span className="ranking-align">{this.state.names[result[9]]}</span> :
+                    <span>{this.state.names[result[9]]}</span>
+                  }
                 </td>
                 <td>{result[0]}</td>
                 <td>{result[1]}</td>
@@ -260,7 +264,11 @@ export default class Table extends React.Component {
                     <span className="position" style={{color: "blue"}}>{index + 1}</span> :
                     <span className="position">{index + 1}</span>
                   }
-                  {this.state.names[result[9]]}
+                  {
+                    index < 9 ?
+                    <span className="ranking-align">{this.state.names[result[9]]}</span> :
+                    <span>{this.state.names[result[9]]}</span>
+                  }
                 </td>
                 <td>{result[0]}</td>
                 <td>{result[1]}</td>

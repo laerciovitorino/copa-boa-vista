@@ -127,7 +127,8 @@ const RegulationModal = (props) => (
     jogadores que não tenham TÍTULO ELEITORAL da cidade de Boa Vista, no quadro TITULAR. Data-base
     para este direito é o título esteja com data de emissão até 31/12/2016, e quem transferiu o título eleitoral após
     esta data, será considerado jogador não eleitor de Boa Vista. O jogador que transgredir esta norma, será
-    automaticamente eliminado.</p>
+    automaticamente eliminado. Como não houve campeonato em 2018, este ano temos jogadores ou equipes punido(s) ou
+    punida(s), para esta competição de 2019.</p>
     <p>Art. 25 – Somente será permitida a inscrição de atletas até a QUINTA rodada do evento, e o atleta que se
     inscrever em uma equipe, depois de regularizado, não poderá ser regularizado por outra equipe, mesmo que
     ainda não tenha jogado pela equipe anterior. A regularização de atletas, será feita de segunda-feira até o sábado.
