@@ -57,57 +57,55 @@ export default class Table extends React.Component {
             if (match["score_team_1"] > match["score_team_2"]) {
               // team_1 results
               results[match["team_1"]][0] += 3;
-              results[match["team_1"]][1] += index + 1;
+              results[match["team_1"]][1] += 1;
               results[match["team_1"]][2] += 1;
               results[match["team_1"]][5] += match["score_team_1"];
               results[match["team_1"]][6] += match["score_team_2"];
-              results[match["team_1"]][7] += results[match["team_1"]][5] - results[match["team_1"]][6];
+              results[match["team_1"]][7] += match["score_team_1"] - match["score_team_2"];
               results[match["team_1"]][8] = ((results[match["team_1"]][0] / ((index + 1) * 3)) * 100).toFixed(1);
   
               // team_2 results
               results[match["team_2"]][0] += 0;
-              results[match["team_2"]][1] += index + 1;
+              results[match["team_2"]][1] += 1;
               results[match["team_2"]][4] += 1;
               results[match["team_2"]][5] += match["score_team_2"];
               results[match["team_2"]][6] += match["score_team_1"];
-              results[match["team_2"]][7] += results[match["team_2"]][5] - results[match["team_2"]][6];
+              results[match["team_2"]][7] += match["score_team_2"] - match["score_team_1"];
               results[match["team_2"]][8] = ((results[match["team_2"]][0] / ((index + 1) * 3)) * 100).toFixed(1);
   
             } else if (match["score_team_1"] === match["score_team_2"]) {
               // team_1 results
               results[match["team_1"]][0] += 1;
-              results[match["team_1"]][1] += index + 1;
+              results[match["team_1"]][1] += 1;
               results[match["team_1"]][3] += 1;
               results[match["team_1"]][5] += match["score_team_1"];
               results[match["team_1"]][6] += match["score_team_2"];
-              results[match["team_1"]][7] += results[match["team_1"]][5] - results[match["team_1"]][6];
               results[match["team_1"]][8] = ((results[match["team_1"]][0] / ((index + 1) * 3)) * 100).toFixed(1);
   
               // team_2 results
               results[match["team_2"]][0] += 1;
-              results[match["team_2"]][1] += index + 1;
+              results[match["team_2"]][1] += 1;
               results[match["team_2"]][3] += 1;
               results[match["team_2"]][5] += match["score_team_2"];
               results[match["team_2"]][6] += match["score_team_1"];
-              results[match["team_2"]][7] += results[match["team_2"]][5] - results[match["team_2"]][6];
               results[match["team_2"]][8] = ((results[match["team_2"]][0] / ((index + 1) * 3)) * 100).toFixed(1);
             } else {
               // team_1 results
               results[match["team_1"]][0] += 0;
-              results[match["team_1"]][1] += index + 1;
+              results[match["team_1"]][1] += 1;
               results[match["team_1"]][4] += 1;
               results[match["team_1"]][5] += match["score_team_1"];
               results[match["team_1"]][6] += match["score_team_2"];
-              results[match["team_1"]][7] += results[match["team_1"]][5] - results[match["team_1"]][6];
+              results[match["team_1"]][7] += match["score_team_1"] - match["score_team_2"];
               results[match["team_1"]][8] = ((results[match["team_1"]][0] / ((index + 1) * 3)) * 100).toFixed(1);
   
               // team_2 results
               results[match["team_2"]][0] += 3;
-              results[match["team_2"]][1] += index + 1;
+              results[match["team_2"]][1] += 1;
               results[match["team_2"]][2] += 1;
               results[match["team_2"]][5] += match["score_team_2"];
               results[match["team_2"]][6] += match["score_team_1"];
-              results[match["team_2"]][7] += results[match["team_2"]][5] - results[match["team_2"]][6];
+              results[match["team_2"]][7] += match["score_team_2"] - match["score_team_1"];
               results[match["team_2"]][8] = ((results[match["team_2"]][0] / ((index + 1) * 3)) * 100).toFixed(1);
             }
           }
