@@ -227,7 +227,7 @@ export default class Table extends React.Component {
                     <span>{this.state.names[result[9]]}</span>
                   }
                 </td>
-                <td>{result[0]}</td>
+                <td style={{fontWeight: "bold"}}>{result[0]}</td>
                 <td>{result[1]}</td>
                 <td>{result[2]}</td>
                 <td>{result[3]}</td>
@@ -270,7 +270,7 @@ export default class Table extends React.Component {
                     <span>{this.state.names[result[9]]}</span>
                   }
                 </td>
-                <td>{result[0]}</td>
+                <td style={{fontWeight: "bold"}}>{result[0]}</td>
                 <td>{result[1]}</td>
                 <td>{result[2]}</td>
                 <td>{result[3]}</td>
