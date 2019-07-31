@@ -13,6 +13,13 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 1199px) {
+  .col-md-auto {
+    margin: 0 0 0 5rem;
+    width: 27rem;
+  }
+}
+
 @media only screen and (max-width: 991px) {
   .col-md-8 {
     margin: 0 5rem;

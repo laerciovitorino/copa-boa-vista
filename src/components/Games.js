@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default class Games extends React.Component {
   state = {
     rounds: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
-    selectedRound: 2
+    selectedRound: 3
   }
 
   handleRoundRight = (e) => {
@@ -34,7 +34,7 @@ export default class Games extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="games_col">
         <h2 className="games__title">Jogos</h2>
         <nav aria-label="Page navigation example" className="games">
           <ul className="pagination d-flex justify-content-between">
