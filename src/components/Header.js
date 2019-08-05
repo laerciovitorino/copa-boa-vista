@@ -34,6 +34,9 @@ export default class Header extends React.Component {
                 />
                   Regulamento
               </a>
+              <a className="dropdown-item header__menu__item" href="https://drive.google.com/open?id=1wX87YCYy9x-WSO2g63GkpdXF4fLEK6g5lRmAxSDddW4" target="_blank">
+                Súmulas
+              </a>
             </div>
           </li>
           <li className="header__menu-options">
@@ -43,6 +46,9 @@ export default class Header extends React.Component {
                 handleClose={this.hideRegulationModal}
               />
               <button className="header__button">Regulamento</button>
+            </a>
+            <a className="header__menu-item" href="https://drive.google.com/open?id=1wX87YCYy9x-WSO2g63GkpdXF4fLEK6g5lRmAxSDddW4">
+              <button className="header__button">Súmulas</button>
             </a>
           </li>
         </ul>

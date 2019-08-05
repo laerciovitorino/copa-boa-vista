@@ -105,13 +105,13 @@ a.nav-link {
   }
 
   .header__menu-options {
-    display: block;
+    display: flex;
     a {
       color: white;
-      font-size: 2rem;
-      display: inline-block;
-      margin: 1rem 13rem;
-      align-items: center;
+      display: inline;
+      font-size: 1.8rem;
+      justify-content: space-around;
+      margin: 1rem 3.2rem;
       text-decoration: none;
     }
   }
@@ -124,15 +124,19 @@ a.nav-link {
   }
 
   .header__menu-options {
-    display: block;
+    display: flex;
     a {
       color: white;
-      font-size: 2rem;
-      display: inline-block;
-      margin: 1rem 11rem;
-      align-items: center;
+      display: inline;
+      font-size: 1.5rem;
+      justify-content: space-between;
+      margin: 1rem 3.2rem;
       text-decoration: none;
     }
+  }
+
+  .header__button {
+    width: 12rem;
   }
 }
 
@@ -142,14 +146,18 @@ a.nav-link {
   }
 
   .header__menu-options {
-    display: block;
+    display: flex;
     a {
       color: white;
-      font-size: 1.6rem;
-      display: inline-block;
-      margin: 1rem 9rem;
-      align-items: center;
+      display: inline;
+      font-size: 1.5rem;
+      justify-content: space-between;
+      margin: 1rem 2.6rem;
       text-decoration: none;
     }
+  }
+
+  .header__button {
+    width: 10.5rem;
   }
 }

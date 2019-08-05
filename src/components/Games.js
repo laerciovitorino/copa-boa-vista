@@ -2,7 +2,7 @@ import React from 'react';
 
 import * as aspirantRounds from '../resources/data/aspirantRounds.json';
 import * as titularRounds from '../resources/data/titularRounds.json';
-import SummaryModal from './SummaryModal';
+import Match from './Match';
 
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,8 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default class Games extends React.Component {
   state = {
     rounds: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
-    selectedRound: 3,
-    displaySummaryModal: false
+    selectedRound: 3
   }
 
   handleRoundRight = (e) => {
@@ -32,16 +31,6 @@ export default class Games extends React.Component {
         selectedRound: this.state.rounds[roundLeft-1]
       }
     });
-  }
-
-  showSummaryModal = (e) => {
-    e.preventDefault();
-    this.setState({ displaySummaryModal: true });
-  };
-
-  hideSummaryModal = (e) => {
-    e.preventDefault();
-    this.setState({ displaySummaryModal: false })
   }
 
   render() {
@@ -74,56 +63,14 @@ export default class Games extends React.Component {
         {this.props.displayTitular && Object.values(titularRounds)[this.state.selectedRound-1].map((round) => (
           <ul className="list-group list-group-flush" key={Math.random()}>
             <li className="list-group-item">
-              <div className="list-group-item__location d-flex justify-content-center">
-                <span><strong>{round["date"]}</strong> {round["location"]} <strong>{round["time"]}</strong></span>
-              </div>
-              <div className="match d-flex justify-content-between">
-                <span>{round["team_1_short"]}
-                  <img src={require('../resources/images/logos/' + round["team_1"] + '.jpg')} className="logo-left" />
-                </span>
-                {round["score_team_1"] > -1 || round["score_team_2"] > -1 ?
-                  <span>
-                    {<strong>{round["score_team_1"]}</strong>}
-                    <span className="games__delimiter">X</span>
-                    {<strong>{round["score_team_2"]}</strong>}
-                  </span> :
-                  <span>
-                    <span className="empty-score"></span>
-                    <span className="games__delimiter">X</span>
-                    <span className="empty-score"></span>
-                  </span>
-                }
-                <span>
-                  <img src={require('../resources/images/logos/' + round["team_2"] + '.jpg')} className="logo-right" />{round["team_2_short"]}
-                </span>
-              </div>
+              <Match round={round} />
             </li>
           </ul>
         ))}
         {this.props.displayAspirant && Object.values(aspirantRounds)[this.state.selectedRound-1].map((round) => (
           <ul className="list-group list-group-flush" key={Math.random()}>
             <li className="list-group-item">
-              <div className="list-group-item__location d-flex justify-content-center">
-                <span><strong>{round["date"]}</strong> {round["location"]} <strong>{round["time"]}</strong></span>
-              </div>
-              <div className="match d-flex justify-content-between">
-                <span>{round["team_1_short"]}
-                  <img src={require('../resources/images/logos/' + round["team_1"] + '.jpg')} className="logo-left" />
-                </span>
-                {round["score_team_1"] > -1 || round["score_team_2"] > -1 ?
-                  <span>
-                    {<strong>{round["score_team_1"]}</strong>}
-                    <span className="games__delimiter">X</span>
-                    {<strong>{round["score_team_2"]}</strong>}
-                  </span> :
-                  <span>
-                    <span className="empty-score"></span>
-                    <span className="games__delimiter">X</span>
-                    <span className="empty-score"></span>
-                  </span>
-                }
-                <span><img src={require('../resources/images/logos/' + round["team_2"] + '.jpg')} className="logo-right" />{round["team_2_short"]}</span>
-              </div>
+              <Match round={round} />
             </li>
           </ul>
         ))}
