@@ -2,6 +2,7 @@ import React from 'react';
 
 import * as aspirantRounds from '../resources/data/aspirantRounds.json';
 import * as titularRounds from '../resources/data/titularRounds.json';
+import SummaryModal from './SummaryModal';
 
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,7 +10,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default class Games extends React.Component {
   state = {
     rounds: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
-    selectedRound: 3
+    selectedRound: 3,
+    displaySummaryModal: false
   }
 
   handleRoundRight = (e) => {
@@ -30,6 +32,16 @@ export default class Games extends React.Component {
         selectedRound: this.state.rounds[roundLeft-1]
       }
     });
+  }
+
+  showSummaryModal = (e) => {
+    e.preventDefault();
+    this.setState({ displaySummaryModal: true });
+  };
+
+  hideSummaryModal = (e) => {
+    e.preventDefault();
+    this.setState({ displaySummaryModal: false })
   }
 
   render() {

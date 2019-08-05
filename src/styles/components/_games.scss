@@ -20,19 +20,19 @@
 
 .match {
   font-size: 2.5rem;
-  margin: 2rem 0 0 -.1rem;
+  margin: 1.5rem 0 .4rem -.1rem;
 }
 
 .logo-left {
   padding-left: 1rem;
   padding-right: 2rem;
-  width: 6rem;
+  width: 5.8rem;
 }
 
 .logo-right {
   padding-left: 2rem;
   padding-right: 1rem;
-  width: 6rem;
+  width: 5.8rem;
 }
 
 .games__delimiter {
@@ -43,6 +43,18 @@
 
 .empty-score {
   padding: 0 .6rem;
+}
+
+.summary {
+  font-size: 1.2rem;
+  margin-bottom: -2.9rem;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.summary a {
+  font-weight: bold;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1199px) {
