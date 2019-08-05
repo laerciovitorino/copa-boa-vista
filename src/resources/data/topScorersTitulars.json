@@ -22,11 +22,25 @@
       "goals": "2"
     },
     {
+      "photo": "antonio-junior",
+      "shield": "sport",
+      "name": "Antônio Júnior",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "emanoel-celestino",
       "shield": "internacional",
       "name": "Emanoel Celestino",
       "position": "",
       "goals": "1"
+    },
+    {
+      "photo": "genilson",
+      "shield": "palmeiras",
+      "name": "Genilson",
+      "position": "",
+      "goals": "2"
     },
     {
       "photo": "geovanni-valentim",
@@ -41,6 +55,13 @@
       "name": "Ives Enéas",
       "position": "",
       "goals": "1"
+    },
+    {
+      "photo": "jonailson",
+      "shield": "alvorada",
+      "name": "Jonailson",
+      "position": "",
+      "goals": "2"
     },
     {
       "photo": "jonilson-santos",
@@ -64,9 +85,30 @@
       "goals": "1"
     },
     {
+      "photo": "maecio-alves",
+      "shield": "sao-paulo",
+      "name": "Maécio Alves",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "mario",
+      "shield": "camaroes",
+      "name": "Mário",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "martiliano-da-silva",
       "shield": "sao-paulo",
       "name": "Martiliano da Silva",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "raiff",
+      "shield": "gonzagao",
+      "name": "Raiff",
       "position": "",
       "goals": "1"
     },

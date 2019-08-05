@@ -29,11 +29,18 @@
       "goals": "1"
     },
     {
+      "photo": "francisco-de-assis",
+      "shield": "atletico",
+      "name": "Francisco de Assis",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "giovano-viana",
       "shield": "sao-paulo",
       "name": "Giovano Viana",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "gustavo-cunha",
@@ -50,9 +57,23 @@
       "goals": "1"
     },
     {
+      "photo": "irenildo-sampaio",
+      "shield": "macedao",
+      "name": "Irenildo Sampaio",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "jailson-sampaio",
       "shield": "palmeiras",
       "name": "Jailson Sampaio",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "joao-paulo",
+      "shield": "sampaiao",
+      "name": "João Paulo",
       "position": "",
       "goals": "1"
     },
@@ -71,9 +92,30 @@
       "goals": "1"
     },
     {
+      "photo": "linique-herminio",
+      "shield": "cariri",
+      "name": "Línique Hermínio",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "marcio-araujo",
       "shield": "palmeiras",
       "name": "Márcio Araújo",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "martiliano-da-silva",
+      "shield": "sao-paulo",
+      "name": "Martiliano da Silva",
+      "position": "",
+      "goals": "2"
+    },
+    {
+      "photo": "naian",
+      "shield": "macedao",
+      "name": "Naian",
       "position": "",
       "goals": "1"
     },
