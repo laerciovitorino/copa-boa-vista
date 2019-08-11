@@ -1,11 +1,11 @@
 {
   "players": [
     {
-      "photo": "agnaldo-nunes",
+      "photo": "aguinaldo-nunes",
       "shield": "cariri",
-      "name": "Agnaldo Nunes",
+      "name": "Aguinaldo Nunes",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "alex-de-santana",
@@ -22,11 +22,18 @@
       "goals": "1"
     },
     {
+      "photo": "damiao__atletico",
+      "shield": "atletico",
+      "name": "Damião",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "ellysson-medeiros",
       "shield": "cariri",
       "name": "Ellysson Medeiros",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "francisco-de-assis",
@@ -36,11 +43,18 @@
       "goals": "1"
     },
     {
+      "photo": "gabriel__palmeiras",
+      "shield": "palmeiras",
+      "name": "Gabriel",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "giovano-viana",
       "shield": "sao-paulo",
       "name": "Giovano Viana",
       "position": "",
-      "goals": "2"
+      "goals": "3"
     },
     {
       "photo": "gustavo-cunha",
@@ -71,8 +85,15 @@
       "goals": "1"
     },
     {
-      "photo": "joao-paulo",
+      "photo": "joao-paulo__sampaiao",
       "shield": "sampaiao",
+      "name": "João Paulo",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "joao-paulo__sport",
+      "shield": "sport",
       "name": "João Paulo",
       "position": "",
       "goals": "1"
@@ -96,7 +117,7 @@
       "shield": "cariri",
       "name": "Línique Hermínio",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "marcio-araujo",

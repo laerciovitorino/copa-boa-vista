@@ -22,9 +22,23 @@
       "goals": "2"
     },
     {
+      "photo": "andre-de-farias__atletico",
+      "shield": "atletico",
+      "name": "André de Farias",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "antonio-junior",
       "shield": "sport",
       "name": "Antônio Júnior",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "clebson__internacional",
+      "shield": "internacional",
+      "name": "Clebson",
       "position": "",
       "goals": "1"
     },
@@ -36,16 +50,37 @@
       "goals": "1"
     },
     {
+      "photo": "emerson-lima__cariri",
+      "shield": "cariri",
+      "name": "Emerson Lima",
+      "position": "",
+      "goals": "2"
+    },
+    {
+      "photo": "feliciano__alvorada",
+      "shield": "alvorada",
+      "name": "Feliciano",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "genilson",
       "shield": "palmeiras",
       "name": "Genilson",
       "position": "",
-      "goals": "2"
+      "goals": "3"
     },
     {
       "photo": "geovanni-valentim",
       "shield": "palmeiras",
       "name": "Geovanni Valentim",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "gibson__gonzagao",
+      "shield": "gonzagao",
+      "name": "Gibson",
       "position": "",
       "goals": "1"
     },
@@ -69,6 +104,13 @@
       "name": "Jonilson Santos",
       "position": "",
       "goals": "2"
+    },
+    {
+      "photo": "jose-antonio__gonzagao",
+      "shield": "gonzagao",
+      "name": "José Antonio",
+      "position": "",
+      "goals": "1"
     },
     {
       "photo": "leonardo-monteiro",
@@ -113,9 +155,23 @@
       "goals": "1"
     },
     {
+      "photo": "renan__internacional",
+      "shield": "internacional",
+      "name": "Renan",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "rosinaldo-emiliano",
       "shield": "internacional",
       "name": "Rosinaldo Emiliano",
+      "position": "",
+      "goals": "2"
+    },
+    {
+      "photo": "vitor__atletico",
+      "shield": "atletico",
+      "name": "Vitor",
       "position": "",
       "goals": "1"
     }
