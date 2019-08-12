@@ -179,8 +179,8 @@
       "team_1_short": "PAL",
       "team_2": "sampaiao",
       "team_2_short": "SAM",
-      "score_team_1": -1,
-      "score_team_2": -1
+      "score_team_1": 0,
+      "score_team_2": 0
     },
     {
       "date": "11/08/2019",
@@ -201,8 +201,8 @@
       "team_1_short": "CAR",
       "team_2": "gonzagao",
       "team_2_short": "GON",
-      "score_team_1": -1,
-      "score_team_2": -1
+      "score_team_1": 1,
+      "score_team_2": 0
     },
     {
       "date": "11/08/2019",
@@ -212,8 +212,8 @@
       "team_1_short": "MAC",
       "team_2": "atletico",
       "team_2_short": "ATL",
-      "score_team_1": -1,
-      "score_team_2": -1
+      "score_team_1": 1,
+      "score_team_2": 1
     },
     {
       "date": "11/08/2019",
@@ -223,8 +223,8 @@
       "team_1_short": "CAM",
       "team_2": "sport",
       "team_2_short": "SPO",
-      "score_team_1": -1,
-      "score_team_2": -1
+      "score_team_1": 2,
+      "score_team_2": 0
     }
   ],
   "round_5": [
