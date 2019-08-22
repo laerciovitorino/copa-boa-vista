@@ -5,14 +5,14 @@
       "shield": "cariri",
       "name": "Alexsandro Araújo",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "alif-pinto",
       "shield": "palmeiras",
       "name": "Alif Pinto",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "allison-rodrigo",
@@ -36,9 +36,23 @@
       "goals": "1"
     },
     {
+      "photo": "antonio-marcos__atletico",
+      "shield": "atletico",
+      "name": "Antônio Marcos",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "clebson__internacional",
       "shield": "internacional",
       "name": "Clebson",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "diego-bezerra__atletico",
+      "shield": "atletico",
+      "name": "Diego Bezerra",
       "position": "",
       "goals": "1"
     },
@@ -48,6 +62,13 @@
       "name": "Emanoel Celestino",
       "position": "",
       "goals": "1"
+    },
+    {
+      "photo": "emanuel-messias__camaroes",
+      "shield": "camaroes",
+      "name": "Emanuel Messias",
+      "position": "",
+      "goals": "2"
     },
     {
       "photo": "emerson-lima__cariri",
@@ -60,6 +81,13 @@
       "photo": "feliciano__alvorada",
       "shield": "alvorada",
       "name": "Feliciano",
+      "position": "",
+      "goals": "2"
+    },
+    {
+      "photo": "fidelis__palmeiras",
+      "shield": "palmeiras",
+      "name": "Fidelis",
       "position": "",
       "goals": "1"
     },
@@ -82,21 +110,28 @@
       "shield": "gonzagao",
       "name": "Gibson",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "ives-eneas",
       "shield": "internacional",
       "name": "Ives Enéas",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
-      "photo": "jonailson",
+      "photo": "jonailson__alvorada",
       "shield": "alvorada",
       "name": "Jonailson",
       "position": "",
-      "goals": "2"
+      "goals": "3"
+    },
+    {
+      "photo": "jonathas__alvorada",
+      "shield": "alvorada",
+      "name": "Jonathas",
+      "position": "",
+      "goals": "1"
     },
     {
       "photo": "jonilson-santos",
@@ -108,7 +143,35 @@
     {
       "photo": "jose-antonio__gonzagao",
       "shield": "gonzagao",
-      "name": "José Antonio",
+      "name": "José Antônio",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "jose-carlos__atletico",
+      "shield": "atletico",
+      "name": "José Carlos",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "jose-edson__camaroes",
+      "shield": "camaroes",
+      "name": "José Edson",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "jose-franklin__camaroes",
+      "shield": "camaroes",
+      "name": "José Franklin",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "jose-iapuene__gonzagao",
+      "shield": "gonzagao",
+      "name": "José Iapuene",
       "position": "",
       "goals": "1"
     },
@@ -116,6 +179,20 @@
       "photo": "leonardo-monteiro",
       "shield": "internacional",
       "name": "Leonardo Monteiro",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "leonardo-sousa__internacional",
+      "shield": "internacional",
+      "name": "Leonardo Sousa",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "luan__macedao",
+      "shield": "macedao",
+      "name": "Luan",
       "position": "",
       "goals": "1"
     },
@@ -167,6 +244,13 @@
       "name": "Rosinaldo Emiliano",
       "position": "",
       "goals": "2"
+    },
+    {
+      "photo": "suelio__alvorada",
+      "shield": "alvorada",
+      "name": "Suélio",
+      "position": "",
+      "goals": "1"
     },
     {
       "photo": "vitor__atletico",
