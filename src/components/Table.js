@@ -121,6 +121,8 @@ export default class Table extends React.Component {
     let sortedResults = [];
     const teams = Object.keys(results);
 
+    console.log(teams);
+
     teams.map((team, index) => {
       let position = 0;
       if (sortedResults.length === 0) {
@@ -153,8 +155,12 @@ export default class Table extends React.Component {
                     position = subindex > position ? subindex : position + 1;
                   }
                 } else {
-                  
+                  if (subindex < position) {
+                    position = subindex;
+                  }
                 }
+              } else {
+                position = subindex > position ? subindex + 1 : position + 1;
               }
             } else {
               if (subindex < position) {
