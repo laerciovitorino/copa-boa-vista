@@ -138,7 +138,7 @@ const RegulationModal = (props) => (
     <p>Art. 26 – Os diretores ou responsáveis por suas equipes, ficarão obrigados, antes do início de cada partida,
     por ocasião da assinatura da súmula do jogo a apresentação ao árbitro do jogo, seus atletas munidos das carteiras
     de identificação de atletas. Para os analfabetos, o árbitro colocará o nome do mesmo em letra de imprensa. Poderá
-    participar da partida, quem chegar até o intervalo do 1º. Para o 2º. Tempo.</p>
+    participar da partida o jogador que assinar a súmula até o intervalo do 1º. para o 2º. Tempo.</p>
     <p>Art. 27 – As equipes inscritas no certame, poderão ter em seus quadros atletas de qualquer idade. Quanto aos
     atletas menores de 18(dezoito) anos, os dirigentes das equipes serão os responsáveis por quaisquer atos
     praticados por eles quando estejam acompanhando a equipe.</p>
