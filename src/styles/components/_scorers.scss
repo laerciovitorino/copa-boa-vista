@@ -130,6 +130,12 @@
   }
 }
 
+@media only screen and (max-width: 375px) {
+  .scorers__name {
+    font-size: 1.7rem;
+  }
+}
+
 @media only screen and (max-width: 320px) {
   .scorers__subtitle__player {
     padding-left: .1rem;

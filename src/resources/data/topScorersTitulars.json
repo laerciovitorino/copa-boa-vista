@@ -99,11 +99,11 @@
       "goals": "3"
     },
     {
-      "photo": "geovanni-valentim",
+      "photo": "geovanni-valentin__palmeiras",
       "shield": "palmeiras",
-      "name": "Geovanni Valentim",
+      "name": "Geovanni Valentin",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "gibson__gonzagao",
@@ -117,7 +117,21 @@
       "shield": "internacional",
       "name": "Ives Enéas",
       "position": "",
-      "goals": "2"
+      "goals": "3"
+    },
+    {
+      "photo": "jaelson-rodrigues__alvorada",
+      "shield": "alvorada",
+      "name": "Jaelson Rodrigues",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "jailton-gomes__gonzagao",
+      "shield": "gonzagao",
+      "name": "Jailton Gomes",
+      "position": "",
+      "goals": "1"
     },
     {
       "photo": "jonailson__alvorada",
@@ -127,11 +141,11 @@
       "goals": "3"
     },
     {
-      "photo": "jonathas__alvorada",
+      "photo": "jonathas-barbosa__alvorada",
       "shield": "alvorada",
-      "name": "Jonathas",
+      "name": "Jonathas Barbosa",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "jonilson-santos",
@@ -159,7 +173,7 @@
       "shield": "camaroes",
       "name": "José Edson",
       "position": "",
-      "goals": "1"
+      "goals": "3"
     },
     {
       "photo": "jose-franklin__camaroes",
@@ -225,11 +239,11 @@
       "goals": "1"
     },
     {
-      "photo": "raiff",
+      "photo": "raiff-lucena__gonzagao",
       "shield": "gonzagao",
-      "name": "Raiff",
+      "name": "Raiff Lucena",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "renan__internacional",
@@ -246,7 +260,14 @@
       "goals": "2"
     },
     {
-      "photo": "suelio__alvorada",
+      "photo": "ruan-jovem__macedao",
+      "shield": "macedao",
+      "name": "Ruan Jovem",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "suelio-de-moura__alvorada",
       "shield": "alvorada",
       "name": "Suélio",
       "position": "",

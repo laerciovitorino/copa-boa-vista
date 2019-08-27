@@ -12,12 +12,19 @@
       "shield": "cariri",
       "name": "Aguinaldo Nunes",
       "position": "",
-      "goals": "3"
+      "goals": "4"
     },
     {
       "photo": "alex-de-santana",
       "shield": "gonzagao",
       "name": "Alex de Santana",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "bertrand-porto__sampaiao",
+      "shield": "sampaiao",
+      "name": "Bertrand Porto",
       "position": "",
       "goals": "1"
     },
@@ -50,11 +57,25 @@
       "goals": "2"
     },
     {
+      "photo": "denerson-almeida__sao-paulo",
+      "shield": "sao-paulo",
+      "name": "Denerson Almeida",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "diego-almeida__sao-paulo",
+      "shield": "sao-paulo",
+      "name": "Diego Almeida",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "eduardo-lima__sampaiao",
       "shield": "sampaiao",
       "name": "Eduardo Lima",
       "position": "",
-      "goals": "2"
+      "goals": "4"
     },
     {
       "photo": "ellysson-medeiros",
@@ -109,6 +130,13 @@
       "photo": "idenilson-cavalcante__sampaiao",
       "shield": "sampaiao",
       "name": "Idenilson",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "igor-farias__sao-paulo",
+      "shield": "sao-paulo",
+      "name": "Igor Farias",
       "position": "",
       "goals": "1"
     },
@@ -169,6 +197,13 @@
       "goals": "1"
     },
     {
+      "photo": "jose-wilque__cariri",
+      "shield": "cariri",
+      "name": "José Wilque",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "jotailton__camaroes",
       "shield": "camaroes",
       "name": "Jotailton",
@@ -190,23 +225,30 @@
       "goals": "2"
     },
     {
-      "photo": "marcio-araujo",
+      "photo": "marcio-araujo__palmeiras",
       "shield": "palmeiras",
       "name": "Márcio Araújo",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "martiliano-da-silva__sao-paulo",
       "shield": "sao-paulo",
       "name": "Martiliano da Silva",
       "position": "",
-      "goals": "3"
+      "goals": "4"
     },
     {
       "photo": "naian",
       "shield": "macedao",
       "name": "Naian",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "suelio-de-moura__alvorada",
+      "shield": "alvorada",
+      "name": "Suélio",
       "position": "",
       "goals": "1"
     },
@@ -218,9 +260,23 @@
       "goals": "1"
     },
     {
+      "photo": "valdenir-mendes__atletico",
+      "shield": "atletico",
+      "name": "Valdenir Mendes",
+      "position": "",
+      "goals": "2"
+    },
+    {
       "photo": "valerio__sport",
       "shield": "sport",
       "name": "Valério",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "valfredo-gomes__internacional",
+      "shield": "internacional",
+      "name": "Valfredo Gomes",
       "position": "",
       "goals": "1"
     },
