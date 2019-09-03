@@ -40,7 +40,14 @@
       "shield": "atletico",
       "name": "Antônio Marcos",
       "position": "",
-      "goals": "1"
+      "goals": "2"
+    },
+    {
+      "photo": "arlan-pereira__sampaiao",
+      "shield": "sampaiao",
+      "name": "Arlan Pereira",
+      "position": "",
+      "goals": "2"
     },
     {
       "photo": "clebson__internacional",
@@ -54,7 +61,7 @@
       "shield": "atletico",
       "name": "Diego Bezerra",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "emanoel-celestino",
@@ -68,7 +75,7 @@
       "shield": "camaroes",
       "name": "Emanuel Messias",
       "position": "",
-      "goals": "2"
+      "goals": "3"
     },
     {
       "photo": "emerson-lima__cariri",
@@ -78,18 +85,11 @@
       "goals": "2"
     },
     {
-      "photo": "feliciano__alvorada",
+      "photo": "feliciano-oliveira__alvorada",
       "shield": "alvorada",
-      "name": "Feliciano",
+      "name": "Feliciano Oliveira",
       "position": "",
       "goals": "2"
-    },
-    {
-      "photo": "fidelis__palmeiras",
-      "shield": "palmeiras",
-      "name": "Fidelis",
-      "position": "",
-      "goals": "1"
     },
     {
       "photo": "genilson",
@@ -134,9 +134,9 @@
       "goals": "1"
     },
     {
-      "photo": "jonailson__alvorada",
+      "photo": "jonailson-gomes__alvorada",
       "shield": "alvorada",
-      "name": "Jonailson",
+      "name": "Jonailson Gomes",
       "position": "",
       "goals": "3"
     },
@@ -145,14 +145,14 @@
       "shield": "alvorada",
       "name": "Jonathas Barbosa",
       "position": "",
-      "goals": "2"
+      "goals": "3"
     },
     {
-      "photo": "jonilson-santos",
+      "photo": "jonilson-santos__sampaiao",
       "shield": "sampaiao",
       "name": "Jonilson Santos",
       "position": "",
-      "goals": "2"
+      "goals": "3"
     },
     {
       "photo": "jose-antonio__gonzagao",
@@ -176,6 +176,13 @@
       "goals": "3"
     },
     {
+      "photo": "jose-fidelis__palmeiras",
+      "shield": "palmeiras",
+      "name": "José Fidelis",
+      "position": "",
+      "goals": "2"
+    },
+    {
       "photo": "jose-franklin__camaroes",
       "shield": "camaroes",
       "name": "José Franklin",
@@ -186,6 +193,20 @@
       "photo": "jose-iapuene__gonzagao",
       "shield": "gonzagao",
       "name": "José Iapuene",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "jose-leandro__macedao",
+      "shield": "macedao",
+      "name": "José Leandro",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "leandro-gomes__alvorada",
+      "shield": "alvorada",
+      "name": "Leandro Gomes",
       "position": "",
       "goals": "1"
     },
@@ -204,11 +225,11 @@
       "goals": "1"
     },
     {
-      "photo": "luan__macedao",
+      "photo": "luan-pereira__macedao",
       "shield": "macedao",
-      "name": "Luan",
+      "name": "Luan Pereira",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "lucas-rafael",
@@ -218,11 +239,11 @@
       "goals": "1"
     },
     {
-      "photo": "maecio-alves",
+      "photo": "maecio-alves__sao-paulo",
       "shield": "sao-paulo",
       "name": "Maécio Alves",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "mario",
@@ -235,6 +256,13 @@
       "photo": "martiliano-da-silva",
       "shield": "sao-paulo",
       "name": "Martiliano da Silva",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "murilo-gomes__palmeiras",
+      "shield": "palmeiras",
+      "name": "Murilo Gomes",
       "position": "",
       "goals": "1"
     },
@@ -267,9 +295,9 @@
       "goals": "1"
     },
     {
-      "photo": "suelio-de-moura__alvorada",
+      "photo": "suelio-oliveira__alvorada",
       "shield": "alvorada",
-      "name": "Suélio",
+      "name": "Suélio Oliveira",
       "position": "",
       "goals": "1"
     },

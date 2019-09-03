@@ -50,9 +50,9 @@
       "goals": "2"
     },
     {
-      "photo": "damiao__atletico",
+      "photo": "damiao-soares__atletico",
       "shield": "atletico",
-      "name": "Damião",
+      "name": "Damião Soares",
       "position": "",
       "goals": "2"
     },
@@ -75,7 +75,7 @@
       "shield": "sampaiao",
       "name": "Eduardo Lima",
       "position": "",
-      "goals": "4"
+      "goals": "5"
     },
     {
       "photo": "ellysson-medeiros",
@@ -85,9 +85,9 @@
       "goals": "2"
     },
     {
-      "photo": "feliciano__alvorada",
+      "photo": "feliciano-oliveira__alvorada",
       "shield": "alvorada",
-      "name": "Feliciano",
+      "name": "Feliciano Oliveira",
       "position": "",
       "goals": "1"
     },
@@ -99,9 +99,9 @@
       "goals": "1"
     },
     {
-      "photo": "gabriel__palmeiras",
+      "photo": "gabriel-ramos__palmeiras",
       "shield": "palmeiras",
-      "name": "Gabriel",
+      "name": "Gabriel Ramos",
       "position": "",
       "goals": "4"
     },
@@ -127,9 +127,9 @@
       "goals": "1"
     },
     {
-      "photo": "idenilson-cavalcante__sampaiao",
+      "photo": "idenilson-da-silva__sampaiao",
       "shield": "sampaiao",
-      "name": "Idenilson",
+      "name": "Idenilson da Silva",
       "position": "",
       "goals": "1"
     },
@@ -141,11 +141,11 @@
       "goals": "1"
     },
     {
-      "photo": "irenildo-sampaio",
+      "photo": "irenildo-sampaio__macedao",
       "shield": "macedao",
       "name": "Irenildo Sampaio",
       "position": "",
-      "goals": "2"
+      "goals": "4"
     },
     {
       "photo": "jailson-sampaio",
@@ -153,6 +153,13 @@
       "name": "Jailson Sampaio",
       "position": "",
       "goals": "2"
+    },
+    {
+      "photo": "joao-francisco__macedao",
+      "shield": "macedao",
+      "name": "João Francisco",
+      "position": "",
+      "goals": "1"
     },
     {
       "photo": "joao-paulo__sampaiao",
@@ -183,9 +190,9 @@
       "goals": "1"
     },
     {
-      "photo": "jonailson__alvorada",
+      "photo": "jonailson-gomes__alvorada",
       "shield": "alvorada",
-      "name": "Jonailson",
+      "name": "Jonailson Gomes",
       "position": "",
       "goals": "3"
     },
@@ -197,6 +204,13 @@
       "goals": "1"
     },
     {
+      "photo": "jose-carlos__atletico",
+      "shield": "atletico",
+      "name": "José Carlos",
+      "position": "",
+      "goals": "2"
+    },
+    {
       "photo": "jose-wilque__cariri",
       "shield": "cariri",
       "name": "José Wilque",
@@ -204,9 +218,9 @@
       "goals": "1"
     },
     {
-      "photo": "jotailton__camaroes",
+      "photo": "jotailton-gomes__camaroes",
       "shield": "camaroes",
-      "name": "Jotailton",
+      "name": "Jotailton Gomes",
       "position": "",
       "goals": "2"
     },
@@ -239,23 +253,30 @@
       "goals": "4"
     },
     {
-      "photo": "naian",
+      "photo": "naian-silva__macedao",
       "shield": "macedao",
-      "name": "Naian",
+      "name": "Naian Silva",
       "position": "",
       "goals": "1"
     },
     {
-      "photo": "suelio-de-moura__alvorada",
+      "photo": "suelio-oliveira__alvorada",
       "shield": "alvorada",
-      "name": "Suélio",
+      "name": "Suélio Oliveira",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
-      "photo": "tallison",
+      "photo": "tallison-pereira__palmeiras",
       "shield": "palmeiras",
-      "name": "Tállison",
+      "name": "Tallison Pereira",
+      "position": "",
+      "goals": "2"
+    },
+    {
+      "photo": "thales-jefferson__macedao",
+      "shield": "macedao",
+      "name": "Thales Jefferson",
       "position": "",
       "goals": "1"
     },
@@ -264,7 +285,7 @@
       "shield": "atletico",
       "name": "Valdenir Mendes",
       "position": "",
-      "goals": "2"
+      "goals": "3"
     },
     {
       "photo": "valerio__sport",
@@ -281,9 +302,9 @@
       "goals": "1"
     },
     {
-      "photo": "veron__palmeiras",
+      "photo": "veron-araujo__palmeiras",
       "shield": "palmeiras",
-      "name": "Veron",
+      "name": "Veron Araújo",
       "position": "",
       "goals": "1"
     }
