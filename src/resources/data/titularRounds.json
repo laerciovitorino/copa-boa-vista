@@ -418,8 +418,8 @@
       "team_1_short": "MAC",
       "team_2": "sampaiao",
       "team_2_short": "SAM",
-      "score_team_1": -1,
-      "score_team_2": -1
+      "score_team_1": 1,
+      "score_team_2": 3
     },
     {
       "date": "08/09/2019",
