@@ -1,9 +1,9 @@
 {
   "players": [
     {
-      "photo": "aecio__gonzagao",
+      "photo": "antonio-aecio__gonzagao",
       "shield": "gonzagao",
-      "name": "Aécio",
+      "name": "Antônio Aécio",
       "position": "",
       "goals": "1"
     },
@@ -50,6 +50,13 @@
       "goals": "2"
     },
     {
+      "photo": "cleiton-paulino__gonzagao",
+      "shield": "gonzagao",
+      "name": "Cleiton Paulino",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "damiao-soares__atletico",
       "shield": "atletico",
       "name": "Damião Soares",
@@ -75,7 +82,7 @@
       "shield": "sampaiao",
       "name": "Eduardo Lima",
       "position": "",
-      "goals": "5"
+      "goals": "6"
     },
     {
       "photo": "ellysson-medeiros",
@@ -159,7 +166,7 @@
       "shield": "macedao",
       "name": "João Francisco",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "joao-paulo__sampaiao",
@@ -201,7 +208,7 @@
       "shield": "gonzagao",
       "name": "José Antônio",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "jose-carlos__atletico",
@@ -285,7 +292,7 @@
       "shield": "atletico",
       "name": "Valdenir Mendes",
       "position": "",
-      "goals": "3"
+      "goals": "4"
     },
     {
       "photo": "valerio__sport",
