@@ -121,8 +121,6 @@ export default class Table extends React.Component {
     let sortedResults = [];
     const teams = Object.keys(results);
 
-    console.log(teams);
-
     teams.map((team, index) => {
       let position = 0;
       if (sortedResults.length === 0) {
