@@ -29,6 +29,13 @@
       "goals": "1"
     },
     {
+      "photo": "bruno-marinho__internacional",
+      "shield": "internacional",
+      "name": "Bruno Marinho",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "carlos-alberto__palmeiras",
       "shield": "palmeiras",
       "name": "Carlos Alberto",
@@ -211,6 +218,13 @@
       "goals": "2"
     },
     {
+      "photo": "jose-caio__internacional",
+      "shield": "internacional",
+      "name": "José Caio",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "jose-carlos__atletico",
       "shield": "atletico",
       "name": "José Carlos",
@@ -263,6 +277,13 @@
       "photo": "naian-silva__macedao",
       "shield": "macedao",
       "name": "Naian Silva",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "rogerio-cunha__cariri",
+      "shield": "cariri",
+      "name": "Rogério Cunha",
       "position": "",
       "goals": "1"
     },
