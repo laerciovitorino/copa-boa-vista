@@ -216,7 +216,7 @@ export default class Table extends React.Component {
           </thead>
           <tbody>
             {this.sortResults(Object(titularRounds)).map((result, index) => (
-              <tr key={result}>
+              <tr key={index}>
                 <td>
                   {
                     index <= 7 ?
@@ -259,7 +259,7 @@ export default class Table extends React.Component {
           </thead>
           <tbody>
             {this.sortResults(Object(aspirantRounds)).map((result, index) => (
-              <tr key={result}>
+              <tr key={index}>
                 <td>
                   {
                     index <= 7 ?

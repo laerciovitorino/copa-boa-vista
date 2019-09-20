@@ -60,15 +60,15 @@ export default class Games extends React.Component {
             </li>
           </ul>
         </nav>
-        {this.props.displayTitular && Object.values(titularRounds)[this.state.selectedRound-1].map((round) => (
-          <ul className="list-group list-group-flush" key={Math.random()}>
+        {this.props.displayTitular && Object.values(titularRounds)[this.state.selectedRound-1].map((round, index) => (
+          <ul className="list-group list-group-flush" key={index}>
             <li className="list-group-item">
               <Match round={round} />
             </li>
           </ul>
         ))}
-        {this.props.displayAspirant && Object.values(aspirantRounds)[this.state.selectedRound-1].map((round) => (
-          <ul className="list-group list-group-flush" key={Math.random()}>
+        {this.props.displayAspirant && Object.values(aspirantRounds)[this.state.selectedRound-1].map((round, index) => (
+          <ul className="list-group list-group-flush" key={index}>
             <li className="list-group-item">
               <Match round={round} />
             </li>

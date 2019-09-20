@@ -66,8 +66,8 @@ export default class TopScorer extends React.Component {
           <span className="scorers__subtitle__goals">Gols</span>
         </div>
         {this.props.displayTitular && <ul className="list-group list-group-flush scorers">
-          {this.groupRanking(Object.values(ScorersTitulars)[0]).map((scorer) => (
-            <li className="list-group-item" key={scorer["name"]}>
+          {this.groupRanking(Object.values(ScorersTitulars)[0]).map((scorer, index) => (
+            <li className="list-group-item" key={index}>
               <span className="ranking">{scorer["ranking"]}</span>
               {
                 scorer["ranking"] ?
@@ -88,8 +88,8 @@ export default class TopScorer extends React.Component {
           ))}
         </ul>}
         {this.props.displayAspirant && <ul className="list-group list-group-flush scorers">
-          {this.groupRanking(Object.values(ScorersAspirants)[0]).map((scorer) => (
-            <li className="list-group-item" key={scorer["name"]}>
+          {this.groupRanking(Object.values(ScorersAspirants)[0]).map((scorer, index) => (
+            <li className="list-group-item" key={index}>
               <span className="ranking">{scorer["ranking"]}</span>
               {
                 scorer["ranking"] ?
