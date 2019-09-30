@@ -1,7 +1,6 @@
 .tournament-fases {
   border-bottom: 1px solid lightgrey;
   font-size: 3rem;
-  margin-bottom: -8rem;
   margin-top: 12rem;
 }
 
@@ -13,10 +12,37 @@
   text-align: center;
 }
 
+.table__bottom {
+  margin-bottom: 7rem;
+}
+
+.game-badge {
+  font-size: 1.5rem;
+}
+
+.table-fase__title {
+  font-size: 3rem;
+  margin: 5rem 0 2rem;
+}
+
+.table-fase__buttons {
+  margin-bottom: .5rem;
+}
+
+
+
 @media only screen and (max-width: 1199px) {
+  .col-md-8 {
+    margin: 0 5rem;
+  }
+
   .col-md-auto {
-    margin: 0 0 0 5rem;
-    width: 27rem;
+    margin: 0 auto;
+    width: 68rem;
+  }
+
+  .table-fase__buttons .button-titular {
+    margin-left: 0;
   }
 }
 
@@ -25,9 +51,8 @@
     margin: 0 5rem;
   }
 
-  .col-md-auto {
-    margin: 0 auto;
-    width: 60rem;
+  .tournament-fases {
+    font-size: 2.4rem;
   }
 }
 
@@ -35,12 +60,57 @@
   .col-md-8 {
     margin: 0 7rem 0 0;
   }
+
+  .tournament-fases {
+    font-size: 2.6rem;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .tournament-fases {
+    font-size: 2rem;
+    width: 38rem;
+  }
+
+  .credits {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .tournament-fases {
+    font-size: 2rem;
+    width: 35rem;
+  }
 }
 
 @media only screen and (max-width: 375px) {
+  .tournament-fases {
+    font-size: 2rem;
+    width: 35rem;
+  }
+
+  .col-md-8 {
+    width: 30rem;
+  }
+
+  .bottom-section {
+    width: 30rem;
+  }
+  
   .credits {
+    display: block;
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .tournament-fases {
+    width: 33rem;
   }
 }
 

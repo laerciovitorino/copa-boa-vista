@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default class Games extends React.Component {
   state = {
     rounds: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
-    selectedRound: 9
+    selectedRound: 10
   }
 
   handleRoundRight = (e) => {
@@ -40,20 +40,20 @@ export default class Games extends React.Component {
         <nav aria-label="Page navigation example" className="games">
           <ul className="pagination d-flex justify-content-between">
             <li className="page-item">
-              <a className="page-left" href="#">
+              <a href="#">
                 {
                   this.state.selectedRound === 1 ?
-                  <FontAwesomeIcon icon={faChevronLeft} style={{color: "lightgrey", cursor: "default"}} onClick={this.handleRoundLeft} /> :
+                  <FontAwesomeIcon icon={faChevronLeft} style={{color: "lightgrey", cursor: "default"}} /> :
                   <FontAwesomeIcon icon={faChevronLeft} onClick={this.handleRoundLeft} />
                 }
               </a>
             </li>
             <li>{this.state.selectedRound}&#170; Rodada</li>
             <li className="page-item">
-              <a className="page-right" href="#">
+              <a href="#">
                 {
                   this.state.selectedRound === this.state.rounds.length ?
-                  <FontAwesomeIcon icon={faChevronRight} style={{color: "lightgrey", cursor: "default"}} onClick={this.handleRoundRight}/> :
+                  <FontAwesomeIcon icon={faChevronRight} style={{color: "lightgrey", cursor: "default"}} /> :
                   <FontAwesomeIcon icon={faChevronRight} onClick={this.handleRoundRight}/>
                 }
               </a>

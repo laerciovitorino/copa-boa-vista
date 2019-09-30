@@ -6,7 +6,7 @@
 
 .games__title {
 	font-size: 3rem;
-  margin: 12rem 0 6.5rem;
+  margin: 5rem 0 6.5rem;
 }
 
 .list-group-item {
@@ -62,60 +62,146 @@
     padding: 3.3rem 1.5rem;
   }
 
+  .games_col {
+    margin-bottom: 5rem;
+    margin-left: -14rem;
+    width: 93rem;
+  }
+
+  .games__title {
+    margin: 4rem 0 3.5rem;
+  }
+
   .match {
-    font-size: 1.9rem;
+    font-size: 3rem;
     margin-top: 1.6rem;
     padding-top: 1rem;
   }
   
   .logo-left {
-    padding-left: .5rem;
-    padding-right: .5rem;
-    width: 3.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 5rem;
   }
   
   .logo-right {
-    padding-left: .5rem;
-    padding-right: .5rem;
-    width: 3.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 5rem;
   }
 }
 
 @media only screen and (max-width: 991px) {
+  .games_col {
+    margin-bottom: 5rem;
+    margin-left: -2rem;
+    width: 68rem;
+  }
+
   .games__title {
     margin-top: .5rem;
   }
-
+  
   .match {
     font-size: 3rem;
-    margin: 1.1rem 9rem 0;
+    margin: 1.1rem 0 0;
   }
 }
 
 @media only screen and (max-width: 768px) {
+  .games_col {
+    margin-bottom: 2rem;
+    margin-left: -2rem;
+    width: 68rem;
+  }
+
   .match {
-    font-size: 3rem;
-    margin: 1.1rem 8rem 0;
+    font-size: 2.5rem;
+    margin: 1.1rem 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .games {
+    width: 50rem;
+  }
+
+  .games_col {
+    margin-bottom: 2rem;
+    margin-left: 0;
+    width: 50rem;
   }
 }
 
 @media only screen and (max-width: 415px) {
+  .games {
+    width: 38rem;
+  }
+
+  .games_col {
+    margin-bottom: 2rem;
+    margin-left: 0;
+    width: 38rem;
+  }
+
   .match {
-    font-size: 2.3rem;
-    margin: 1.1rem 3.8rem 0;
+    font-size: 2rem;
+    margin: 1.1rem 3rem 0;
+  }
+
+  .logo-left {
+    width: 4.5rem;
+  }
+  
+  .logo-right {
+    width: 4.5rem;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .games {
+    width: 35rem;
+  }
+
+  .games_col {
+    margin-bottom: 2rem;
+    margin-left: 0;
+    width: 35rem;
   }
 }
 
 @media only screen and (max-width: 375px) {
+  .games {
+    width: 35rem;
+  }
+
+  .games_col {
+    margin-bottom: 2rem;
+    margin-left: 0;
+    width: 35rem;
+  }
+
   .match {
     font-size: 2rem;
-    margin: 1.1rem 1.8rem 0;
+    margin: 1.1rem 3rem 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .games {
+    width: 33rem;
+  }
+
+  .games_col {
+    margin-bottom: 2rem;
+    margin-left: 0;
+    width: 33rem;
   }
 }
 
 @media only screen and (max-width: 320px) {
   .match {
-    font-size: 1.8rem;
-    margin: 1.1rem .5rem 0;
+    font-size: 2.2rem;
+    margin: 1.1rem .8rem 0;
   }
 }

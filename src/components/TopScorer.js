@@ -59,7 +59,7 @@ export default class TopScorer extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="top-scorers">
         <h2 className="scorers__title">Artilheiros</h2>
         <div className="scorers__subtitle d-flex justify-content-between">
           <span className="scorers__subtitle__player">Classificação</span>

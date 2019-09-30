@@ -67,7 +67,12 @@
   font-size: 3rem;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1199px) {
+  .top-scorers {
+    margin: 0 auto;
+    width: 92rem;
+  }
+
   .scorers__subtitle__player {
     padding-left: .1rem;
   }
@@ -78,6 +83,11 @@
 }
 
 @media only screen and (max-width: 991px) {
+  .top-scorers {
+    margin: 0 auto;
+    width: 68rem;
+  }
+
   .scorers__title {
     margin-top: 5rem;
   }
@@ -91,7 +101,25 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .top-scorers {
+    margin: 0 auto;
+    width: 69rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .top-scorers {
+    margin: 0 auto;
+    width: 50rem;
+  }
+}
+
 @media only screen and (max-width: 415px) {
+  .top-scorers {
+    width: 38rem;
+  }
+
   .scorers__subtitle__player {
     padding-left: .1rem;
   }
@@ -130,9 +158,25 @@
   }
 }
 
+@media only screen and (max-width: 390px) {
+  .top-scorers {
+    width: 35rem;
+  }
+}
+
 @media only screen and (max-width: 375px) {
+  .top-scorers {
+    width: 35rem;
+  }
+
   .scorers__name {
     font-size: 1.7rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .top-scorers {
+    width: 33rem;
   }
 }
 
@@ -147,25 +191,25 @@
 
   .scorers__shield {
     width: 3.2rem;
-    margin-left: 1rem;
+    margin-left: 1.2rem;
   }
 
   .scorers__photo {
     border-radius: 50%;
-    margin-left: .9rem;
-    width: 4.5rem;
+    margin-left: 1.2rem;
+    width: 4.7rem;
   }
   
   .scorers__photo-empty {
     border-radius: 50%;
     margin-left: 2.4rem;
-    width: 4.5rem;
+    width: 4.8rem;
   }
 
   .scorers__name {
     display: block;
-    font-size: 1.4rem;
-    margin-left: .9rem;
+    font-size: 2.5rem;
+    margin-left: 1.2rem;
   }
 
   .ranking {

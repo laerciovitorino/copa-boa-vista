@@ -1,0 +1,132 @@
+.shield-left {
+  margin-left: 2rem;
+}
+
+.shield-right {
+  margin-right: 2rem;
+}
+
+@media only screen and (max-width: 1199px) {
+  .unknown-team-left {
+    font-size: 2.2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
+  .unknown-team-right {
+    font-size: 2.2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .unknown-team-left {
+    font-size: 2.2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+
+  .unknown-team-right {
+    font-size: 2.2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+}
+
+
+@media only screen and (max-width: 991px) {
+  .unknown-team-left {
+    font-size: 1.6rem;
+    margin-left: -.7rem;
+  }
+
+  .unknown-team-right {
+    font-size: 1.6rem;
+    margin-right: -.7rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .unknown-team-left {
+    font-size: 1.5rem;
+    margin-left: -1.1rem;
+    margin-top: .8rem;
+  }
+
+  .unknown-team-right {
+    font-size: 1.5rem;
+    margin-right: -1.1rem;
+    margin-top: .8rem;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .unknown-team-left {
+    font-size: 1.5rem;
+    margin-left: -1rem;
+    margin-top: .5rem;
+  }
+
+  .unknown-team-right {
+    font-size: 1.5rem;
+    margin-right: -1rem;
+    margin-top: .5rem;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .unknown-team-left {
+    font-size: 1.3rem;
+    margin-left: -1rem;
+    margin-top: .5rem;
+  }
+
+  .unknown-team-right {
+    font-size: 1.3rem;
+    margin-right: -1rem;
+    margin-top: .5rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .unknown-team-left {
+    font-size: 1.5rem;
+    margin-left: -1rem;
+    margin-top: .6rem;
+  }
+
+  .unknown-team-right {
+    font-size: 1.5rem;
+    margin-right: -1rem;
+    margin-top: .6rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .unknown-team-left {
+    font-size: 1.4rem;
+    margin-left: -1.3rem;
+    margin-top: .3rem;
+  }
+
+  .unknown-team-right {
+    font-size: 1.4rem;
+    margin-right: -1.3rem;
+    margin-top: .3rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .unknown-team-left {
+    font-size: 2rem;
+    margin-left: 3rem;
+    margin-top: .3rem;
+  }
+
+  .unknown-team-right {
+    font-size: 2rem;
+    margin-right: 3rem;
+    margin-top: .3rem;
+  }
+}

@@ -6,7 +6,7 @@
 
 .table__title {
   font-size: 3rem;
-  margin: 12rem 0 2rem;
+  margin: 5rem 0 2rem;
 }
 
 .btn {
@@ -39,7 +39,7 @@
 .table__bottom-info {
   font-size: 1rem;
   font-weight: 600;
-  margin: -2rem 1rem 6rem 4rem;
+  margin: -2rem 1rem 6rem 2.2rem;
 }
 
 .bottom-info-shape {
@@ -50,3 +50,59 @@
   margin: 0 1rem 0 -2rem;
 }
 
+@media only screen and (max-width: 1199px) {
+  .table {
+    margin-left: -5rem;
+    width: 93rem;
+  }
+  
+  .table__title {
+    margin: 5rem 0 2rem -5rem;
+  }
+  
+  .button-titular {
+    margin-left: -5rem;
+  }
+
+  .table__bottom-info {
+    margin: -2rem 1rem 6rem -2.8rem;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .table {
+    margin-left: -5rem;
+    width: 68rem;
+  }
+  
+  .table__title {
+    margin: 5rem 0 2rem -5rem;
+  }
+  
+  .button-titular {
+    margin-left: -5rem;
+  }
+
+  .table__bottom-info {
+    margin: -2rem 1rem 6rem -2.8rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .table {
+    margin-left: 0;
+    width: 69rem;
+  }
+  
+  .table__title {
+    margin: 5rem 0 2rem 0;
+  }
+  
+  .button-titular {
+    margin-left: 0;
+  }
+
+  .table__bottom-info {
+    margin: -2rem 1rem 6rem 2rem;
+  }
+}
