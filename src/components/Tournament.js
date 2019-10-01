@@ -117,17 +117,23 @@ export default class Tournament extends React.Component {
       switch (this.state.fases[this.state.selectedFase]) {
         case 'QUARTAS DE FINAL':
           table = (
-            this.handleGames(Object.values(finalTitularRounds)[0], goingIndex, returnIndex)
+            this.state.displayTitular ?
+            this.handleGames(Object.values(finalTitularRounds)[0], goingIndex, returnIndex) :
+            this.handleGames(Object.values(finalAspirantRounds)[0], goingIndex, returnIndex)
           );
           break;
         case 'SEMIFINAL':
-          table = (
-            this.handleGames(Object.values(finalTitularRounds)[1], goingIndex + 4, returnIndex + 4)
-          );
+            table = (
+              this.state.displayTitular ?
+              this.handleGames(Object.values(finalTitularRounds)[1], goingIndex, returnIndex) :
+              this.handleGames(Object.values(finalAspirantRounds)[1], goingIndex, returnIndex)
+            );
           break;
         default:
           table = (
-            this.handleGames(Object.values(finalTitularRounds)[2], goingIndex + 6, returnIndex + 6)
+            this.state.displayTitular ?
+            this.handleGames(Object.values(finalTitularRounds)[2], goingIndex, returnIndex) :
+            this.handleGames(Object.values(finalAspirantRounds)[2], goingIndex, returnIndex)
           );
           break;
       }
