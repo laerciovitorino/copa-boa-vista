@@ -15,11 +15,11 @@
       "goals": "4"
     },
     {
-      "photo": "alex-de-santana",
+      "photo": "alex-de-santana__gonzagao",
       "shield": "gonzagao",
       "name": "Alex de Santana",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "bertrand-porto__sampaiao",
@@ -40,7 +40,7 @@
       "shield": "palmeiras",
       "name": "Carlos Alberto",
       "position": "",
-      "goals": "3"
+      "goals": "4"
     },
     {
       "photo": "carlos-valdeir__sport",
@@ -113,6 +113,20 @@
       "goals": "1"
     },
     {
+      "photo": "frederico-de-almeida__palmeiras",
+      "shield": "palmeiras",
+      "name": "Frederico de Almeida",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "gabriel-matheus__alvorada",
+      "shield": "alvorada",
+      "name": "Gabriel Matheus",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "gabriel-ramos__palmeiras",
       "shield": "palmeiras",
       "name": "Gabriel Ramos",
@@ -120,11 +134,11 @@
       "goals": "4"
     },
     {
-      "photo": "giovano-viana",
+      "photo": "giovano-viana__sao-paulo",
       "shield": "sao-paulo",
       "name": "Giovano Viana",
       "position": "",
-      "goals": "3"
+      "goals": "5"
     },
     {
       "photo": "gustavo-cunha",
@@ -137,6 +151,13 @@
       "photo": "gustavo-porto",
       "shield": "macedao",
       "name": "Gustavo Porto",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "harison-leite__macedao",
+      "shield": "macedao",
+      "name": "Harison Leite",
       "position": "",
       "goals": "1"
     },
@@ -159,14 +180,14 @@
       "shield": "macedao",
       "name": "Irenildo Sampaio",
       "position": "",
-      "goals": "4"
+      "goals": "5"
     },
     {
-      "photo": "jailson-sampaio",
+      "photo": "jailson-sampaio__palmeiras",
       "shield": "palmeiras",
       "name": "Jailson Sampaio",
       "position": "",
-      "goals": "2"
+      "goals": "3"
     },
     {
       "photo": "joao-francisco__macedao",
@@ -208,7 +229,7 @@
       "shield": "alvorada",
       "name": "Jonailson Gomes",
       "position": "",
-      "goals": "3"
+      "goals": "4"
     },
     {
       "photo": "jose-antonio__gonzagao",
@@ -239,6 +260,13 @@
       "goals": "1"
     },
     {
+      "photo": "jose-ramalho__sao-paulo",
+      "shield": "sao-paulo",
+      "name": "José Ramalho",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "jotailton-gomes__camaroes",
       "shield": "camaroes",
       "name": "Jotailton Gomes",
@@ -253,11 +281,39 @@
       "goals": "1"
     },
     {
+      "photo": "junior-ramos__palmeiras",
+      "shield": "palmeiras",
+      "name": "Júnior Ramos",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "leandro-costa__atletico",
+      "shield": "atletico",
+      "name": "Leandro Costa",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "leonardo-sousa__internacional",
+      "shield": "internacional",
+      "name": "Leonardo Sousa",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "libanio-pereira__internacional",
+      "shield": "internacional",
+      "name": "Libânio Pereira",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "linique-herminio",
       "shield": "cariri",
       "name": "Línique Hermínio",
       "position": "",
-      "goals": "2"
+      "goals": "4"
     },
     {
       "photo": "marcio-araujo__palmeiras",
@@ -271,7 +327,14 @@
       "shield": "sao-paulo",
       "name": "Martiliano da Silva",
       "position": "",
-      "goals": "4"
+      "goals": "6"
+    },
+    {
+      "photo": "mario-dos-santos__camaroes",
+      "shield": "camaroes",
+      "name": "Mário dos Santos",
+      "position": "",
+      "goals": "1"
     },
     {
       "photo": "naian-silva__macedao",
@@ -313,14 +376,14 @@
       "shield": "atletico",
       "name": "Valdenir Mendes",
       "position": "",
-      "goals": "4"
+      "goals": "5"
     },
     {
-      "photo": "valerio__sport",
+      "photo": "valerio-antonio__sport",
       "shield": "sport",
-      "name": "Valério",
+      "name": "Valério Antônio",
       "position": "",
-      "goals": "1"
+      "goals": "3"
     },
     {
       "photo": "valfredo-gomes__internacional",
@@ -333,6 +396,13 @@
       "photo": "veron-araujo__palmeiras",
       "shield": "palmeiras",
       "name": "Veron Araújo",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "wanderley-antonio__camaroes",
+      "shield": "camaroes",
+      "name": "Wanderley Antônio",
       "position": "",
       "goals": "1"
     }

@@ -12,14 +12,14 @@
       "shield": "palmeiras",
       "name": "Alif Pinto",
       "position": "",
-      "goals": "2"
+      "goals": "4"
     },
     {
-      "photo": "allison-rodrigo",
+      "photo": "allison-rodrigo__gonzagao",
       "shield": "gonzagao",
       "name": "Allison Rodrigo",
       "position": "",
-      "goals": "2"
+      "goals": "3"
     },
     {
       "photo": "anderson-santos__sampaiao",
@@ -43,7 +43,14 @@
       "goals": "1"
     },
     {
-      "photo": "antonio-junior",
+      "photo": "antonio-junior__internacional",
+      "shield": "internacional",
+      "name": "Antônio Júnior",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "antonio-junior__sport",
       "shield": "sport",
       "name": "Antônio Júnior",
       "position": "",
@@ -54,7 +61,7 @@
       "shield": "atletico",
       "name": "Antônio Marcos",
       "position": "",
-      "goals": "2"
+      "goals": "3"
     },
     {
       "photo": "arlan-pereira__sampaiao",
@@ -67,6 +74,13 @@
       "photo": "clebson__internacional",
       "shield": "internacional",
       "name": "Clebson",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "diego-araujo__palmeiras",
+      "shield": "palmeiras",
+      "name": "Diego Araújo",
       "position": "",
       "goals": "1"
     },
@@ -85,11 +99,11 @@
       "goals": "1"
     },
     {
-      "photo": "emanoel-celestino",
+      "photo": "emanoel-celestino__internacional",
       "shield": "internacional",
       "name": "Emanoel Celestino",
       "position": "",
-      "goals": "1"
+      "goals": "3"
     },
     {
       "photo": "emanuel-messias__camaroes",
@@ -110,7 +124,7 @@
       "shield": "cariri",
       "name": "Esdras Cardoso",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "feliciano-oliveira__alvorada",
@@ -120,11 +134,18 @@
       "goals": "2"
     },
     {
-      "photo": "genilson",
-      "shield": "palmeiras",
-      "name": "Genilson",
+      "photo": "genildo-viana__sao-paulo",
+      "shield": "sao-paulo",
+      "name": "Genildo Viana",
       "position": "",
-      "goals": "3"
+      "goals": "1"
+    },
+    {
+      "photo": "genilson-da-cunha__palmeiras",
+      "shield": "palmeiras",
+      "name": "Genilson da Cunha",
+      "position": "",
+      "goals": "5"
     },
     {
       "photo": "geovanni-valentin__palmeiras",
@@ -141,16 +162,30 @@
       "goals": "2"
     },
     {
+      "photo": "giovano-viana__sao-paulo",
+      "shield": "sao-paulo",
+      "name": "Giovano Viana",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "hiran-almeida__sport",
       "shield": "sport",
       "name": "Hiran Almeida",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "ianderson-lenildo__alvorada",
       "shield": "alvorada",
       "name": "Ianderson Lenildo",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "irenildo-sampaio__macedao",
+      "shield": "macedao",
+      "name": "Irenildo Sampaio",
       "position": "",
       "goals": "1"
     },
@@ -292,14 +327,14 @@
       "shield": "sao-paulo",
       "name": "Maécio Alves",
       "position": "",
-      "goals": "4"
+      "goals": "7"
     },
     {
-      "photo": "mario",
+      "photo": "mario-dos-santos__camaroes",
       "shield": "camaroes",
-      "name": "Mário",
+      "name": "Mário dos Santos",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "martiliano-da-silva",
@@ -309,9 +344,30 @@
       "goals": "1"
     },
     {
+      "photo": "mikael-ramos__camaroes",
+      "shield": "camaroes",
+      "name": "Mikael Ramos",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "murilo-gomes__palmeiras",
       "shield": "palmeiras",
       "name": "Murilo Gomes",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "naian-silva__macedao",
+      "shield": "macedao",
+      "name": "Naian Silva",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "pierre-soares__cariri",
+      "shield": "cariri",
+      "name": "Pierre Soares",
       "position": "",
       "goals": "1"
     },
@@ -337,6 +393,13 @@
       "goals": "2"
     },
     {
+      "photo": "ruan-camilo__internacional",
+      "shield": "internacional",
+      "name": "Ruan Camilo",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "ruan-jovem__macedao",
       "shield": "macedao",
       "name": "Ruan Jovem",
@@ -348,7 +411,7 @@
       "shield": "alvorada",
       "name": "Suélio Oliveira",
       "position": "",
-      "goals": "2"
+      "goals": "3"
     },
     {
       "photo": "vitor__atletico",

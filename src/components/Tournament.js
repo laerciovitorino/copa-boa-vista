@@ -82,28 +82,43 @@ export default class Tournament extends React.Component {
               </button>
           }
         </div>
-        <div className="row">
-          <div className="col-md-6 border-right">
-            {fase[0].going.map((round, index) => (
-              <ul className="list-group list-group-flush" key={index}>
-                <span className="badge badge-secondary game-badge">Jogo {goingIndex++} - ida</span>
-                <li className="list-group-item">
-                  <Match round={round} />
-                </li>
-              </ul>
-            ))}
+        {
+          returnIndex > 0 ?
+          <div className="row">
+            <div className="col-md-6 border-right">
+              {fase[0].going.map((round, index) => (
+                <ul className="list-group list-group-flush" key={index}>
+                  <span className="badge badge-secondary game-badge">Jogo {goingIndex++} - ida</span>
+                  <li className="list-group-item">
+                    <Match round={round} />
+                  </li>
+                </ul>
+              ))}
+            </div>
+            <div className="col-md-6 ">
+              {fase[1].return.map((round, index) => (
+                <ul className="list-group list-group-flush" key={index}>
+                  <span className="badge badge-secondary game-badge">Jogo {returnIndex++} - volta</span>
+                  <li className="list-group-item">
+                    <Match round={round} />
+                  </li>
+                </ul>
+              ))}
+            </div>
+          </div> :
+          <div className="row">
+            <div className="col-md-12">
+              {fase[0].going.map((round, index) => (
+                <ul className="list-group list-group-flush" key={index}>
+                  <span className="badge badge-secondary game-badge">Final</span>
+                  <li className="list-group-item">
+                    <Match round={round} />
+                  </li>
+                </ul>
+              ))}
+            </div>
           </div>
-          <div className="col-md-6 ">
-            {fase[1].return.map((round, index) => (
-              <ul className="list-group list-group-flush" key={index}>
-                <span className="badge badge-secondary game-badge">Jogo {returnIndex++} - volta</span>
-                <li className="list-group-item">
-                  <Match round={round} />
-                </li>
-              </ul>
-            ))}
-          </div>
-        </div>
+        }
         <div className="table__bottom"></div>
       </div>
     );
@@ -113,7 +128,7 @@ export default class Tournament extends React.Component {
     if (this.state.selectedFase > 0) {
       let table = null;
       const goingIndex = 1;
-      const returnIndex = 1; // index to help map the games across fases
+      let returnIndex = 1; // index to help map the games across fases
       switch (this.state.fases[this.state.selectedFase]) {
         case 'QUARTAS DE FINAL':
           table = (
@@ -125,11 +140,12 @@ export default class Tournament extends React.Component {
         case 'SEMIFINAL':
             table = (
               this.state.displayTitular ?
-              this.handleGames(Object.values(finalTitularRounds)[1], goingIndex, returnIndex) :
-              this.handleGames(Object.values(finalAspirantRounds)[1], goingIndex, returnIndex)
+              this.handleGames(Object.values(finalTitularRounds)[1], goingIndex + 4, returnIndex + 4) :
+              this.handleGames(Object.values(finalAspirantRounds)[1], goingIndex + 4, returnIndex + 4)
             );
           break;
         default:
+          returnIndex = -1;
           table = (
             this.state.displayTitular ?
             this.handleGames(Object.values(finalTitularRounds)[2], goingIndex, returnIndex) :

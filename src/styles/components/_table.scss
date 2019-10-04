@@ -106,3 +106,31 @@
     margin: -2rem 1rem 6rem 2rem;
   }
 }
+
+@media only screen and (max-width: 415px) {
+  .table {
+    overflow: auto;
+    max-width: 38.5rem;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .table {
+    overflow: auto;
+    max-width: 35.5rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .table {
+    overflow: auto;
+    max-width: 34.5rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .table {
+    overflow: auto;
+    max-width: 33rem;
+  }
+}
