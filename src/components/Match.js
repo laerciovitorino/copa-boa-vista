@@ -32,10 +32,15 @@ export default class Match extends React.Component {
                 {this.props.round["team_1_short"]}
                 <FontAwesomeIcon icon={faShieldAlt} className="shield-left" />
               </span> :
-              <span>
-                {this.props.round["team_1_short"]}
-                <img src={require('../resources/images/logos/' + this.props.round["team_1"] + '.jpg')} className="logo-left" />
-              </span>
+              this.props.round["team_1"] === 'cariri' && this.props.round["team_1_short"].length > 3 ?
+                <span className="cariri-left">
+                  {this.props.round["team_1_short"]}
+                  <img src={require('../resources/images/logos/' + this.props.round["team_1"] + '.jpg')} className="logo-left" />
+                </span> :
+                <span className="known-team-left">
+                  {this.props.round["team_1_short"]}
+                  <img src={require('../resources/images/logos/' + this.props.round["team_1"] + '.jpg')} className="logo-left" />
+                </span>
           }
           {this.props.round["score_team_1"] > -1 || this.props.round["score_team_2"] > -1 ?
             <span>
@@ -55,10 +60,15 @@ export default class Match extends React.Component {
                 <FontAwesomeIcon icon={faShieldAlt} className="shield-right" />
                 {this.props.round["team_2_short"]}
               </span> :
-              <span>
-                <img src={require('../resources/images/logos/' + this.props.round["team_2"] + '.jpg')} className="logo-right" />
-                {this.props.round["team_2_short"]}
-              </span>
+              this.props.round["team_2"] === 'cariri' && this.props.round["team_2_short"].length > 3 ?
+                <span className="cariri-right">
+                  <img src={require('../resources/images/logos/' + this.props.round["team_2"] + '.jpg')} className="logo-right" />
+                  {this.props.round["team_2_short"]}
+                </span> :
+                <span className="known-team-right">
+                  <img src={require('../resources/images/logos/' + this.props.round["team_2"] + '.jpg')} className="logo-right" />
+                  {this.props.round["team_2_short"]}
+                </span>
           }
         </div>
       </div>

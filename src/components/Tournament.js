@@ -17,7 +17,7 @@ export default class Tournament extends React.Component {
     displayAspirant: false,
     displayTitular: true,
     fases: ['PRIMEIRA FASE', 'QUARTAS DE FINAL', 'SEMIFINAL', 'FINAL'],
-    selectedFase: 0
+    selectedFase: 1
   }
 
   toggleGames = (displayAspirant, displayTitular) => {
