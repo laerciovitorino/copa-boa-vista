@@ -181,6 +181,10 @@
 }
 
 @media only screen and (max-width: 320px) {
+  .top-scorers {
+    width: 29rem;
+  }
+
   .scorers__subtitle__player {
     padding-left: .1rem;
   }
@@ -190,14 +194,14 @@
   }
 
   .scorers__shield {
-    width: 3.2rem;
-    margin-left: 1.2rem;
+    width: 3rem;
+    margin-left: 1.1rem;
   }
 
   .scorers__photo {
     border-radius: 50%;
     margin-left: 1.2rem;
-    width: 4.7rem;
+    width: 3.5rem;
   }
   
   .scorers__photo-empty {
@@ -208,13 +212,13 @@
 
   .scorers__name {
     display: block;
-    font-size: 2.5rem;
-    margin-left: 1.2rem;
+    font-size: 1.3rem;
+    margin-left: 1rem;
   }
 
   .ranking {
     color: darkgrey;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin-left: -1rem;
   }
 }

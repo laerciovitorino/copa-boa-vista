@@ -200,6 +200,16 @@
 }
 
 @media only screen and (max-width: 320px) {
+  .games {
+    width: 29rem;
+  }
+
+  .games_col {
+    margin-bottom: 2rem;
+    margin-left: 0;
+    width: 29rem;
+  }
+
   .match {
     font-size: 2.2rem;
     margin: 1.1rem .8rem 0;

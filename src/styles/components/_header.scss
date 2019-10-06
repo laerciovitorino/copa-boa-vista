@@ -159,9 +159,23 @@ a.nav-link {
   }
 }
 
+@media only screen and (max-width: 375px) {
+  .header__menu-options {
+    display: flex;
+    a {
+      color: white;
+      display: inline;
+      font-size: 1.5rem;
+      justify-content: space-between;
+      margin: 1rem 1.2rem 1rem 3.77rem;
+      text-decoration: none;
+    }
+  }
+}
+
 @media only screen and (max-width: 320px) {
   .header__title {
-    font-size: 2.8rem;
+    font-size: 1.7rem;
   }
 
   .header__menu-options {
@@ -169,14 +183,14 @@ a.nav-link {
     a {
       color: white;
       display: inline;
-      font-size: 1.8rem;
+      font-size: 1.3rem;
       justify-content: space-between;
-      margin: 1rem 2rem 1rem 9rem;
+      margin: 1rem 2rem 1rem 4.2rem;
       text-decoration: none;
     }
   }
 
   .header__button {
-    width: 12rem;
+    width: 9rem;
   }
 }
