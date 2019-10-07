@@ -5,7 +5,7 @@
           {
             "date": "13/10/2019",
             "location": "MALHADINHA",
-            "time": "08:00",
+            "time": "09:00",
             "team_1": "alvorada",
             "team_1_short": "Alvorada",
             "team_2": "palmeiras",
@@ -16,7 +16,7 @@
           {
             "date": "13/10/2019",
             "location": "RIACHO FUNDO",
-            "time": "08:00",
+            "time": "09:00",
             "team_1": "gonzagao",
             "team_1_short": "Gonzagão",
             "team_2": "sao-paulo",
@@ -53,7 +53,7 @@
           {
             "date": "20/10/2019",
             "location": "CALUETE",
-            "time": "08:00",
+            "time": "09:00",
             "team_1": "palmeiras",
             "team_1_short": "Palmeiras",
             "team_2": "alvorada",
@@ -64,7 +64,7 @@
           {
             "date": "20/10/2019",
             "location": "CACIMBA NOVA",
-            "time": "08:00",
+            "time": "09:00",
             "team_1": "sao-paulo",
             "team_1_short": "São Paulo",
             "team_2": "gonzagao",
@@ -75,7 +75,7 @@
           {
             "date": "20/10/2019",
             "location": "MÔNICA",
-            "time": "08:00",
+            "time": "09:00",
             "team_1": "atletico",
             "team_1_short": "Atlético",
             "team_2": "internacional",
@@ -86,7 +86,7 @@
           {
             "date": "20/10/2019",
             "location": "CALUETE",
-            "time": "08:00",
+            "time": "09:00",
             "team_1": "sampaiao",
             "team_1_short": "Sampaião",
             "team_2": "macedao",
