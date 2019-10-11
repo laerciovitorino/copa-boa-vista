@@ -54,7 +54,7 @@
       "shield": "sport",
       "name": "Antônio Júnior",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "antonio-marcos__atletico",
@@ -145,7 +145,7 @@
       "shield": "palmeiras",
       "name": "Genilson da Cunha",
       "position": "",
-      "goals": "5"
+      "goals": "6"
     },
     {
       "photo": "geovanni-valentin__palmeiras",
@@ -166,14 +166,14 @@
       "shield": "sao-paulo",
       "name": "Giovano Viana",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "hiran-almeida__sport",
       "shield": "sport",
       "name": "Hiran Almeida",
       "position": "",
-      "goals": "2"
+      "goals": "3"
     },
     {
       "photo": "ianderson-lenildo__alvorada",
@@ -194,7 +194,14 @@
       "shield": "internacional",
       "name": "Ives Enéas",
       "position": "",
-      "goals": "4"
+      "goals": "5"
+    },
+    {
+      "photo": "izaias-batista__atletico",
+      "shield": "atletico",
+      "name": "Izaias Batista",
+      "position": "",
+      "goals": "1"
     },
     {
       "photo": "jaelson-rodrigues__alvorada",
@@ -229,21 +236,21 @@
       "shield": "alvorada",
       "name": "Jonathas Barbosa",
       "position": "",
-      "goals": "3"
+      "goals": "4"
     },
     {
       "photo": "jonilson-santos__sampaiao",
       "shield": "sampaiao",
       "name": "Jonilson Santos",
       "position": "",
-      "goals": "5"
+      "goals": "7"
     },
     {
       "photo": "jose-antonio__gonzagao",
       "shield": "gonzagao",
       "name": "José Antônio",
       "position": "",
-      "goals": "2"
+      "goals": "3"
     },
     {
       "photo": "jose-carlos__atletico",
@@ -278,7 +285,7 @@
       "shield": "gonzagao",
       "name": "José Iapuene",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "jose-leandro__macedao",
@@ -288,11 +295,18 @@
       "goals": "1"
     },
     {
+      "photo": "jose-marques__sampaiao",
+      "shield": "sampaiao",
+      "name": "José Marques",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "leandro-gomes__alvorada",
       "shield": "alvorada",
       "name": "Leandro Gomes",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "leonardo-monteiro",
@@ -327,7 +341,14 @@
       "shield": "sao-paulo",
       "name": "Maécio Alves",
       "position": "",
-      "goals": "7"
+      "goals": "9"
+    },
+    {
+      "photo": "marcio-araujo__palmeiras",
+      "shield": "palmeiras",
+      "name": "Márcio Araújo",
+      "position": "",
+      "goals": "1"
     },
     {
       "photo": "mario-dos-santos__camaroes",
@@ -355,12 +376,19 @@
       "shield": "palmeiras",
       "name": "Murilo Gomes",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "naian-silva__macedao",
       "shield": "macedao",
       "name": "Naian Silva",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "paulo-victor__sampaiao",
+      "shield": "sampaiao",
+      "name": "Paulo Victor",
       "position": "",
       "goals": "1"
     },
@@ -412,6 +440,13 @@
       "name": "Suélio Oliveira",
       "position": "",
       "goals": "3"
+    },
+    {
+      "photo": "valdenio-dos-santos__sao-paulo",
+      "shield": "sao-paulo",
+      "name": "Valdênio dos Santos",
+      "position": "",
+      "goals": "1"
     },
     {
       "photo": "vitor__atletico",

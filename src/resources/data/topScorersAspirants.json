@@ -22,9 +22,23 @@
       "goals": "2"
     },
     {
+      "photo": "aureo-almeida__sampaiao",
+      "shield": "sampaiao",
+      "name": "Áureo Almeida",
+      "position": "",
+      "goals": "2"
+    },
+    {
       "photo": "bertrand-porto__sampaiao",
       "shield": "sampaiao",
       "name": "Bertrand Porto",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "beto-pinto__macedao",
+      "shield": "macedao",
+      "name": "Beto Pinto",
       "position": "",
       "goals": "1"
     },
@@ -138,7 +152,7 @@
       "shield": "sao-paulo",
       "name": "Giovano Viana",
       "position": "",
-      "goals": "5"
+      "goals": "6"
     },
     {
       "photo": "gustavo-cunha",
@@ -201,7 +215,7 @@
       "shield": "sampaiao",
       "name": "João Paulo",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "joao-paulo__sport",
@@ -340,6 +354,13 @@
       "photo": "naian-silva__macedao",
       "shield": "macedao",
       "name": "Naian Silva",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "paulo-roberto__sampaiao",
+      "shield": "sampaiao",
+      "name": "Paulo Roberto",
       "position": "",
       "goals": "1"
     },
