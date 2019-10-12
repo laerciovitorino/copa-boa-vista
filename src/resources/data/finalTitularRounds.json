@@ -4,12 +4,23 @@
       "going": [
         {
           "date": "13/10/2019",
+          "location": "MÔNICA",
+          "time": "15:30",
+          "team_1": "atletico",
+          "team_1_short": "Atlético",
+          "team_2": "palmeiras",
+          "team_2_short": "Palmeiras",
+          "score_team_1": -1,
+          "score_team_2": -1
+        },
+        {
+          "date": "13/10/2019",
           "location": "SANTA ROSA",
           "time": "15:30",
           "team_1": "camaroes",
           "team_1_short": "Camarões",
-          "team_2": "palmeiras",
-          "team_2_short": "Palmeiras",
+          "team_2": "alvorada",
+          "team_2_short": "Alvorada",
           "score_team_1": -1,
           "score_team_2": -1
         },
@@ -19,17 +30,6 @@
           "time": "15:30",
           "team_1": "sao-paulo",
           "team_1_short": "São Paulo",
-          "team_2": "alvorada",
-          "team_2_short": "Alvorada",
-          "score_team_1": -1,
-          "score_team_2": -1
-        },
-        {
-          "date": "13/10/2019",
-          "location": "SÃO PEDRO",
-          "time": "15:30",
-          "team_1": "cariri",
-          "team_1_short": "Cariri",
           "team_2": "gonzagao",
           "team_2_short": "Gonzagão",
           "score_team_1": -1,
@@ -56,8 +56,8 @@
           "time": "15:30",
           "team_1": "palmeiras",
           "team_1_short": "Palmeiras",
-          "team_2": "camaroes",
-          "team_2_short": "Camarões",
+          "team_2": "atletico",
+          "team_2_short": "Atlético",
           "score_team_1": -1,
           "score_team_2": -1
         },
@@ -67,8 +67,8 @@
           "time": "15:30",
           "team_1": "alvorada",
           "team_1_short": "Alvorada",
-          "team_2": "sao-paulo",
-          "team_2_short": "São Paulo",
+          "team_2": "camaroes",
+          "team_2_short": "Camarões",
           "score_team_1": -1,
           "score_team_2": -1
         },
@@ -78,8 +78,8 @@
           "time": "15:30",
           "team_1": "gonzagao",
           "team_1_short": "Gonzagão",
-          "team_2": "cariri",
-          "team_2_short": "Cariri",
+          "team_2": "sao-paulo",
+          "team_2_short": "São Paulo",
           "score_team_1": -1,
           "score_team_2": -1
         },

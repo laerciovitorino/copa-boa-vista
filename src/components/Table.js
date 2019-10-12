@@ -34,7 +34,7 @@ export default class Table extends React.Component {
     this.props.toggleGames(this.state.displayAspirant, this.state.displayTitular);
   }
 
-  handleScores = (groupRounds) => {
+  handleScores = (groupRounds, squad) => {
     let results = {
       "alvorada": [0, 0, 0, 0, 0, 0, 0, 0, 0],
       "atletico": [0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -53,60 +53,80 @@ export default class Table extends React.Component {
     Object.values(rounds).map((round, index) => {
       if (index < Object.keys(rounds).length - 1) {
         Object.values(round).map((match) => {
-          if (match["score_team_1"] > -1 && match["score_team_1"] > -1){
-            if (match["score_team_1"] > match["score_team_2"]) {
-              // team_1 results
-              results[match["team_1"]][0] += 3;
-              results[match["team_1"]][1] += 1;
-              results[match["team_1"]][2] += 1;
-              results[match["team_1"]][5] += match["score_team_1"];
-              results[match["team_1"]][6] += match["score_team_2"];
-              results[match["team_1"]][7] += match["score_team_1"] - match["score_team_2"];
-              results[match["team_1"]][8] = ((results[match["team_1"]][0] / (results[match["team_1"]][1] * 3)) * 100).toFixed(1);
-  
-              // team_2 results
-              results[match["team_2"]][0] += 0;
-              results[match["team_2"]][1] += 1;
-              results[match["team_2"]][4] += 1;
-              results[match["team_2"]][5] += match["score_team_2"];
-              results[match["team_2"]][6] += match["score_team_1"];
-              results[match["team_2"]][7] += match["score_team_2"] - match["score_team_1"];
-              results[match["team_2"]][8] = ((results[match["team_2"]][0] / (results[match["team_2"]][1] * 3)) * 100).toFixed(1);
-  
-            } else if (match["score_team_1"] === match["score_team_2"]) {
-              // team_1 results
-              results[match["team_1"]][0] += 1;
-              results[match["team_1"]][1] += 1;
-              results[match["team_1"]][3] += 1;
-              results[match["team_1"]][5] += match["score_team_1"];
-              results[match["team_1"]][6] += match["score_team_2"];
-              results[match["team_1"]][8] = ((results[match["team_1"]][0] / (results[match["team_1"]][1] * 3)) * 100).toFixed(1);
-  
-              // team_2 results
-              results[match["team_2"]][0] += 1;
-              results[match["team_2"]][1] += 1;
-              results[match["team_2"]][3] += 1;
-              results[match["team_2"]][5] += match["score_team_2"];
-              results[match["team_2"]][6] += match["score_team_1"];
-              results[match["team_2"]][8] = ((results[match["team_2"]][0] / (results[match["team_2"]][1] * 3)) * 100).toFixed(1);
-            } else {
-              // team_1 results
-              results[match["team_1"]][0] += 0;
-              results[match["team_1"]][1] += 1;
-              results[match["team_1"]][4] += 1;
-              results[match["team_1"]][5] += match["score_team_1"];
-              results[match["team_1"]][6] += match["score_team_2"];
-              results[match["team_1"]][7] += match["score_team_1"] - match["score_team_2"];
-              results[match["team_1"]][8] = ((results[match["team_1"]][0] / (results[match["team_1"]][1] * 3)) * 100).toFixed(1);
-  
-              // team_2 results
-              results[match["team_2"]][0] += 3;
-              results[match["team_2"]][1] += 1;
-              results[match["team_2"]][2] += 1;
-              results[match["team_2"]][5] += match["score_team_2"];
-              results[match["team_2"]][6] += match["score_team_1"];
-              results[match["team_2"]][7] += match["score_team_2"] - match["score_team_1"];
-              results[match["team_2"]][8] = ((results[match["team_2"]][0] / (results[match["team_2"]][1] * 3)) * 100).toFixed(1);
+          if (match["team_1"] === 'cariri' && squad === 'titular') {
+            // team_1 results - TODO Need to create a better rule for this
+            results[match["team_1"]][0] = 0;
+            results[match["team_1"]][1] = 0;
+            results[match["team_1"]][2] = 0;
+            results[match["team_1"]][5] = 0;
+            results[match["team_1"]][6] = 0;
+            results[match["team_1"]][7] = 0;
+            results[match["team_1"]][8] = 0;
+          } else if (match["team_2"] === 'cariri' && squad === 'titular') {
+            // team_2 results - TODO Need to create a better rule for this as well
+            results[match["team_2"]][0] = 0;
+            results[match["team_2"]][1] = 0;
+            results[match["team_2"]][2] = 0;
+            results[match["team_2"]][5] = 0;
+            results[match["team_2"]][6] = 0;
+            results[match["team_2"]][7] = 0;
+            results[match["team_2"]][8] = 0;
+          } else {
+            if (match["score_team_1"] > -1 && match["score_team_1"] > -1){
+              if (match["score_team_1"] > match["score_team_2"]) {
+                // team_1 results
+                results[match["team_1"]][0] += 3;
+                results[match["team_1"]][1] += 1;
+                results[match["team_1"]][2] += 1;
+                results[match["team_1"]][5] += match["score_team_1"];
+                results[match["team_1"]][6] += match["score_team_2"];
+                results[match["team_1"]][7] += match["score_team_1"] - match["score_team_2"];
+                results[match["team_1"]][8] = ((results[match["team_1"]][0] / (results[match["team_1"]][1] * 3)) * 100).toFixed(1);
+    
+                // team_2 results
+                results[match["team_2"]][0] += 0;
+                results[match["team_2"]][1] += 1;
+                results[match["team_2"]][4] += 1;
+                results[match["team_2"]][5] += match["score_team_2"];
+                results[match["team_2"]][6] += match["score_team_1"];
+                results[match["team_2"]][7] += match["score_team_2"] - match["score_team_1"];
+                results[match["team_2"]][8] = ((results[match["team_2"]][0] / (results[match["team_2"]][1] * 3)) * 100).toFixed(1);
+    
+              } else if (match["score_team_1"] === match["score_team_2"]) {
+                // team_1 results
+                results[match["team_1"]][0] += 1;
+                results[match["team_1"]][1] += 1;
+                results[match["team_1"]][3] += 1;
+                results[match["team_1"]][5] += match["score_team_1"];
+                results[match["team_1"]][6] += match["score_team_2"];
+                results[match["team_1"]][8] = ((results[match["team_1"]][0] / (results[match["team_1"]][1] * 3)) * 100).toFixed(1);
+    
+                // team_2 results
+                results[match["team_2"]][0] += 1;
+                results[match["team_2"]][1] += 1;
+                results[match["team_2"]][3] += 1;
+                results[match["team_2"]][5] += match["score_team_2"];
+                results[match["team_2"]][6] += match["score_team_1"];
+                results[match["team_2"]][8] = ((results[match["team_2"]][0] / (results[match["team_2"]][1] * 3)) * 100).toFixed(1);
+              } else {
+                // team_1 results
+                results[match["team_1"]][0] += 0;
+                results[match["team_1"]][1] += 1;
+                results[match["team_1"]][4] += 1;
+                results[match["team_1"]][5] += match["score_team_1"];
+                results[match["team_1"]][6] += match["score_team_2"];
+                results[match["team_1"]][7] += match["score_team_1"] - match["score_team_2"];
+                results[match["team_1"]][8] = ((results[match["team_1"]][0] / (results[match["team_1"]][1] * 3)) * 100).toFixed(1);
+    
+                // team_2 results
+                results[match["team_2"]][0] += 3;
+                results[match["team_2"]][1] += 1;
+                results[match["team_2"]][2] += 1;
+                results[match["team_2"]][5] += match["score_team_2"];
+                results[match["team_2"]][6] += match["score_team_1"];
+                results[match["team_2"]][7] += match["score_team_2"] - match["score_team_1"];
+                results[match["team_2"]][8] = ((results[match["team_2"]][0] / (results[match["team_2"]][1] * 3)) * 100).toFixed(1);
+              }
             }
           }
         });
@@ -116,8 +136,8 @@ export default class Table extends React.Component {
     return results;
   }
 
-  sortResults = (roundResults) => {
-    const results = this.handleScores(roundResults);
+  sortResults = (roundResults, squad) => {
+    const results = this.handleScores(roundResults, squad);
     let sortedResults = [];
     const teams = Object.keys(results);
 
@@ -215,18 +235,20 @@ export default class Table extends React.Component {
             </tr>
           </thead>
           <tbody>
-            {this.sortResults(Object(titularRounds)).map((result, index) => (
+            {this.sortResults(Object(titularRounds), 'titular').map((result, index) => (
               <tr key={index}>
                 <td>
                   {
                     index <= 7 ?
-                    <span className="position" style={{color: "blue"}}>{index + 1}</span> :
-                    <span className="position">{index + 1}</span>
+                      <span className="position" style={{color: "blue"}}>{index + 1}</span> :
+                      <span className="position">{index + 1}</span>
                   }
                   {
                     index < 9 ?
-                    <span className="ranking-align">{this.state.names[result[9]]}</span> :
-                    <span>{this.state.names[result[9]]}</span>
+                      <span className="ranking-align">{this.state.names[result[9]]}</span> :
+                      result[9] === 'cariri' ?
+                        <span style={{color: "grey", fontStyle: "italic"}}>{this.state.names[result[9]]}*</span> :
+                        <span>{this.state.names[result[9]]}</span>
                   }
                 </td>
                 <td style={{fontWeight: "bold"}}>{result[0]}</td>
@@ -258,7 +280,7 @@ export default class Table extends React.Component {
             </tr>
           </thead>
           <tbody>
-            {this.sortResults(Object(aspirantRounds)).map((result, index) => (
+            {this.sortResults(Object(aspirantRounds), 'aspirants').map((result, index) => (
               <tr key={index}>
                 <td>
                   {
@@ -288,6 +310,14 @@ export default class Table extends React.Component {
         <div className="table__bottom-info">
           <div className="bottom-info-shape"></div>
           <span className="bottom-info-text">CLASSIFICADOS PARA QUARTAS DE FINAL</span>
+          <br />
+          <br />
+          {
+            this.state.displayTitular &&
+              <span className="bottom-info-text" style={{color: "grey", fontSize: "12px", fontStyle: "italic"}}>
+                * Time eliminado da competição
+              </span>
+          }
         </div>
       </div>
     );
