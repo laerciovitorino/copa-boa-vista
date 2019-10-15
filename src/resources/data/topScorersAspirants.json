@@ -5,7 +5,7 @@
       "shield": "gonzagao",
       "name": "Antônio Aécio",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "aguinaldo-nunes",
@@ -64,11 +64,11 @@
       "goals": "1"
     },
     {
-      "photo": "clebson__internacional",
+      "photo": "clebson-araujo__internacional",
       "shield": "internacional",
-      "name": "Clebson",
+      "name": "Clebson Araújo",
       "position": "",
-      "goals": "2"
+      "goals": "3"
     },
     {
       "photo": "cleiton-paulino__gonzagao",
@@ -111,6 +111,13 @@
       "name": "Ellysson Medeiros",
       "position": "",
       "goals": "2"
+    },
+    {
+      "photo": "erinaldo-de-oliveira__atletico",
+      "shield": "atletico",
+      "name": "Erinaldo de Oliveira",
+      "position": "",
+      "goals": "1"
     },
     {
       "photo": "feliciano-oliveira__alvorada",
@@ -173,7 +180,7 @@
       "shield": "macedao",
       "name": "Harison Leite",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "idenilson-da-silva__sampaiao",
@@ -197,11 +204,25 @@
       "goals": "5"
     },
     {
+      "photo": "izaias-batista__atletico",
+      "shield": "atletico",
+      "name": "Izaias Batista",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "jailson-sampaio__palmeiras",
       "shield": "palmeiras",
       "name": "Jailson Sampaio",
       "position": "",
       "goals": "3"
+    },
+    {
+      "photo": "jarlan__sampaiao",
+      "shield": "sampaiao",
+      "name": "Jarlan",
+      "position": "",
+      "goals": "1"
     },
     {
       "photo": "joao-francisco__macedao",
