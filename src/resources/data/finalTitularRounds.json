@@ -58,8 +58,8 @@
           "team_1_short": "Palmeiras",
           "team_2": "atletico",
           "team_2_short": "Atlético",
-          "score_team_1": -1,
-          "score_team_2": -1
+          "score_team_1": 4,
+          "score_team_2": 1
         },
         {
           "date": "20/10/2019",
@@ -69,8 +69,8 @@
           "team_1_short": "Alvorada",
           "team_2": "camaroes",
           "team_2_short": "Camarões",
-          "score_team_1": -1,
-          "score_team_2": -1
+          "score_team_1": 6,
+          "score_team_2": 0
         },
         {
           "date": "20/10/2019",
@@ -80,8 +80,8 @@
           "team_1_short": "Gonzagão",
           "team_2": "sao-paulo",
           "team_2_short": "São Paulo",
-          "score_team_1": -1,
-          "score_team_2": -1
+          "score_team_1": 0,
+          "score_team_2": 0
         },
         {
           "date": "20/10/2019",
@@ -91,8 +91,8 @@
           "team_1_short": "Sampaião",
           "team_2": "internacional",
           "team_2_short": "Internacional",
-          "score_team_1": -1,
-          "score_team_2": -1
+          "score_team_1": 1,
+          "score_team_2": 0
         }
       ]
     }
@@ -101,24 +101,24 @@
     {
       "going": [
         {
-          "date": "A DEFINIR",
-          "location": "",
+          "date": "27/10/2019",
+          "location": "RIACHO FUNDO",
           "time": "",
-          "team_1": "",
-          "team_1_short": "Venc. Jogo 3",
-          "team_2": "",
-          "team_2_short": "Venc. Jogo 1",
+          "team_1": "gonzagao",
+          "team_1_short": "Gonzagão",
+          "team_2": "palmeiras",
+          "team_2_short": "Palmeiras",
           "score_team_1": -1,
           "score_team_2": -1
         },
         {
-          "date": "A DEFINIR",
-          "location": "",
+          "date": "27/10/2019",
+          "location": "CALUETE",
           "time": "",
-          "team_1": "",
-          "team_1_short": "Venc. Jogo 4",
-          "team_2": "",
-          "team_2_short": "Venc. Jogo 2",
+          "team_1": "sampaiao",
+          "team_1_short": "Sampaião",
+          "team_2": "alvorada",
+          "team_2_short": "Alvorada",
           "score_team_1": -1,
           "score_team_2": -1
         }
@@ -127,24 +127,24 @@
     {
       "return": [
         {
-          "date": "A DEFINIR",
-          "location": "",
+          "date": "03/11/2019",
+          "location": "CALUETE",
           "time": "",
-          "team_1": "",
-          "team_1_short": "Venc. Jogo 1",
-          "team_2": "",
-          "team_2_short": "Venc. Jogo 3",
+          "team_1": "palmeiras",
+          "team_1_short": "Palmeiras",
+          "team_2": "gonzagao",
+          "team_2_short": "Gonzagão",
           "score_team_1": -1,
           "score_team_2": -1
         },
         {
-          "date": "A DEFINIR",
-          "location": "",
+          "date": "03/11/2019",
+          "location": "MALHADINHA",
           "time": "",
-          "team_1": "",
-          "team_1_short": "Venc. Jogo 2",
-          "team_2": "",
-          "team_2_short": "Venc. Jogo 4",
+          "team_1": "alvorada",
+          "team_1_short": "Alvorada",
+          "team_2": "sampaiao",
+          "team_2_short": "Sampaião",
           "score_team_1": -1,
           "score_team_2": -1
         }
