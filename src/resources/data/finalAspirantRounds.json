@@ -102,8 +102,8 @@
         "going": [
           {
             "date": "27/10/2019",
-            "location": "MÔNICA",
-            "time": "",
+            "location": "BOA VISTA",
+            "time": "10:00",
             "team_1": "atletico",
             "team_1_short": "Atlético",
             "team_2": "palmeiras",
@@ -113,8 +113,8 @@
           },
           {
             "date": "27/10/2019",
-            "location": "CALUETE",
-            "time": "",
+            "location": "BOA VISTA",
+            "time": "08:00",
             "team_1": "sampaiao",
             "team_1_short": "Sampaião",
             "team_2": "sao-paulo",
@@ -128,8 +128,8 @@
         "return": [
           {
             "date": "03/11/2019",
-            "location": "CALUETE",
-            "time": "",
+            "location": "BOA VISTA",
+            "time": "08:00",
             "team_1": "palmeiras",
             "team_1_short": "Palmeiras",
             "team_2": "atletico",
@@ -139,8 +139,8 @@
           },
           {
             "date": "03/11/2019",
-            "location": "CACIMBA NOVA",
-            "time": "",
+            "location": "BOA VISTA",
+            "time": "10:00",
             "team_1": "sao-paulo",
             "team_1_short": "São Paulo",
             "team_2": "sampaiao",

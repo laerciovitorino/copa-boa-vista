@@ -102,8 +102,8 @@
       "going": [
         {
           "date": "27/10/2019",
-          "location": "RIACHO FUNDO",
-          "time": "",
+          "location": "BOA VISTA",
+          "time": "15:40",
           "team_1": "gonzagao",
           "team_1_short": "Gonzagão",
           "team_2": "palmeiras",
@@ -113,8 +113,8 @@
         },
         {
           "date": "27/10/2019",
-          "location": "CALUETE",
-          "time": "",
+          "location": "BOA VISTA",
+          "time": "14:00",
           "team_1": "sampaiao",
           "team_1_short": "Sampaião",
           "team_2": "alvorada",
@@ -128,8 +128,8 @@
       "return": [
         {
           "date": "03/11/2019",
-          "location": "CALUETE",
-          "time": "",
+          "location": "BOA VISTA",
+          "time": "14:00",
           "team_1": "palmeiras",
           "team_1_short": "Palmeiras",
           "team_2": "gonzagao",
@@ -139,8 +139,8 @@
         },
         {
           "date": "03/11/2019",
-          "location": "MALHADINHA",
-          "time": "",
+          "location": "BOA VISTA",
+          "time": "15:40",
           "team_1": "alvorada",
           "team_1_short": "Alvorada",
           "team_2": "sampaiao",
