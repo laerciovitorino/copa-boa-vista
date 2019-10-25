@@ -36,7 +36,7 @@ export default class TopScorer extends React.Component {
     const scorersOrdered = this.calculateScorersOrder(topScorers);
     let scorersGrouped = [];
     let ranking = 1;
-    let index = 0
+    let index = 0;
 
     scorersOrdered.map((scorer) => {
       if (scorersGrouped.length === 0) {
