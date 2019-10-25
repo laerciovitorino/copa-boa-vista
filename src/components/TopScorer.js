@@ -12,8 +12,8 @@ export default class TopScorer extends React.Component {
       } else {
         let position = 0;
         scorersOrdered.map((orderedScorer, subindex) => {
-          if (scorer["goals"] >= orderedScorer["goals"]) {
-            if (scorer["goals"] > orderedScorer["goals"]) {
+          if (parseInt(scorer["goals"], 10) >= parseInt(orderedScorer["goals"], 10)) {
+            if (parseInt(scorer["goals"], 10) > parseInt(orderedScorer["goals"], 10)) {
               position = subindex > position ? position: subindex;
             } else {
               if (scorer["name"] < orderedScorer["name"]) {
@@ -44,7 +44,7 @@ export default class TopScorer extends React.Component {
         scorersGrouped.push(scorer);
         index += 1;
       } else {
-        if (scorer["goals"] === scorersGrouped[index - 1]["goals"]) {
+        if (parseInt(scorer["goals"], 10) === parseInt(scorersGrouped[index - 1]["goals"], 10)) {
           scorersGrouped.push(scorer);
           index += 1;
         } else {
