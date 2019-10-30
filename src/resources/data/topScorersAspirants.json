@@ -1,6 +1,13 @@
 {
   "players": [
     {
+      "photo": "alisson-arantes__sao-paulo",
+      "shield": "sao-paulo",
+      "name": "Alisson Arantes",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "antonio-aecio__gonzagao",
       "shield": "gonzagao",
       "name": "Antônio Aécio",
@@ -82,7 +89,7 @@
       "shield": "atletico",
       "name": "Damião Soares",
       "position": "",
-      "goals": "2"
+      "goals": "3"
     },
     {
       "photo": "denerson-almeida__sao-paulo",
@@ -236,7 +243,7 @@
       "shield": "sampaiao",
       "name": "João Paulo",
       "position": "",
-      "goals": "3"
+      "goals": "5"
     },
     {
       "photo": "joao-paulo__sport",
@@ -309,11 +316,11 @@
       "goals": "2"
     },
     {
-      "photo": "jussan__palmeiras",
+      "photo": "jussan-lima__palmeiras",
       "shield": "palmeiras",
-      "name": "Jussan",
+      "name": "Jussan Lima",
       "position": "",
-      "goals": "1"
+      "goals": "2"
     },
     {
       "photo": "junior-ramos__palmeiras",
@@ -368,6 +375,13 @@
       "photo": "mario-dos-santos__camaroes",
       "shield": "camaroes",
       "name": "Mário dos Santos",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "mikael-freitas__sampaiao",
+      "shield": "sampaiao",
+      "name": "Mikael Freitas",
       "position": "",
       "goals": "1"
     },
