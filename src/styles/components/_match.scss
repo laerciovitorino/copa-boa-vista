@@ -16,6 +16,16 @@
   margin-right: 6rem;
 }
 
+.score-penalties-left {
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.score-penalties-right {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
 @media only screen and (max-width: 1199px) {
   .unknown-team-left {
     font-size: 2.2rem;
@@ -30,15 +40,15 @@
   }
 
   .known-team-left {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-left: 1rem;
-    margin-top: .3rem;
+    margin-top: .8rem;
   }
 
   .known-team-right {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-right: 1rem;
-    margin-top: .3rem;
+    margin-top: .8rem;
   }
 
   .cariri-left {
@@ -49,6 +59,10 @@
   .cariri-right {
     font-size: 2rem;
     margin-right: 4.8rem;
+  }
+
+  .team-score {
+    font-size: 2.3rem;
   }
 }
 
@@ -68,13 +82,13 @@
   .known-team-left {
     font-size: 1.8rem;
     margin-left: 1rem;
-    margin-top: .3rem;
+    margin-top: .7rem;
   }
 
   .known-team-right {
     font-size: 1.8rem;
     margin-right: 1rem;
-    margin-top: .3rem;
+    margin-top: .7rem;
   }
 
   .cariri-left {
@@ -99,19 +113,45 @@
     font-size: 1.6rem;
     margin-right: -.7rem;
   }
+
+  .known-team-left {
+    font-size: 1.5rem;
+    margin-left: -1.5rem;
+    margin-top: 1.2rem;
+  }
+
+  .known-team-right {
+    font-size: 1.5rem;
+    margin-right: -1.5rem;
+    margin-top: 1.2rem;
+  }
+
+  .team-score {
+    font-size: 2rem;
+  }
+
+  .score-penalties-left {
+    font-size: 1.6rem;
+    margin-left: .5rem;
+  }
+  
+  .score-penalties-right {
+    font-size: 1.6rem;
+    margin-right: .5rem;
+  }
 }
 
 @media only screen and (max-width: 840px) {
   .known-team-left {
     font-size: 1.6rem;
     margin-left: -1.3rem;
-    margin-top: .3rem;
+    margin-top: 1.2rem;
   }
 
   .known-team-right {
     font-size: 1.6rem;
     margin-right: -1.3rem;
-    margin-top: .3rem;
+    margin-top: 1.2rem;
   }
 
   .cariri-left {
@@ -122,6 +162,20 @@
   .cariri-right {
     font-size: 1.6rem;
     margin-right: 2rem;
+  }
+
+  .team-score {
+    font-size: 2rem;
+  }
+
+  .score-penalties-left {
+    font-size: 1.6rem;
+    margin-left: .5rem;
+  }
+  
+  .score-penalties-right {
+    font-size: 1.6rem;
+    margin-right: .5rem;
   }
 }
 
@@ -140,7 +194,7 @@
 
   .known-team-left {
     font-size: 1.5rem;
-    margin-left: -1.3rem;
+    margin-left: -2rem;
     margin-top: .3rem;
   }
 
@@ -159,6 +213,16 @@
     font-size: 1.5rem;
     margin-right: 2rem;
   }
+
+  .score-penalties-left {
+    font-size: 1.7rem;
+    margin-left: .5rem;
+  }
+  
+  .score-penalties-right {
+    font-size: 1.7rem;
+    margin-right: .5rem;
+  }
 }
 
 @media only screen and (max-width: 415px) {
@@ -172,6 +236,20 @@
     font-size: 1.5rem;
     margin-right: -1rem;
     margin-top: .5rem;
+  }
+
+  .team-score {
+    font-size: 2rem;
+  }
+
+  .score-penalties-left {
+    font-size: 1.6rem;
+    margin-left: .5rem;
+  }
+  
+  .score-penalties-right {
+    font-size: 1.6rem;
+    margin-right: .5rem;
   }
 }
 
@@ -189,14 +267,14 @@
   }
 
   .known-team-left {
-    font-size: 1.4rem;
-    margin-left: -1.3rem;
+    font-size: 1.3rem;
+    margin-left: -2.5rem;
     margin-top: .3rem;
   }
 
   .known-team-right {
-    font-size: 1.4rem;
-    margin-right: -1.3rem;
+    font-size: 1.3rem;
+    margin-right: -2.5rem;
     margin-top: .3rem;
   }
 
@@ -208,6 +286,20 @@
   .cariri-right {
     font-size: 1.4rem;
     margin-right: 2rem;
+  }
+
+  .team-score {
+    font-size: 1.8rem;
+  }
+
+  .score-penalties-left {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  
+  .score-penalties-right {
+    font-size: 1.5rem;
+    margin-right: 1rem;
   }
 }
 
@@ -222,6 +314,32 @@
     font-size: 1.5rem;
     margin-right: -1rem;
     margin-top: .6rem;
+  }
+
+  .known-team-left {
+    font-size: 1.3rem;
+    margin-left: -2rem;
+    margin-top: .5rem;
+  }
+
+  .known-team-right {
+    font-size: 1.3rem;
+    margin-right: -2rem;
+    margin-top: .5rem;
+  }
+
+  .team-score {
+    font-size: 1.8rem;
+  }
+
+  .score-penalties-left {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  
+  .score-penalties-right {
+    font-size: 1.5rem;
+    margin-right: 1rem;
   }
 }
 
@@ -259,6 +377,16 @@
     font-size: 1.3rem;
     margin-right: 2rem;
   }
+
+  .score-penalties-left {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  
+  .score-penalties-right {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
 }
 
 @media only screen and (max-width: 320px) {
@@ -294,5 +422,15 @@
   .cariri-right {
     font-size: 1.1rem;
     margin-right: 2rem;
+  }
+
+  .score-penalties-left {
+    font-size: 1.5rem;
+    margin-left: .5rem;
+  }
+  
+  .score-penalties-right {
+    font-size: 1.5rem;
+    margin-right: .5rem;
   }
 }

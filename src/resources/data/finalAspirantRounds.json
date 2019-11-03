@@ -134,8 +134,10 @@
             "team_1_short": "Palmeiras",
             "team_2": "atletico",
             "team_2_short": "Atlético",
-            "score_team_1": -1,
-            "score_team_2": -1
+            "score_team_1": 2,
+            "score_team_2": 2,
+            "score_team_1_penalties": 3,
+            "score_team_2_penalties": 0
           },
           {
             "date": "03/11/2019",
@@ -145,8 +147,10 @@
             "team_1_short": "São Paulo",
             "team_2": "sampaiao",
             "team_2_short": "Sampaião",
-            "score_team_1": -1,
-            "score_team_2": -1
+            "score_team_1": 2,
+            "score_team_2": 0,
+            "score_team_1_penalties": 1,
+            "score_team_2_penalties": 3
           }
         ]
       }
@@ -155,13 +159,13 @@
       {
         "going": [
           {
-            "date": "A DEFINIR",
-            "location": "",
+            "date": "10/11/2019",
+            "location": "BOA VISTA",
             "time": "",
-            "team_1": "",
-            "team_1_short": "Venc. Jogo 5",
-            "team_2": "",
-            "team_2_short": "Venc. Jogo 6",
+            "team_1": "palmeiras",
+            "team_1_short": "Palmeiras",
+            "team_2": "sampaiao",
+            "team_2_short": "Sampaião",
             "score_team_1": -1,
             "score_team_2": -1
           }

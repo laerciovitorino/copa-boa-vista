@@ -44,9 +44,19 @@ export default class Match extends React.Component {
           }
           {this.props.round["score_team_1"] > -1 || this.props.round["score_team_2"] > -1 ?
             <span>
-              {<strong>{this.props.round["score_team_1"]}</strong>}
+              <span className="team-score">{<strong>{this.props.round["score_team_1"]}</strong>}</span>
+              <span className="score-penalties-left">
+                {this.props.round["score_team_1_penalties"] > -1 ?
+                '(' + this.props.round["score_team_1_penalties"] + ')' : ''
+                }
+              </span>
               <span className="games__delimiter unknown-team-delimiter">X</span>
-              {<strong>{this.props.round["score_team_2"]}</strong>}
+              <span className="score-penalties-right">
+                {this.props.round["score_team_2_penalties"] > -1 ?
+                '(' + this.props.round["score_team_2_penalties"] + ')' : ''
+                }
+              </span>
+              <span className="team-score">{<strong>{this.props.round["score_team_2"]}</strong>}</span>
             </span> :
             <span>
               <span className="empty-score"></span>
