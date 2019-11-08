@@ -218,6 +218,13 @@
       "goals": "1"
     },
     {
+      "photo": "jailson-sampaio__palmeiras",
+      "shield": "palmeiras",
+      "name": "Jailson Sampaio",
+      "position": "",
+      "goals": "1"
+    },
+    {
       "photo": "jailton-gomes__gonzagao",
       "shield": "gonzagao",
       "name": "Jailton Gomes",
@@ -314,6 +321,13 @@
       "name": "Leandro Gomes",
       "position": "",
       "goals": "3"
+    },
+    {
+      "photo": "leonardo-araujo__gonzagao",
+      "shield": "gonzagao",
+      "name": "Leonardo Araújo",
+      "position": "",
+      "goals": "1"
     },
     {
       "photo": "leonardo-monteiro",
@@ -425,7 +439,7 @@
       "shield": "gonzagao",
       "name": "Raiff Lucena",
       "position": "",
-      "goals": "3"
+      "goals": "4"
     },
     {
       "photo": "renan__internacional",
@@ -460,7 +474,7 @@
       "shield": "alvorada",
       "name": "Suélio Oliveira",
       "position": "",
-      "goals": "10"
+      "goals": "11"
     },
     {
       "photo": "tallison-pereira__palmeiras",
@@ -487,6 +501,13 @@
       "photo": "vitor__atletico",
       "shield": "atletico",
       "name": "Vitor",
+      "position": "",
+      "goals": "1"
+    },
+    {
+      "photo": "wallace-vieira__alvorada",
+      "shield": "alvorada",
+      "name": "Wallace Vieira",
       "position": "",
       "goals": "1"
     }
