@@ -40,7 +40,7 @@
     "express": "^4.15.4",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^4.0.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "live-server": "^1.2.1",
     "node-sass": "^4.5.3",
     "normalize.css": "^7.0.0",
